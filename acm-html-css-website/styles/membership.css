@@ -1,0 +1,53 @@
+/* Earth Section */
+.mem-section {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px; /* Increased padding for a larger section */
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+  max-width: 1200px; /* Set a maximum width for larger screens */
+  margin: 0 auto; /* Center the section */
+  flex-direction: row-reverse; /* Reverse the order of content */
+  margin-top: 100px;;
+}
+
+/* Earth Image Container */
+.mem-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px; /* More space between text and image */
+}
+
+.mem-image {
+  width: 100%; /* Responsive image size */
+  max-width: 400px; /* Max width for larger screens */
+  border-radius: 12px;
+  transition: transform 0.3s ease; /* Smooth scaling */
+}
+
+.mem-image:hover {
+  transform: scale(1.1); /* Slightly larger scale on hover */
+}
+
+/* Earth Content */
+.mem-content {
+  flex: 1;
+  text-align: left;
+}
+
+.mem-heading {
+  font-size: 2.5em; /* Increased font size for the heading */
+  color: #f5f5f5;
+  margin-bottom: 15px;
+}
+
+.mem-paragraph {
+  font-size: 1.2em; /* Increased font size for the paragraph */
+  color: #ddd;
+  margin-bottom: 25px;
+}
+
+

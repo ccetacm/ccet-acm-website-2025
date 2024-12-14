@@ -1,0 +1,129 @@
+
+
+@media (min-width:1150px){
+  .team-section {
+    margin-top:400px;
+  }
+}
+
+main {
+  width: min(1200px, 90vw);
+  margin: auto;
+}
+
+.team-slider {
+  width: 100%;
+  height: var(--height);
+  overflow: hidden;
+  mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 10% 90%,
+      transparent
+  );
+}
+
+.team-slider .list {
+  display: flex;
+  width: 100%;
+  min-width: calc(var(--width) * var(--quantity));
+  position: relative;
+}
+
+.team-slider .list .item {
+  width: var(--width);
+  height: var(--height);
+  position: absolute;
+  left: 100%;
+  animation: autoRun 10s linear infinite;
+  transition: filter 0.5s, transform 0.3s;
+  animation-delay: calc((10s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.team-slider .list .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.team-slider:hover .item {
+  animation-play-state: paused!important;
+  filter: grayscale(1);
+}
+
+.team-slider .item:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.team-slider[reverse="true"] .item {
+  animation: reversePlay 10s linear infinite;
+}
+
+@keyframes autoRun {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+
+@keyframes reversePlay {
+  from {
+    left: calc(var(--width) * -1);
+  }
+  to {
+    left: 100%;
+  }
+}
+
+/* Styling for member info overlay */
+.team-slider .list .item .info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-slider .list .item:hover .info {
+  opacity: 1;
+}
+
+.team-slider .list .item .info .name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%; /* Ensures text doesn't overflow */
+}
+
+.team-slider .list .item .info .position {
+  font-size: 0.9rem;
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%; /* Ensures text doesn't overflow */
+}
+
+
+.team-text{
+  padding-bottom: 88px;
+}

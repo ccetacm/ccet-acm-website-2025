@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japjot - ACM HTML Website</title>
+    <link rel="stylesheet" href="./styles/hero.css" />
+   
+    <link rel="stylesheet" href="styles.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/comp.css">
+    <link rel="stylesheet" href="./styles/team.css">
+    <link rel="stylesheet" href="./styles/mentors.css">
+    <link rel="stylesheet" href="./styles/numbers.css">
+    <link rel="stylesheet" href="./styles/acmw.css">
+    <link rel="stylesheet" href="./styles/book.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/testimonials.css">
+    <link rel="stylesheet" href="./styles/membership.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    <script
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      type="module"
+    ></script>
+    <script
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      nomodule
+    ></script>
+
+  </head>
+  <body>
+ 
+    <div class="container">
+    <!-- Navbar -->
+    <div
+      class="fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm bg-n-8/90 backdrop-blur-sm"
+    >
+      <div class="flex items-center px-4 lg:px-6 xl:px-8 max-lg:py-4">
+        <a class="block w-[10rem] xl:mr-4" href="#hero"
+          ><img
+            src="./acm-assets/ccet-logo-white.png"
+            width="150"
+            height="35"
+            alt="Acm"
+        /></a>
+        <nav
+          class="hidden fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent"
+        >
+          <div
+            class="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row"
+          >
+            <a
+              href="#home"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Home</a
+            ><a
+              href="#about"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >About</a
+            ><a
+              href="#gallery"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Gallery</a
+            ><a
+              href="#events"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Events</a
+            ><a
+              href="#team"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Team</a
+            ><a
+              href="#achievements"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Achievements</a
+            ><a
+              href="#resouces"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Resources</a
+            ><a
+              href="#magazine"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Magazine</a
+            ><a
+              href="#contact"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 lg:hidden px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >Contact</a
+            ><a
+              href="#acmw"
+              class="block relative font-code text-lg uppercase text-n-1 transition-colors hover:text-color-1 lg:hidden px-4 py-4 md:py-6 lg:-mr-0.25 lg:text-sm lg:font-semibold lg:text-n-1/50 lg:leading-5 lg:hover:text-n-1 xl:px-6"
+              >ACM-W</a
+            >
+          </div>
+          <div class="absolute inset-0  lg:hidden">
+            <div class="absolute inset-0 opacity-[.03]">
+              <img
+                class="w-full h-full object-cover"
+                src="/src/jsm-assets/background.jpg"
+                width="688"
+                height="953"
+                alt="Background"
+              />
+            </div>
+            <div
+              class="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"
+            >
+              <div
+                class="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"
+              ></div>
+              <div
+                class="absolute top-1/2 left-1/2 w-[23.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"
+              ></div>
+            </div>
+            <div class="absolute top-0 left-5 w-0.25 h-full bg-n-6"></div>
+            <div class="absolute top-0 right-5 w-0.25 h-full bg-n-6"></div>
+            <div
+              class="absolute top-[4.4rem] left-16 w-3 h-3 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full"
+            ></div>
+            <div
+              class="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"
+            ></div>
+            <div
+              class="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"
+            ></div>
+          </div>
+        </nav>
+        <a
+          href="#contact"
+          class="button hidden mr-6 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+          >Contact</a
+        ><a
+          href="#acmw"
+          class="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-7 text-n-1 hidden lg:flex"
+          ><span class="relative z-10">ACM-W </span
+          ><svg
+            class="absolute top-0 left-0"
+            width="21"
+            height="44"
+            viewBox="0 0 21 44"
+          >
+            <path
+              fill="none"
+              stroke="url(#btn-left)"
+              stroke-width="2"
+              d="M21,43.00005 L8.11111,43.00005 C4.18375,43.00005 1,39.58105 1,35.36365 L1,8.63637 C1,4.41892 4.18375,1 8.11111,1 L21,1"
+            ></path></svg
+          ><svg
+            class="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]"
+            height="44"
+            viewBox="0 0 100 44"
+            preserveAspectRatio="none"
+            fill="none"
+          >
+            <polygon
+              fill="url(#btn-top)"
+              fill-rule="nonzero"
+              points="100 42 100 44 0 44 0 42"
+            ></polygon>
+            <polygon
+              fill="url(#btn-bottom)"
+              fill-rule="nonzero"
+              points="100 0 100 2 0 2 0 0"
+            ></polygon></svg
+          ><svg
+            class="absolute top-0 right-0"
+            width="21"
+            height="44"
+            viewBox="0 0 21 44"
+          >
+            <path
+              fill="none"
+              stroke="url(#btn-right)"
+              stroke-width="2"
+              d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"
+            ></path></svg></a
+        ><button
+          class="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-3 text-n-1 ml-auto lg:hidden"
+        >
+          <span class="relative z-10"
+            ><svg
+              class="overflow-visible"
+              width="20"
+              height="12"
+              viewBox="0 0 20 12"
+            >
+              <rect
+                class="transition-all origin-center"
+                y="0"
+                width="20"
+                height="2"
+                rx="1"
+                fill="white"
+                transform="rotate(0)"
+              ></rect>
+              <rect
+                class="transition-all origin-center"
+                y="10"
+                width="20"
+                height="2"
+                rx="1"
+                fill="white"
+                transform="rotate(0)"
+              ></rect></svg></span
+          ><svg
+            class="absolute top-0 left-0"
+            width="21"
+            height="44"
+            viewBox="0 0 21 44"
+          >
+            <path
+              fill="none"
+              stroke="url(#btn-left)"
+              stroke-width="2"
+              d="M21,43.00005 L8.11111,43.00005 C4.18375,43.00005 1,39.58105 1,35.36365 L1,8.63637 C1,4.41892 4.18375,1 8.11111,1 L21,1"
+            ></path></svg
+          ><svg
+            class="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]"
+            height="44"
+            viewBox="0 0 100 44"
+            preserveAspectRatio="none"
+            fill="none"
+          >
+            <polygon
+              fill="url(#btn-top)"
+              fill-rule="nonzero"
+              points="100 42 100 44 0 44 0 42"
+            ></polygon>
+            <polygon
+              fill="url(#btn-bottom)"
+              fill-rule="nonzero"
+              points="100 0 100 2 0 2 0 0"
+            ></polygon></svg
+          ><svg
+            class="absolute top-0 right-0"
+            width="21"
+            height="44"
+            viewBox="0 0 21 44"
+          >
+            <path
+              fill="none"
+              stroke="url(#btn-right)"
+              stroke-width="2"
+              d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div id="hero" class="relative true pt-[12rem] -mt-[5.25rem]">
+      <div class="container relative">
+        <div
+          class="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]"
+        >
+          <h1 class="h1 mb-6 mt-10">
+            CCET ACM STUDENT CHAPTER &nbsp;<span class="inline-block relative">
+              <img
+                src="/src/jsm-assets/hero/curve.png"
+                class="absolute top-full left-0 w-full xl:-mt-2"
+                width="624"
+                height="28"
+                alt="Curve"
+            /></span>
+          </h1>
+          <p class="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+            Computing is not about computers, its about living, living to solve
+            the problems of society using computer science.
+          </p>
+          <a
+            href="/pricing"
+            class="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-7 text-n-8"
+            ><span class="relative z-10">Learn More </span
+            ><svg
+              class="absolute top-0 left-0"
+              width="21"
+              height="44"
+              viewBox="0 0 21 44"
+            >
+              <path
+                fill="white"
+                stroke="white"
+                stroke-width="2"
+                d="M21,43.00005 L8.11111,43.00005 C4.18375,43.00005 1,39.58105 1,35.36365 L1,8.63637 C1,4.41892 4.18375,1 8.11111,1 L21,1"
+              ></path></svg
+            ><svg
+              class="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]"
+              height="44"
+              viewBox="0 0 100 44"
+              preserveAspectRatio="none"
+              fill="white"
+            >
+              <polygon
+                fill="white"
+                fill-rule="nonzero"
+                points="100 0 100 44 0 44 0 0"
+              ></polygon></svg
+            ><svg
+              class="absolute top-0 right-0"
+              width="21"
+              height="44"
+              viewBox="0 0 21 44"
+            >
+              <path
+                fill="white"
+                stroke="white"
+                stroke-width="2"
+                d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"
+              ></path></svg
+          ></a>
+        </div>
+        <div class="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+          <div class="flex">
+          <div class="hero-img relative z-1 p-0.5 rounded-2xl bg-conic-gradient ">
+            <div class="relative bg-n-8 rounded-[1rem]">
+              <div class="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]"></div>
+              <div
+                class="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]"
+              >
+                <img
+                  src="./acm-assets/acm-png.png"
+                  class="w-full h-full object-cover object-center"
+                  alt="ACM"
+                />
+              </div>
+            </div>
+            <div
+              class="relative z-1 h-6 mx-2.5 bg-n-11 shadow-xl rounded-b-[1.25rem] lg:h-6 lg:mx-8"
+            ></div>
+            <div
+              class="relative z-1 h-6 mx-6 bg-n-11/70 shadow-xl rounded-b-[1.25rem] lg:h-6 lg:mx-20"
+            ></div>
+          </div>
+          <section class="book-section">
+            
+            <section class="book">
+            <h2 class="body-text text-center book-text">Digital Outlet</h2>
+            <!-- Book Cover -->
+            <div class="book-cover" onclick="openBookViewer()"><img class="page-img" src="./acm-assets/book-cover.png" alt=""></div>
+            
+            <!-- Book Viewer Modal -->
+            <div class="book-viewer" id="bookViewer">
+              <div class="book-content">
+                <div class="book-page active"><img class="page" src="./acm-assets/book-page1.jpg" alt=""></div>
+                <div class="book-page"><img class="page"  src="./acm-assets/book-page2.png" alt=""></div>
+                <div class="book-page"><img class="page" src="./acm-assets/book-page3.png" alt=""></div>
+                <div class="book-page"><img class="page"  src="./acm-assets/book-page4.png" alt=""></div>
+                <div class="book-page"><img class="page" src="./acm-assets/book-back.png" alt=""></div>
+                
+                <!-- Navigation Buttons -->
+                <button class="nav-button prev-button" onclick="prevPage()">&#10094;</button>
+                <button class="nav-button next-button" onclick="nextPage()">&#10095;</button>
+                <button class="nav-button close-button" onclick="closeBookViewer()">&#10006;</button>
+              </div>
+            </div>
+            </section>
+            </section>
+          </div>
+    
+          
+          <div
+            class="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]"
+          >
+            <img
+              src="/src/jsm-assets/hero/hero-background.jpg"
+              class="w-full"
+              width="1440"
+              height="1800"
+              alt="hero"
+            />
+          </div>
+          <div
+            class="absolute -top-[42.375rem] left-1/2 w-[78rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem]"
+          >
+            <div
+              class="absolute top-1/2 left-1/2 w-[65.875rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"
+            ></div>
+            <div
+              class="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"
+            ></div>
+            <div
+              class="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"
+            ></div>
+            <div
+              class="absolute top-1/2 left-1/2 w-[23.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"
+            ></div>
+            <span
+              style="
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                user-select: none;
+                pointer-events: none;
+                position: relative;
+                top: 0px;
+                left: 0px;
+                z-index: initial;
+              "
+              ><span
+                style="
+                  backface-visibility: hidden;
+                  position: relative;
+                  width: 100%;
+                  height: 100%;
+                  display: inline-block;
+                  user-select: initial;
+                  pointer-events: initial;
+                  will-change: auto;
+                  transform: translate3d(0.451037px, 17.8108px, 0px);
+                "
+                ><div
+                  class="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]"
+                >
+                  <div
+                    class="w-2 h-2 -ml-1 -mt-36 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out translate-y-0 opacity-100"
+                  ></div>
+                </div>
+                <div
+                  class="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[56deg]"
+                >
+                  <div
+                    class="w-4 h-4 -ml-1 -mt-32 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out translate-y-0 opacity-100"
+                  ></div>
+                </div>
+                <div
+                  class="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[54deg]"
+                >
+                  <div
+                    class="hidden w-4 h-4 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full xl:block transit transition-transform duration-500 ease-out translate-y-0 opacity-100"
+                  ></div>
+                </div>
+                <div
+                  class="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[65deg]"
+                >
+                  <div
+                    class="w-3 h-3 -ml-1.5 mt-52 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out translate-y-0 opacity-100"
+                  ></div>
+                </div>
+                <div
+                  class="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[85deg]"
+                >
+                  <div
+                    class="w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out translate-y-0 opacity-100"
+                  ></div>
+                </div>
+                <div
+                  class="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[70deg]"
+                >
+                  <div
+                    class="w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out translate-y-0 opacity-100"
+                  ></div></div></span
+            ></span>
+          </div>
+          
+          <!-- Initiatives Section ( 6  Boxes ) -->
+          <div class="container ">
+            <h2 class="h2 section-text text-white">Our Initiatives</h2>
+            <div class="card__container">
+              <!-- Code for Cause Card -->
+               <article class="card__article">
+                  <div class="card__scale-1"></div>
+                  <div class="card__scale-2"></div>
+      
+                  <div class="card__data">
+                    <img class="main1" src="./assets/main1.png" alt="">
+                     <h2 class="card__title">Code For Cause</h2>
+                     
+                     <p class="card__description">
+                      Code for Cause unites tech and NGOs to tackle social issues.
+                     </p>
+   
+                     <a href="#" class="card__button">
+                        Learn More 
+                     </a>
+                  </div>
+               </article>
+
+               <!-- Code for Technology Card -->
+               <article class="card__article card__orange">
+                  <div class="card__scale-1"></div>
+                  <div class="card__scale-2"></div>
+   
+                  <div class="card__data">
+                    <img class="main2" src="./assets/main2.png" alt="">
+                     <h2 class="card__title">Code for Technology</h2>
+   
+                     <p class="card__description">
+                      Code for Technology empowers coding for leading tech giants.
+                     </p>
+   
+                     <a href="#" class="card__button">
+                        Learn More 
+                     </a>
+                  </div>
+               </article>
+
+               <!-- Research & Innovation Card -->
+               <article class="card__article card__green">
+                  <div class="card__scale-1"></div>
+                  <div class="card__scale-2"></div>
+      
+                  <div class="card__data">
+                    <img class="main3" src="./assets/main3.png" alt="">
+                     <h2 class="card__title">Research on Tech </h2>
+   
+                     <p class="card__description">
+                      Fostering research and innovation to drive technological progress.
+                     </p>
+   
+                     <a href="#" class="card__button">
+                        Learn More
+                     </a>
+                  </div>
+               </article>
+
+               <!-- Talk with Techies Card -->
+
+               <article class="card__article">
+                <div class="card__scale-1"></div>
+                <div class="card__scale-2"></div>
+ 
+    
+                <div class="card__data">
+                  <img class="main4" src="./assets/main4-2.webp" alt="">
+                   <h2 class="card__title">Talk with Techies</h2>
+                   
+                   <p class="card__description">
+                    Engaging conversations with tech experts to inspire and inform.
+                   </p>
+ 
+                   <a href="#" class="card__button">
+                      Learn More
+                   </a>
+                </div>
+             </article>
+
+             <!-- Career Opportunities Card -->
+             <article class="card__article card__orange">
+              <div class="card__scale-1"></div>
+              <div class="card__scale-2"></div>
+
+              <div class="card__data">
+                <img class="main5" src="./assets/main5.webp" alt="">
+                 <h2 class="card__title">Career Pathways</h2>
+
+                 <p class="card__description">
+                  Exploring pathways to internships and career opportunities.
+                 </p>
+
+                 <a href="#" class="card__button">
+                    Learn More 
+                 </a>
+              </div>
+           </article>
+
+           <!-- Healthy Bytes Card -->
+               <article class="card__article card__green">
+                <div class="card__scale-1"></div>
+                <div class="card__scale-2"></div>
+ 
+                <div class="card__data">
+                  <img class="main6" src="./assets/main6.png" alt="">
+                   <h2 class="card__title">Healthy Byte</h2>
+  
+                   <p class="card__description">
+                    Empowering you with essential skills for a healthier tomorrow.
+                   </p>
+  
+                   <a href="#" class="card__button">
+                      Learn More 
+                   </a>
+                </div>
+             </article>
+            </div>
+         </div>
+
+         <!-- Competitions Slider Section -->
+        <div class="container mt-10">
+         <h1 class="h2 comp-text text-white">Recent Competitions </h1>
+          <div class=" comp-box">
+            <div class="slider">
+              <span style="--i:1;">
+                <img src="./acm-assets/comp-1.jpg" alt="">
+              </span>
+              <span style="--i:2;">
+                <img src="./acm-assets/comp-2.jpg" alt="">
+              </span>
+              <span style="--i:3;">
+                <img src="./acm-assets/comp-3.jpg" alt="">
+              </span>
+              <span style="--i:4;">
+                <img src="./acm-assets/comp-4.jpg" alt="">
+              </span>
+              <span style="--i:5;">
+                <img src="./acm-assets/comp-5.jpg" alt="">
+              </span>
+              <span style="--i:6;">
+                <img src="./acm-assets/comp-6.png" alt="">
+              </span>
+              <span style="--i:7;">
+                <img src="./acm-assets/comp-7.png" alt="">
+              </span>
+              <span style="--i:8;">
+                <img src="./acm-assets/comp8.jpeg" alt="">
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Section -->
+        <main class="team-section">
+          <h2 class="h2 text-white team-text text-center">Our Team</h2> <!-- Heading above the team section -->
+        
+          <div class="team-slider" reverse="true" style="
+                  --width: 200px;
+                  --height: 200px;
+                  --quantity: 12;
+              ">
+            <div class="list">
+              <div class="item" style="--position: 1">
+                <img src="./acm-assets/memb-1.png" alt="">
+                <div class="info">
+                  <span class="name">Ayushi</span>
+                  <span class="position">Chairperson</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 2">
+                <img src="./acm-assets/member-2.png" alt="">
+                <div class="info">
+                  <span class="name">Vanshika Chilkoti</span>
+                  <span class="position">Secretary</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 3">
+                <img src="./acm-assets/member-3.png" alt="">
+                <div class="info">
+                  <span class="name">Deependra</span>
+                  <span class="position">Event Manager</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 4">
+                <img src="./acm-assets/member-4.png" alt="">
+                <div class="info">
+                  <span class="name">Raj Kanwar</span>
+                  <span class="position">Executive Member Head</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 5">
+                <img src="./acm-assets/member-5.png" alt="">
+                <div class="info">
+                  <span class="name">Simran Jaggi</span>
+                  <span class="position">Vice-Chairperson</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 6">
+                <img src="./acm-assets/member-6.png" alt="">
+                <div class="info">
+                  <span class="name">Vanshika Singla</span>
+                  <span class="position">Membership Chair</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 7">
+                <img src="./acm-assets/member-7.png" alt="">
+                <div class="info">
+                  <span class="name">Janvi Sharma</span>
+                  <span class="position">Treasurer</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 8">
+                <img src="./acm-assets/member-8.png" alt="">
+                <div class="info">
+                  <span class="name">Japjot Singh</span>
+                  <span class="position">Webmaster</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 9">
+                <img src="./acm-assets/member-9.png" alt="">
+                <div class="info">
+                  <span class="name">Deepika</span>
+                  <span class="position">Editorial Head</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 10">
+                <img src="./acm-assets/member-10.png" alt="">
+                <div class="info">
+                  <span class="name">Rima Kumari</span>
+                  <span class="position">Design Head</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 11">
+                <img src="./acm-assets/member-11.png" alt="">
+                <div class="info">
+                  <span class="name">Anoop Pant</span>
+                  <span class="position">Social Media Manager</span>
+                </div>
+              </div>
+              <div class="item" style="--position: 12">
+                <img src="./acm-assets/member-12.png" alt="">
+                <div class="info">
+                  <span class="name">Ravina Mittal</span>
+                  <span class="position">External PR Head</span>
+                </div>
+              </div>
+              <!-- Repeat for other members as necessary -->
+            </div>
+          </div>
+        </main>
+        
+
+<!-- Mentors Section -->
+<section class="mentor-section">
+<h2 class="section-title h2 text-center mentor-text">Meet Our Mentors</h2>
+<div class="mentors-container">
+    <!-- Mentor Card 1 -->
+    <div class="mentor-card">
+        <div class="mentor-image-container">
+            <img src="./acm-assets/mentor1.png" alt="Mentor 1" class="mentor-image">
+        </div>
+        <h3 class="mentor-name">Dr. Manpreet Singh</h3>
+        <p class="mentor-position">Principal CCET Degree Wing</p>
+        <p class="mentor-description">Our mission at CCET is not only to produce engineering graduates but to produce engineering minds.</p>
+    </div>
+    
+    <!-- Mentor Card 2 -->
+    <div class="mentor-card">
+        <div class="mentor-image-container">
+            <img src="./acm-assets/mentor-2.png" alt="Mentor 2" class="mentor-image">
+        </div>
+        <h3 class="mentor-name">Dr. Sunil K. Singh</h3>
+        <p class="mentor-position">Professor and HOD, CSE Faculty </p>
+        <p class="mentor-description">ACM CCET provides student a great opportunity to learn scientific and practical approach of computer science.</p>
+    </div>
+    
+    <!-- Mentor Card 3 -->
+    <div class="mentor-card">
+        <div class="mentor-image-container">
+            <img src="./acm-assets/mentor3.png" alt="Mentor 3" class="mentor-image">
+        </div>
+        <h3 class="mentor-name">Sudhakar Kumar</h3>
+        <p class="mentor-position">Assistant Professor, CSE Faculty</p>
+        <p class="mentor-description">ACM CCET provides every person with an opportunity to learn, heighten and explore the field of computer science.</p>
+    </div>
+</div>
+</section>
+
+<h2 class="numbers-title h2 text-white text-center ">This Year in Numbers</h2>
+<section class=" numbers-section">
+  <div class="num-wrapper">
+    <div class="num-container">
+      <i class="symbol fa-solid fa-laptop"></i>
+      <span class="num" data-val="583">000</span>
+      <span class="text">Hours Coding</span>
+    </div>
+    <div class="num-container">
+      <i class="symbol fa-solid fa-camera"></i>
+      <span class="num" data-val="250">000</span>
+      <span class="text">Events Organized</span>
+    </div>
+    <div class="num-container">
+      <i class="symbol fa-solid fa-book"></i>
+      <span class="num" data-val="300">000</span>
+      <span class="text">Research Papers</span>
+    </div>
+    <div class="num-container">
+      <i class="symbol fa-solid fa-briefcase"></i>
+      <span class="num" data-val="16">000</span>
+      <span class="text">Projects Done</span>
+    </div>
+  </div>
+
+</section>
+<section class="earth-section">
+  <div class="earth-image-container">
+      <img src="./acm-assets/acmw-earth.png" alt="Earth" class="earth-image">
+  </div>
+  <div class="earth-content">
+      <h2 class="h2 earth-heading">ACM-W</h2>
+      <p class="body-1 earth-paragraph">ACM-W takes forward the torch of ACM but with a special focus on women and empowers them in a way that they lead the world in the field of technology and provides them a path and platform to showcase their talent and hard work. Which also gets recognized at the global level.</p>
+      <a href="#" class="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-7 text-n-8"><span class="relative z-10">Learn More</span><svg class="absolute top-0 left-0" width="21" height="44" viewBox="0 0 21 44">
+        <path fill="white" stroke="white" stroke-width="2" d="M21,43.00005 L8.11111,43.00005 C4.18375,43.00005 1,39.58105 1,35.36365 L1,8.63637 C1,4.41892 4.18375,1 8.11111,1 L21,1"></path></svg><svg class="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]" height="44" viewBox="0 0 100 44" preserveAspectRatio="none" fill="white">
+        <polygon fill="white" fill-rule="nonzero" points="100 0 100 44 0 44 0 0"></polygon></svg><svg class="absolute top-0 right-0" width="21" height="44" viewBox="0 0 21 44">
+        <path fill="white" stroke="white" stroke-width="2" d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"></path></svg></a>
+  </div>  
+</section>
+
+
+<section class="book-section">
+<h2 class="book-text text-center">Digital Outlet</h2>
+<section class="book">
+<!-- Book Cover -->
+<div class="book-cover" onclick="openBookViewer()"><img class="page-img" src="./acm-assets/book-cover.png" alt=""></div>
+
+<!-- Book Viewer Modal -->
+<div class="book-viewer" id="bookViewer">
+  <div class="book-content">
+    <div class="book-page active"><img class="page" src="./acm-assets/book-page1.jpg" alt=""></div>
+    <div class="book-page"><img class="page"  src="./acm-assets/book-page2.png" alt=""></div>
+    <div class="book-page"><img class="page" src="./acm-assets/book-page3.png" alt=""></div>
+    <div class="book-page"><img class="page"  src="./acm-assets/book-page4.png" alt=""></div>
+    <div class="book-page"><img class="page" src="./acm-assets/book-back.png" alt=""></div>
+    
+    <!-- Navigation Buttons -->
+    <button class="nav-button prev-button" onclick="prevPage()">&#10094;</button>
+    <button class="nav-button next-button" onclick="nextPage()">&#10095;</button>
+    <button class="nav-button close-button" onclick="closeBookViewer()">&#10006;</button>
+  </div>
+</div>
+</section>
+</section>
+
+
+
+<section class="mem-section">
+  <div class="mem-content">
+      <h2 class="mem-heading">Membership Benefits</h2>
+      <p class="body-text mem-paragraph">ACM-W takes forward the torch of ACM but with a special focus on women and empowers them in a way that they lead the world in the field of technology and provides them a path and platform to showcase their talent and hard work. Which also gets recognized at the global level.</p>
+      <a href="#" class="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-7 text-n-8"><span class="relative z-10">Learn More</span><svg class="absolute top-0 left-0" width="21" height="44" viewBox="0 0 21 44">
+        <path fill="white" stroke="white" stroke-width="2" d="M21,43.00005 L8.11111,43.00005 C4.18375,43.00005 1,39.58105 1,35.36365 L1,8.63637 C1,4.41892 4.18375,1 8.11111,1 L21,1"></path></svg><svg class="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]" height="44" viewBox="0 0 100 44" preserveAspectRatio="none" fill="white">
+        <polygon fill="white" fill-rule="nonzero" points="100 0 100 44 0 44 0 0"></polygon></svg><svg class="absolute top-0 right-0" width="21" height="44" viewBox="0 0 21 44">
+        <path fill="white" stroke="white" stroke-width="2" d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"></path></svg></a>
+      <a href="#" class="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 px-7 text-n-8"><span class="relative z-10">Form Link</span><svg class="absolute top-0 left-0" width="21" height="44" viewBox="0 0 21 44">
+        <path fill="white" stroke="white" stroke-width="2" d="M21,43.00005 L8.11111,43.00005 C4.18375,43.00005 1,39.58105 1,35.36365 L1,8.63637 C1,4.41892 4.18375,1 8.11111,1 L21,1"></path></svg><svg class="absolute top-0 left-[1.3125rem] w-[calc(100%-2.625rem)]" height="44" viewBox="0 0 100 44" preserveAspectRatio="none" fill="white">
+        <polygon fill="white" fill-rule="nonzero" points="100 0 100 44 0 44 0 0"></polygon></svg><svg class="absolute top-0 right-0" width="21" height="44" viewBox="0 0 21 44">
+        <path fill="white" stroke="white" stroke-width="2" d="M0,43.00005 L5.028,43.00005 L12.24,43.00005 C16.526,43.00005 20,39.58105 20,35.36365 L20,16.85855 C20,14.59295 18.978,12.44425 17.209,10.99335 L7.187,2.77111 C5.792,1.62675 4.034,1 2.217,1 L0,1"></path></svg></a>
+  </div>  
+  <div class="mem-image-container">
+      <img src="./acm-assets/acm-membership.png" alt="Earth" class="mem-image">
+  </div>
+</section>
+
+
+<section class="testimonials">
+<h2 class="h2 text-center testimonials-text text-white">Testimonials</h2>
+<section class="testimonials-section">
+ 
+  <div class="box">
+    <div class="elements bg"></div>
+    <div class="elements imgBx">
+      <img src="./assets/img2.jpg" alt="">
+    </div>
+    <div class="elements name">
+      <h2>Name</h2>
+    </div>
+    <div class="elements content">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi sunt, nulla dolore adipisci doloribus totam hic provident nihil explicabo.</p>
+    </div>
+    <div class="card"></div>
+
+  </div>
+
+  <div class="box">
+    <div class="elements bg"></div>
+    <div class="elements imgBx">
+      <img src="./assets/img1.jpg" alt="">
+    </div>
+    <div class="elements name">
+      <h2>Name</h2>
+    </div>
+    <div class="elements content">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi sunt, nulla dolore adipisci doloribus totam hic provident nihil explicabo.</p>
+    </div>
+    <div class="card"></div>
+
+  </div>
+
+  <div class="box">
+    <div class="elements bg"></div>
+    <div class="elements imgBx">
+      <img src="./assets/img1.jpg" alt="">
+    </div>
+    <div class="elements name">
+      <h2>Name</h2>
+    </div>
+    <div class="elements content">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi sunt, nulla dolore adipisci doloribus totam hic provident nihil explicabo.</p>
+    </div>
+    <div class="card"></div>
+
+  </div>
+</section>
+</section>
+
+<hr class="footer-line">
+
+<footer class="footer">
+  <div class="f-container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>CCET ACM</h4>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">resources</a></li>
+          <li><a href="#">gallery</a></li>
+          <li><a href="#">events</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>explore</h4>
+        <ul>
+          <li><a href="#">about</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">team</a></li>
+          <li><a href="#">achievements</a></li>
+          <li><a href="#">acm-w</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>contact us</h4>
+        <ul>
+          <li><a href="#">webmasters</a></li>
+          <li><a href="#">magazine</a></li>
+          <li><a href="#">get in touch</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="icons fab fa-facebook-f"></i></a>
+          <a href="#"><i class="icons fab fa-twitter"></i></a>
+          <a href="#"><i class="icons fab fa-instagram"></i></a>
+          <!-- <a href="#"><i class="icons fab fa-linkedin-in"></i></a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+        
+        
+    <!-- Scripts -->
+    <script src="./scripts/hero.js"></script>
+    <script src="https://cdn.jsdeliver.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./scripts/comp.js"></script>
+    <script src="https://kit.fontawesome.com/59886dc0ec.js" crossorigin="anonymous"></script>
+    <script src="./scripts/numbers.js"></script>
+    <script src="./scripts/book.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 15,
+        speed: 400,
+        glare:true,
+      });
+    </script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      // Select the hamburger button and the navigation links
+      const hamburgerButton = document.querySelector(
+        ".button.relative.inline-flex.items-center.justify-center.h-11.transition-colors.hover\\:text-color-1.ml-auto.lg\\:hidden"
+      );
+      const navLinks = document.querySelector("nav");
+
+      hamburgerButton.addEventListener("click", () => {
+        // Toggle the class to show/hide the navigation links
+        navLinks.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
