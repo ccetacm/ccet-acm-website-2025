@@ -114,6 +114,7 @@ const Team = () => {
               </div>
           </div>
       </section>
+      <BottomLine></BottomLine>
 
       </Section>
   );
