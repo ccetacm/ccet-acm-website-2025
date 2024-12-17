@@ -40,47 +40,47 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#home",
+    url: "/",
   },
   {
     id: "1",
     title: "About",
-    url: "#about",
+    url: "/about",
   },
   {
     id: "2",
     title: "Gallery",
-    url: "#gallery",
+    url: "/gallery",
   },
   {
     id: "3",
     title: "Events",
-    url: "#events",
+    url: "/events",
   },
   {
     id: "4",
     title: "Team",
-    url: "#team",
+    url: "/team",
   },
   {
     id: "5",
     title: "Achievements",
-    url: "#achievements",
+    url: "/achievements",
   },
   {
     id: "6",
     title: "Resources",
-    url: "#resouces",
+    url: "/resources",
   },
   {
     id: "7",
     title: "Magazine",
-    url: "#magazine",
+    url: "/magazine",
   },
   {
     id: "8",
     title: "Contact",
-    url: "#contact",
+    url: "/contact",
     onlyMobile: true,
   },
   {
