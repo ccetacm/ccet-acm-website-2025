@@ -70,7 +70,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="#contact"
+          href="#footer"
           className="button hidden mr-6 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           Contact

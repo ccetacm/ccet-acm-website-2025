@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+import "../styles/acmwstyles.css";
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -23,7 +24,7 @@ import '../styles/CompSlider.css';
 const CompetitionsSlider = () => {
   return (
     <Section>
-    <div className="container">
+    <div className="container comp-section">
     <h2 className="h2 mt-5 text-center">Recently Conducted Competitions</h2>
       <Swiper
         effect={'coverflow'}
@@ -69,7 +70,7 @@ const CompetitionsSlider = () => {
         </SwiperSlide>
 
         <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
+          <div className="className='mr-[20px]'  swiper-button-prev  slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
           <div className="swiper-button-next slider-arrow">

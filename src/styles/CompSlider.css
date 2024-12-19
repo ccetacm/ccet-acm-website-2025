@@ -85,7 +85,12 @@
 /* Adjust navigation button position and colors */
 .slider-controler .swiper-button-next,
 .slider-controler .swiper-button-prev {
-  background: rgba(255, 255, 255, 0.9); /* Make buttons visible with white background */
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Make buttons visible with white background */
   color: #222224; /* Dark text for better contrast */
   width: 2.5rem;
   height: 2.5rem;
@@ -94,24 +99,23 @@
   justify-content: center;
   align-items: center;
   filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
-  gap:30px;
-
+  gap: 30px;
 }
-.slider-controler .swiper-button-prev{
-  margin-left:-26px;
+.slider-controler .swiper-button-prev {
+  margin-left: -36px;
 }
 
- .swiper-button-next{
-  margin-left:28px;
+.swiper-button-next {
+  margin-left: 43px;
 }
 
 .slider-controler .swiper-button-next {
-  left: 41% !important;
+  left: 38% !important;
   transform: translateX(-45%) !important;
 }
 
 .slider-controler .swiper-button-prev {
-  left: 59% !important;
+  left: 62% !important;
   transform: translateX(-55%) !important;
 }
 
@@ -143,7 +147,7 @@
   position: relative;
   width: 15rem !important;
   bottom: 1rem;
-  margin-top:12px;
+  margin-top: 12px;
 }
 
 /* Pagination bullet color change */
@@ -162,4 +166,3 @@
 .slider-controler .swiper-button-prev::after {
   content: none !important; /* Remove the unwanted symbols */
 }
-
