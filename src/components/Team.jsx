@@ -5,6 +5,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Section from './Section';
 import Button from './Button';
+import "../styles/acmwstyles.css";
 
 const Team = () => {
   const currentTeam = teamMembers['2024-25'];
@@ -39,7 +40,7 @@ const Team = () => {
 
   return (
     <Section>
-      <section className="bg-transparent py-16 px-8 md:px-16 lg:px-32">
+      <section className="bg-transparent team-section py-16 px-8 md:px-16 lg:px-32">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-left">
             <h2 className="h2 mt-5">Our Team</h2>

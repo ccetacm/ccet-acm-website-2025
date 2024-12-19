@@ -7,14 +7,15 @@ import Card3 from '../acm-assets-2/main3.png';
 import Card4 from '../acm-assets-2/main4-2.webp';
 import Card5 from '../acm-assets-2/main5.webp';
 import Card6 from '../acm-assets-2/main6.png';
+import '../styles/acmwstyles.css'
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Button from './Button';
 const Initiatives = () => {
   return (
     <Section>
      {/* <!-- Initiatives Section ( 6  Boxes ) --> */}
-          <div class="card-container ">
-            <h2 class="h2 section-text text-white">Our Initiatives</h2>
+          <div class="card-container in-section  mt-[-100px]  ">
+            <h2 class="h2 section-text ml-[-27px] text-white">Our Initiatives</h2>
             <div class="card__container">
               {/* <!-- Code for Cause Card --> */}
                <article class="card__article">

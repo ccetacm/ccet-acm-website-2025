@@ -48,7 +48,7 @@ const Flipbook = () => {
 
   return (
     <Section>
-    <section className=" mt-[200px] flex flex-col items-center justify-center py-8">
+    <section className=" md:mt-[200px] flex flex-col items-center justify-center py-8">
     <h2 className="h2 mt-5">Digital Outlet</h2>
 
       <div

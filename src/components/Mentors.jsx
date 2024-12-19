@@ -5,6 +5,7 @@ import mentor2 from "../acm-assets/mentor-2.png";
 import mentor3 from "../acm-assets/mentor3.png";
 import mentor4 from "../acm-assets/mentor4.png";
 import Section from './Section';
+import "../styles/acmwstyles.css";
 
 const mentors = [
   {
@@ -30,7 +31,7 @@ const mentors = [
 const Mentors = () => {
   return (
     <Section>
-      <section className="mentor-section bg-n-8">
+      <section className="mentor-section mentor-res bg-n-8">
         <div className="container">
           <h2 className="h2 text-center mb-12">Our Mentors</h2>
           <div className="flex flex-wrap justify-center gap-8">

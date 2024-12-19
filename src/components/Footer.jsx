@@ -19,7 +19,7 @@ const Footer = () => {
     };
 
     return (
-        <div class="mt-[120px]">
+        <div  class="mt-[120px]">
 
         <hr class="footer-line"/>
 
@@ -46,7 +46,7 @@ const Footer = () => {
                 <li><a href="#">acm-w</a></li>
               </ul>
             </div>
-            <div class="footer-col">
+            <div id="footer" class="footer-col">
               <h4>contact us</h4>
               <ul>
                 <li><a href="#">webmasters</a></li>

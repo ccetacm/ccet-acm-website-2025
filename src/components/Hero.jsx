@@ -89,7 +89,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <BottomLine />
+ 
     </Section>
   );
 };

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { teamMembers } from '../data/teamMember';
 import { Users, Github, Linkedin, BookMarked } from 'lucide-react';
 
+
 const categories = ["ACM", "ACM W"];
 
 export default function TeamPage() {
@@ -28,7 +29,7 @@ export default function TeamPage() {
   };
 
   return (
-    <div className="min-h-screen  pb-12">
+    <div className="min-h-screen pb-12">
       {/* Hero Section */}
       <div className="relative ">
         <div className="absolute inset-0">

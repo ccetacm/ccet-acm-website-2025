@@ -7,13 +7,12 @@ import ImageCard from "../components/ImageCard";
 import Button from "../components/Button";
 import "../styles/achievements.css";
 
-
 const achievements = [
   {
     id: 1,
     image: img1,
     title: "CCET ACM Student Chapter featured on ACM India Website",
-    description: "CCET ACM Student Chapter was featured on the official website of ACM India as the “Chapter of the Month” for reporting the highest amount of activities in the month of December and was highlighted the best among the 195 student chapters all over India...",
+    description: "CCET ACM Student Chapter was featured on the official website of ACM India as the Chapter of the Month for reporting the highest amount of activities in the month of December and was highlighted the best among the 195 student chapters all over India...",
   },
   {
     id: 2,
@@ -31,90 +30,57 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    // <main className='container mt-5'>
-    // <div>Achievements Page</div>
-    // <ImageCard imgSrc={img1}>
-    //   <h3 className='text-xl font-bold mb-2'>CCET ACM Student Chapter featured on ACM India Website</h3>
-    //   <p>CCET ACM Student Chapter was featured on the official website of ACM India as the “Chapter of the Month” for reporting the highest amount of activities in the month of December....</p>
-    // </ImageCard>
-
-    // </main>
-
-    // <main class="w-full min-h-screen flex justify-center items-center">
-    //   <div className='w-80 p-2 border-2 border-gray rounded-xl'>
-    //     <img src={img1} className='h-40 object-fit rounded-xl w-full'alt="" />
-    //     <div className='p-2'>
-    //       <h2 className='font-bold text-lg'>CCET ACM Student Chapter featured on ACM India Website</h2>
-    //       <p className="text-sm text-white  ">CCET ACM Student Chapter was featured on the official website of ACM India as the “Chapter of the Month” for reporting the highest amount of activities in the month of December and was highlighted the best among the 195 student chapters all over India....</p>
-    //     </div>
-    //     <div className='m-2'>
-    //       <Button white>Read More</Button>
-    //     </div>
-    //   </div>
-    // </main>
-
-  //   <main className="achieve-body">
-  //     <div className="achieve-cards">
-  //       <div className="achieve-card">
-  //         <div className="achieve-container">
-  //           <img src={img1} alt="Las Vegas" />
-  //         </div>
-  //         <div className="achieve-details">
-  //           <h3>CCET ACM Student Chapter featured on ACM India Website</h3>
-  //           <p>
-  //             CCET ACM Student Chapter was featured on the official website of
-  //             ACM India as the “Chapter of the Month” for reporting the highest
-  //             amount of activities in the month of December and was highlighted
-  //             the best among the 195 student chapters all over India.
-  //           </p>
-  //         </div>
-  //       </div>
-
-  //       <div className="achieve-card">
-  //         <div className="achieve-container">
-  //           <img src={img4} alt="New York" />
-  //         </div>
-  //         <div className="achieve-details">
-  //           <h3>Feature Editor for the ACM XRDS Magazine</h3>
-  //           <p>
-  //             The CCET ACM Student Chapter is proud to announce that our
-  //             Chairperson, Ms.Muskaan Chopra has been selected as the Feature
-  //             Editor for the ACM XRDS magazine. XRDS is the flagship academic
-  //             magazine for student members ...
-  //           </p>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </main>
-  // );
-
-  <div className=" min-h-screen mt-11 flex flex-col items-center py-12 px-6">
-  <h1 className="text-4xl md:text-5xl font-bold text-white mb-12">Achievements</h1>
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl">
-    {achievements.map((achievement) => (
-      <div
-        key={achievement.id}
-        className="bg-[#1C1A26] text-white p-10 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 flex flex-col items-center"
-      >
-        <img
-          src={achievement.image}
-          alt={achievement.title}
-          className="w-full h-80 object-cover rounded-lg mb-6 shadow-lg"
-        />
-        <h2 className="text-2xl font-semibold mb-4 text-left hover:text-[#ab70f3]">{achievement.title}</h2>
-        <p className="text-base text-gray-400 text-left leading-relaxed">
-          {achievement.description}
-        </p>
-        <div className="pt-8">
-        <Button white>Read More</Button>
+    <div className="bg-[#0E0C15] min-h-screen py-16 px-4 sm:px-6 lg:px-8 mt-[80px]">
+      <div className="max-w-7xl mx-auto">
+        {/* Header with gradient underline */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+            Our Achievements
+          </h1>
+          <div className="h-1 w-24 bg-gradient-to-r from-purple-600 to-blue-500 mx-auto rounded-full"></div>
         </div>
-      
+
+        {/* Achievement cards grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {achievements.map((achievement) => (
+            <div
+              key={achievement.id}
+              className="group relative bg-[#1A1825] rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
+            >
+              {/* Image container with overlay */}
+              <div className="relative h-64 overflow-hidden">
+                <img
+                  src={achievement.image}
+                  alt={achievement.title}
+                  className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0E0C15] to-transparent opacity-60"></div>
+              </div>
+
+              {/* Content */}
+              <div className="p-6">
+                <h2 className="text-xl font-semibold text-white mb-3 group-hover:text-purple-400 transition-colors duration-300">
+                  {achievement.title}
+                </h2>
+                <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                  {achievement.description}
+                </p>
+                
+                {/* Button with gradient border */}
+                <button className="relative px-6 py-2 text-sm font-medium text-white transition-all duration-300 
+                  before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-gradient-to-r before:from-purple-600 before:to-blue-500 before:opacity-0 
+                  hover:before:opacity-100 hover:text-white
+                  after:absolute after:inset-0 after:rounded-full after:border after:border-purple-500
+                  group-hover:after:border-transparent">
+                  <span className="relative">Read More</span>
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-       
-    ))}
-  </div>
-</div>
-  )
+    </div>
+  );
 };
 
 export default Achievements;

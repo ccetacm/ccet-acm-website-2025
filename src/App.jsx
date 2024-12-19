@@ -11,6 +11,8 @@ import Footer from "./components/Footer";
 import Team from "./components/Team";
 import Initiatives from "./components/Initiatives";
 import Flipbook from "./components/Flipbook";
+import Testimonials from "./components/testimonials";
+
 
 const App = () => {
   return (
@@ -24,6 +26,7 @@ const App = () => {
     <Team/>
     <Flipbook/>
     <Membership/>
+    <Testimonials/>
   </div>
   <ButtonGradient/>
   </>
