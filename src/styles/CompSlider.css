@@ -1,26 +1,7 @@
-/* Zoom adjustments for different screen sizes */
-@media (min-width: 1440px) {
-  html {
-    zoom: 1.5;
-  }
-}
-
-@media (min-width: 2560px) {
-  html {
-    zoom: 1.7;
-  }
-}
-
-@media (min-width: 3860px) {
-  html {
-    zoom: 2.5;
-  }
-}
-
 /* Container styles */
 .container {
   max-width: 124rem;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem; /* Reduced padding */
   margin: 0 auto;
 }
 
@@ -32,37 +13,37 @@
 
 /* Swiper container adjustments */
 .swiper_container {
-  height: 45rem; /* Reduced height for a smaller slider */
-  padding: 2rem 0;
+  height: 35rem; /* Reduced from 45rem */
+  padding: 1rem 0; /* Reduced padding */
   position: relative;
 }
 
 /* Swiper slide adjustments */
 .swiper-slide {
-  width: 30rem; /* Reduced width for better size */
-  height: 38rem; /* Reduced height for better size */
+  width: 25rem; /* Reduced from 30rem */
+  height: 30rem; /* Reduced from 38rem */
   position: relative;
 }
 
 /* Responsive for smaller screens */
 @media (max-width: 500px) {
   .swiper_container {
-    height: 40rem;
+    height: 32rem; /* Reduced from 40rem */
   }
   .swiper-slide {
-    width: 25rem !important;
-    height: 30rem !important;
+    width: 20rem !important; /* Reduced from 25rem */
+    height: 25rem !important; /* Reduced from 30rem */
   }
   .swiper-slide img {
-    width: 25rem !important;
-    height: 30rem !important;
+    width: 20rem !important;
+    height: 25rem !important;
   }
 }
 
 /* Slide images with reduced dimensions */
 .swiper-slide img {
-  width: 30rem;
-  height: 38rem;
+  width: 25rem; /* Match slide width */
+  height: 30rem; /* Match slide height */
   border-radius: 2rem;
   object-fit: cover;
 }
@@ -76,7 +57,7 @@
 /* Slider controller styles */
 .slider-controler {
   position: relative;
-  bottom: 1rem; /* Adjusted position to move buttons below the slider */
+  bottom: 0.5rem; /* Reduced from 1rem */
   display: flex;
   align-items: center;
   justify-content: center;

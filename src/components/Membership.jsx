@@ -11,7 +11,7 @@ const Membership = () => {
         {/* Text Section */}
         <div className="text-center lg:text-left self-center">
           <h2 className="h2 mt-5">ACM Membership Benefits</h2>
-          <p className=" body-1 pt-5 max-w-3xl text-justify mx-auto lg:mx-0 mb-6 leading-relaxed text-n-2 lg:mb-8">
+          <p className=" text-md pt-5 max-w-3xl text-justify mx-auto lg:mx-0 mb-6 leading-relaxed text-n-2 lg:mb-8">
           A vast network of nearly 100,000 highly dedicated student and professional peers. A full year subscription to ACM magazines and news letters.(Communications of the ACM, XRDS: Crossroads, MemberNet etc.). The option to subscribe to the full ACM Digital Library, which includes over 2 million pages of text. Become a member of computing community through one of hundreds of Professional and Student Chapters worldwide.
           </p>
           <Button>Learn More</Button>

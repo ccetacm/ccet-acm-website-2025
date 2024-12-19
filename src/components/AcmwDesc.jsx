@@ -12,8 +12,8 @@ const AcmwDesc = () => {
         <div className="w-full lg:w-[50%] mt-[-200px] lg:mt-[150px] flex justify-center lg:justify-start">
           <img 
             src={earth} 
-            className="h-[300px] lg:h-[60%] transform transition-transform duration-300 hover:scale-105 rounded-md" 
-            alt="ACMW Earth" height="500px"/>
+            className="h-[250px] lg:h-[50%] transform transition-transform duration-300 hover:scale-105 rounded-md" 
+            alt="ACMW Earth" height="200px"/>
         </div>
 
         {/* Text Section */}

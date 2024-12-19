@@ -12,9 +12,10 @@ import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import Button from './Button';
 const Initiatives = () => {
   return (
-    <Section>
+    <Section crosses={true} 
+    customPaddings>
      {/* <!-- Initiatives Section ( 6  Boxes ) --> */}
-          <div class="card-container in-section  mt-[-100px]  ">
+          <div class="card-container in-section">
             <h2 class="h2 section-text ml-[-27px] text-white">Our Initiatives</h2>
             <div class="card__container">
               {/* <!-- Code for Cause Card --> */}

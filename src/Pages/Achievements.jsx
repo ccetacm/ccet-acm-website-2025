@@ -5,7 +5,6 @@ import img3 from "../acm-assets-2/achieve3.jpg";
 import img4 from "../acm-assets-2/achieve4.jpeg";
 import ImageCard from "../components/ImageCard";
 import Button from "../components/Button";
-import "../styles/achievements.css";
 
 const achievements = [
   {

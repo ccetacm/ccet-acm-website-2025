@@ -7,28 +7,26 @@ import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { useState, useRef } from "react";
 
 const Hero = () => {
-  const [isACM, setIsACM] = useState(true); // State to toggle between ACM and ACM-W
+  const [isACM, setIsACM] = useState(true);
   const parallaxRef = useRef(null);
 
   const toggleDepartment = () => {
-    setIsACM((prev) => !prev); // Toggle between ACM and ACM-W
+    setIsACM((prev) => !prev);
   };
 
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem]"
-      crosses
-      crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       id="hero"
     >
-      <div className="container relative" ref={parallaxRef}>
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          {/* Toggle the heading based on ACM or ACM-W */}
+      <div className="container relative px-4 mx-auto" ref={parallaxRef}>
+        {/* Hero Header Section */}
+        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-12 md:mb-16 lg:mb-20">
           <h1 className="h1 mb-6">
-            {isACM ? "CCET ACM STUDENT CHAPTER" : ""} &nbsp;
+            {isACM ? "CCET ACM STUDENT CHAPTER" : ""} 
             <span className="inline-block relative">
-            {isACM ? "" : "ACM-W"}{" "}
+              {isACM ? "" : "ACM-W"}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -39,8 +37,7 @@ const Hero = () => {
             </span>
           </h1>
 
-          {/* Toggle the description text based on ACM or ACM-W */}
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-3xl mx-auto mb-8 text-n-2">
             {isACM
               ? "Computing is not about computers, its about living, living to solve the problems of society using computer science."
               : "ACM-W empowers women in computing for a diverse and inclusive tech world."}
@@ -51,23 +48,22 @@ const Hero = () => {
           </Button>
         </div>
 
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
+        {/* Hero Image Section */}
+        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-20">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
-
-              {/* Responsive image with object-fit */}
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={isACM ? acmImage : acmWImage} // Toggle images
+                  src={isACM ? acmImage : acmWImage}
                   className="w-full h-full object-cover object-center"
                   alt={isACM ? "ACM" : "ACM-W"}
                 />
               </div>
             </div>
-
             <Gradient />
           </div>
+
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
@@ -79,17 +75,13 @@ const Hero = () => {
           </div>
 
           <BackgroundCircles />
-          <div className="text-center mt-8">
-            <Button
-              onClick={toggleDepartment}
-            >
+          <div className="text-center mt-10">
+            <Button onClick={toggleDepartment}>
               {isACM ? "ACM-W" : "ACM"}
             </Button>
           </div>
         </div>
       </div>
-
- 
     </Section>
   );
 };

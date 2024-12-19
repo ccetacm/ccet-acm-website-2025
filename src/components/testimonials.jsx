@@ -1,13 +1,12 @@
-import { useState } from "react";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { useState, useEffect } from "react";
 import quotesImg from "../acm-assets-2/quotes-1.png";
 
-import profile1 from "../acm-assets-2/profile-1.jpg"
-import profile2 from "../acm-assets-2/profile-2.jpeg"
-import profile3 from "../acm-assets-2/profile3.jpg"
-import profile4 from "../acm-assets-2/profile-4.jpeg"
-import profile5 from "../acm-assets-2/profile-5.jpg"
-import profile6 from "../acm-assets-2/profile-6.jpg"
+import profile1 from "../acm-assets-2/profile-1.jpg";
+import profile2 from "../acm-assets-2/profile-2.jpeg";
+import profile3 from "../acm-assets-2/profile3.jpg";
+import profile4 from "../acm-assets-2/profile-4.jpeg";
+import profile5 from "../acm-assets-2/profile-5.jpg";
+import profile6 from "../acm-assets-2/profile-6.jpg";
 
 const Testimonials = () => {
   const testimonials_data = [
@@ -58,18 +57,18 @@ const Testimonials = () => {
   const [current, setCurrent] = useState(0);
   const length = testimonials_data.length;
 
-  const previous = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prevCurrent) => (prevCurrent === length - 1 ? 0 : prevCurrent + 1));
+    }, 3000);
 
-  const next = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+    return () => clearInterval(interval);
+  }, [length]);
 
   return (
     <section className="flex flex-col items-center justify-center h-auto lg:mt-[100px] min-h-[100vh] px-4">
       {/* Section Heading */}
-      <h1 className="text-4xl font-bold text-white mb-8 text-center">
+      <h1 className="text-xl font-bold text-gray-400 mb-8 text-center">
         Testimonials
       </h1>
       <p className="text-gray-400 text-lg mb-12 text-center max-w-3xl">
@@ -77,61 +76,45 @@ const Testimonials = () => {
       </p>
 
       {/* Slider Content */}
-      <div className="max-w-5xl w-full flex flex-col items-center">
-        {testimonials_data.map(
-          (item, index) =>
-            index === current && (
-              <div
-                key={index}
-                className="text-center flex flex-col items-center gap-6 px-4"
-              >
-                {/* Quote and Testimonial Text */}
-                <div className="flex items-start gap-4">
-                  <img
-                    src={quotesImg}
-                    alt="Quotes"
-                    className="w-8 h-8 self-start"
-                  />
-                  <p className="text-white text-2xl leading-relaxed">
-                    {item.content_text}
-                  </p>
-                </div>
+      <div className="max-w-5xl w-full flex flex-col items-center overflow-hidden relative">
+        {testimonials_data.map((item, index) => (
+          <div
+            key={index}
+            className={`absolute w-full transition-transform duration-1000 ease-in-out ${
+              index === current ? "translate-x-0" : "translate-x-full"
+            }`}
+            style={{ transform: `translateX(${(index - current) * 100}%)` }}
+          >
+            <div className="text-center flex flex-col items-center gap-6 px-4">
+              {/* Quote and Testimonial Text */}
+              <div className="flex items-start gap-4">
+                <img
+                  src={quotesImg}
+                  alt="Quotes"
+                  className="w-8 h-8 self-start"
+                />
+                <p className="text-gray-400 text-lg leading-relaxed">
+                  {item.content_text}
+                </p>
+              </div>
 
-                {/* Profile Information */}
-                <div className="flex items-center gap-4">
-                  <img
-                    src={item.img}
-                    alt={item.testimonial_name}
-                    className="w-20 h-20 border-2 border-pink-600 rounded-full object-cover"
-                  />
-                  <div className="text-left">
-                    <h6 className="text-white text-lg font-medium">
-                      {item.testimonial_name}
-                    </h6>
-                    <span className="text-gray-400">{item.text_block}</span>
-                  </div>
+              {/* Profile Information */}
+              <div className="flex items-center gap-4">
+                <img
+                  src={item.img}
+                  alt={item.testimonial_name}
+                  className="w-20 h-20 border-2 border-pink-600 rounded-full object-cover"
+                />
+                <div className="text-left">
+                  <h6 className="text-gray-400 text-lg font-medium">
+                    {item.testimonial_name}
+                  </h6>
+                  <span className="text-gray-400">{item.text_block}</span>
                 </div>
               </div>
-            )
-        )}
-
-        {/* Navigation Arrows */}
-        <div className="flex justify-between w-full mt-10 px-8">
-          <button
-            onClick={previous}
-            className="text-white text-3xl hover:text-pink-600 transition"
-            aria-label="Previous"
-          >
-            <FaArrowLeft />
-          </button>
-          <button
-            onClick={next}
-            className="text-white text-3xl hover:text-pink-600 transition"
-            aria-label="Next"
-          >
-            <FaArrowRight />
-          </button>
-        </div>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

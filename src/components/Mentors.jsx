@@ -30,7 +30,7 @@ const mentors = [
 
 const Mentors = () => {
   return (
-    <Section>
+    <Section crosses={true}>
       <section className="mentor-section mentor-res bg-n-8">
         <div className="container">
           <h2 className="h2 text-center mb-12">Our Mentors</h2>
