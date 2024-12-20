@@ -48,7 +48,7 @@ const Team = () => {
               Meet the amazing team behind the success of our club. Each member brings unique skills and dedication
               to ensure that we grow and make an impact.
             </p>
-           <Button href="/team">More About Us</Button>
+           <Button white href="/team">More About Us</Button>
           </div>
 
           <div className="relative w-full  flex items-center justify-center">
