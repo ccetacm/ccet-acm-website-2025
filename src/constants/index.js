@@ -86,7 +86,7 @@ export const navigation = [
   {
     id: "9",
     title: "ACM-W",
-    url: "#acmw",
+    url: "/acmw",
     onlyMobile: true,
   },
 ];

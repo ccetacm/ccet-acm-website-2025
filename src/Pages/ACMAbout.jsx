@@ -53,43 +53,22 @@ export default function AboutHero() {
       <div className=" text-white py-20 px-4 md:px-8">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 ">
-            About ACM
+          CCET ACM-W Student Chapter
           </h1>
-          
-          <p className="text-gray-300 text-lg max-w-3xl mx-auto">
-            "Advancing Computing as a Science & Profession"
-          </p>
+          <div className="h-1 w-24 bg-gradient-to-r from-purple-600 to-blue-500 mx-auto rounded-full"></div>
         </div>
 
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-center gap-12">
             <div className="md:w-1/2 space-y-6">
-              <p className="text-gray-300 font-semibold text-xl leading-relaxed">
-                The Association for Computing Machinery (ACM) is an international learned society for computing. Founded in 1947, it is the world's largest scientific and educational computing society, serving as an umbrella organization for academic and scholarly interests in computer science.
+              <p className="text-gray-300 font-semibold text-md leading-relaxed">
+              ACM-W Team at CCET is a dynamic group of individuals passionate about advancing women in computing. Committed to creating an inclusive environment, the team organizes engaging events, workshops, and mentorship programs, providing valuable opportunities for skill enhancement and networking. With a dedication to empowering women in technology, the ACM-W team at CCET cultivates a supportive community, encouraging members to thrive and contribute to the ever-evolving landscape of computing.
               </p>
-
-              <div className="grid grid-cols-2 gap-6 mt-8">
-                <div className="flex items-start space-x-4">
-                  <Users className="w-8 h-8 text-blue-400 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold mb-2">Global Community</h3>
-                    <p className="text-gray-400 text-sm">100,000+ members worldwide</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <Globe2 className="w-8 h-8 text-purple-400 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold mb-2">International Impact</h3>
-                    <p className="text-gray-400 text-sm">Leading global initiatives</p>
-                  </div>
-                </div>
-              </div>
             </div>
             
             <div className="md:w-1/2 flex justify-center">
               <img
-                src="./images/acm_plain_logo.png"
+                src="./images/acm-w-logo.png"
                 alt="Technology collaboration"
                 className="h-96 w-96 object-contain"
               />
@@ -98,18 +77,6 @@ export default function AboutHero() {
         </div>
       </div>
 
-      {/* About CASC Section */}
-      <div className=" text-white py-20 px-4 md:px-8">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            ABOUT CASC
-          </h1>
-          <div className="h-1 w-24 bg-gradient-to-r from-purple-600 to-blue-500 mx-auto rounded-full"></div>
-          <p className="text-gray-300 text-md mt-6 max-w-3xl mx-auto">
-            CCET ACM Student Chapter believes in providing a healthy environment where creativity and imagination can flourish. Through collaboration and engagement in a plethora of technical activities and projects, we envision to build a community of like-minded people who love to code, collaborate and have fun!
-          </p>
-        </div>
-      </div>
 
       {/* Purpose Section */}
       <div className=" py-20 px-4 md:px-8">

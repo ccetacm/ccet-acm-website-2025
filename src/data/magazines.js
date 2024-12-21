@@ -13,7 +13,7 @@ export const magazineData = [
     title: 'January-February 2024',
     description: '',
     thumbnail: janFebCover,
-    pdfLink: "https://drive.google.com/file/d/1RVxUc6YCNxRl7jDBgNtmfqbLdadHG4D6/view?usp=drivesdk",
+    pdfLink: "./pdfs/jan-feb-pdf.pdf",
     keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
   },
   {
@@ -23,7 +23,7 @@ export const magazineData = [
     title: 'March-April 2024',
     description: '',
     thumbnail: marAprCover,
-    pdfLink: "https://drive.google.com/file/d/1ALPaqVdvQNVLjRtiTEuX2_QV3LCnt8pS/view?usp=drivesdk",
+    pdfLink: "./pdfs/mar-apr-pdf.pdf",
     keywords: ['ai', 'machine learning', 'data science', 'technology','web3']
   },
   {
@@ -33,7 +33,7 @@ export const magazineData = [
     title: 'May-June 2024',
     description: '',
     thumbnail: mayJunCover,
-    pdfLink: "https://drive.google.com/file/d/1dWspZPHLQ42l8PE99ekXiWxpuBMeiBaq/view?usp=drivesdk",
+    pdfLink: "./pdfs/may-jun-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   {
@@ -43,7 +43,7 @@ export const magazineData = [
     title: 'July-August 2024',
     description: '',
     thumbnail: julAugCover,
-    pdfLink: "https://drive.google.com/file/d/1lVH9IXeG0teEukrsVxr7qgYYcNG_BLEx/view?usp=drivesdk",
+    pdfLink: "./pdfs/jul-aug-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   {
@@ -53,7 +53,7 @@ export const magazineData = [
     title: 'September-October 2024',
     description: '',
     thumbnail: sepOctCover,
-    pdfLink: "https://drive.google.com/file/d/12V4lpS0TRFNNtmO-zfCG5-6nv3jJwPol/view?usp=drivesdk",
+    pdfLink: "./pdfs/sep-oct-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   {
@@ -63,7 +63,7 @@ export const magazineData = [
     title: 'November-December 2024',
     description: '',
     thumbnail: novDecCover,
-    pdfLink: "https://drive.google.com/file/d/1vBhfkqrb36AIEZt2ME5584IG96JQCphY/view?usp=drivesdk",
+    pdfLink: "./pdfs/nov-dec-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   // ... (previous data with keywords)
