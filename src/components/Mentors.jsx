@@ -1,9 +1,5 @@
 import React from 'react';
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import mentor1 from "../acm-assets/mentor1.png";
-import mentor2 from "../acm-assets/mentor-2.png";
-import mentor3 from "../acm-assets/mentor3.png";
-import mentor4 from "../acm-assets/mentor4.png";
 import Section from './Section';
 import "../styles/acmwstyles.css";
 
@@ -12,19 +8,19 @@ const mentors = [
     name: 'Dr. Manpreet Singh',
     designation: 'Principal CCET Degree Wing',
     description: 'Our mission at CCET is not only to produce engineering graduates but to produce engineering minds.',
-    imageUrl: mentor1,
+    imageUrl: "./acm-assets-2/mentor1.png",
   },
   {
     name: 'Dr. Sunil K. Singh',
     designation: 'Professor and HOD, CSE Faculty Mentor',
     description: 'ACM CCET provides student a great opportunity to learn scientific and practical approach of computer science.',
-    imageUrl: mentor2,
+    imageUrl: "./acm-assets-2/mentor-2.png",
   },
   {
     name: 'Sudhakar Kumar',
     designation: 'Assistant Professor, CSE Faculty',
     description: 'ACM CCET provides every person with an opportunity to learn, heighten and explore the field of computer science.',
-    imageUrl: mentor3,
+    imageUrl: "./acm-assets-2/mentor3.png",
   },
 ];
 

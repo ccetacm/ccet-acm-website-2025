@@ -1,9 +1,5 @@
 
 
-import event1 from "../acm-assets-2/event9.jpg";
-import event2 from "../acm-assets-2/event10.jpg";
-import event3 from "../acm-assets-2/event2.jpg";
-
 import React, { useState, useEffect } from 'react';
 import { MessageSquare, Star, Lightbulb, Rocket, Users, Calendar, Clock, ArrowRight } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';
@@ -50,7 +46,7 @@ const TalkWithTechie = () => {
         name: "Dr. Suresh Kumar",
         role: "Professor and Head",
         company: "Department of Ophthalmology",
-        image: event3,
+        image: "./acm-assets-2/event2.jpg",
       },
       topic: "Computer Vision Syndrome(COVID Era Perspectives)",
       date: "May 27, 2022",
@@ -62,7 +58,7 @@ const TalkWithTechie = () => {
         name: "Mr Saurabh Pratap Singh",
         role: "Assistant Commissioner",
         company: "Income Tax, New Delhi",
-        image: event2,
+        image: "./acm-assets-2/event10.jpg",
       },
       topic: "CCET ACM Student Chapter presents Invited Talk 2021",
       date: "AUG. 31, 2021",

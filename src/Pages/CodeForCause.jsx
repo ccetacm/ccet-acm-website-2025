@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Users, Code, Heart, Globe, BookOpen, Trophy, ArrowRight } from 'lucide-react';
-import event1 from '../acm-assets-2/event4.jpg';
-import event2 from '../acm-assets-2/event4.png';
-import event3 from '../acm-assets-2/event5.jpg';
-
 
 const CodeForCause = () => {
   const [activeSection, setActiveSection] = useState('about');
@@ -48,7 +44,7 @@ const CodeForCause = () => {
       date: "Dec. 09, 2023",
       attendees: 80,
       type: "Workshop",
-      image: event1,
+      image: "./acm-assets-2/event4.jpg",
       description: "On December 9th, 2023, CCET ACM and ACM-W orchestrated an Hour of Code event, a compelling initiative coinciding with Computer Science Education Week."
     },
     {
@@ -56,7 +52,7 @@ const CodeForCause = () => {
       date: "14 August, 2022",
       attendees: 100,
       type: "Competition",
-      image: event3,
+      image: "./acm-assets-2/event5.jpg",
       description: "CCET ACM & ACM-W student chapter on occasion of Azadi ka amrit mahotsav is conducting a poster design contest Azadi Ke Rang to gear up the students on this INDEPENDENCE DAY"
     },
     {
@@ -64,7 +60,7 @@ const CodeForCause = () => {
       date: "Oct. 06, 2023",
       attendees: 75,
       type: "Workshop",
-      image: event2,
+      image: "./acm-assets-2/event4.jpg",
       description: "On October 6, 2023, the CCET ACM and ACM-W student chapters hosted a highly informative event title - Introduction to Hacktoberfest 2023." 
     }
   ];

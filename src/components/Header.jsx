@@ -1,9 +1,5 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
-
-import { brainwave } from "../jsm-assets";
-import acmLogo from '../acm-assets/ccet-logo-white.png';
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../jsm-assets/svg/MenuSvg";
@@ -39,7 +35,7 @@ const Header = () => {
     >
       <div className="flex items-center px-4 lg:px-6 xl:px-8 max-lg:py-4">
         <a className="block w-[10rem] xl:mr-4" href="/">
-          <img src={acmLogo} width={150} height={35} alt="Acm" />
+          <img src={"./acm-assets-2/ccet-logo-white.png"} width={150} height={35} alt="Acm" />
         </a>
 
         <nav
@@ -75,7 +71,7 @@ const Header = () => {
         >
           Contact
         </a>
-        <Button className="hidden lg:flex" href="#acmw">
+        <Button className="hidden lg:flex" href="/acmw">
           ACM-W
         </Button>
 

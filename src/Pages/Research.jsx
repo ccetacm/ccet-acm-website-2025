@@ -1,7 +1,4 @@
 import WorldMap from '../components/WorldMap';
-import event1 from '../acm-assets-2/event1.jpg';
-import event2 from '../acm-assets-2/event2.jpg';
-import event3 from '../acm-assets-2/event3.jpg';
 
 
 import React, { useEffect, useState } from 'react';
@@ -33,19 +30,19 @@ const Research = () => {
       title: "Blockchain Technology",
       duration: "Sept. 7, 2022",
       description: "CASC Under AICTE SPICES is glad to announce a session on the blockchain. The session will focus on concepts, principles, and applications of blockchain, starting with the basics of hashing and scaling up to cover the topics of proof of work, steak, etc.s",
-      image: event1,
+      image: "./acm-assets-2/event1.jpg",
     },
     {
       title: "Computer Vision Syndrome(COVID Era Perspectives)",
       duration: "May 27, 2022",
       description: "CASC is back with another amazing Session on Computer Vision Syndrome - COVID Era Perspectives. Where you will be given insights about caring yourself from computers and measures to improve our health.",
-      image: event2,
+      image: "./acm-assets-2/event2.jpg",
     },
     {
       title: "Robotics and Embedded Systems",
       duration: "April 19, 2022",
       description: "The CCET ACM and ACM-W Student Chapter is back with another amazing workshop on Robotics and Embedded Systems where you will be given an insight on Arduino and Embedded Systems",
-      image: event3,
+      image: "./acm-assets-2/event3.jpg",
     }
   ];
 

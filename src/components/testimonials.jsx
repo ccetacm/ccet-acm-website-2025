@@ -1,55 +1,47 @@
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import quotesImg from "../acm-assets-2/quotes-1.png";
 
-
-import profile1 from "../acm-assets-2/profile-1.jpg"
-import profile2 from "../acm-assets-2/profile-2.jpeg"
-import profile3 from "../acm-assets-2/profile3.jpg"
-import profile4 from "../acm-assets-2/profile-4.jpeg"
-import profile5 from "../acm-assets-2/profile-5.jpg"
-import profile6 from "../acm-assets-2/profile-6.jpg"
 
 
 const Testimonials = () => {
   const testimonials_data = [
     {
-      img: profile1,
+      img: "./acm-assets-2/profile-1.jpg",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
       testimonial_name: "Akash Sharma",
       text_block: "Chairperson",
     },
     {
-      img: profile2,
+      img: "./acm-assets-2/profile-2.jpeg",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
       testimonial_name: "Tarun",
       text_block: "Vice Chaiperson",
     },
     {
-      img: profile3,
+      img: "./acm-assets-2/profile3.jpg",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
       testimonial_name: "Uday Madan",
       text_block: "Secretary",
     },
     {
-      img: profile4,
+      img: "./acm-assets-2/profile-4.jpeg",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
       testimonial_name: "Mehak Preet",
       text_block: "Membership chair",
     },
     {
-      img: profile5,
+      img: "./acm-assets-2/profile-5.jpg",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
       testimonial_name: "Aishita",
       text_block: "Treasurer",
     },
     {
-      img: profile6,
+      img: "./acm-assets-2/profile-6.jpg",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
       testimonial_name: "Devashish Gupta",
@@ -95,7 +87,7 @@ const Testimonials = () => {
                 {/* Quote and Testimonial Text */}
                 <div className="flex items-start gap-4">
                   <img
-                    src={quotesImg}
+                    src={"./acm-assets-2/quotes.png"}
                     alt="Quotes"
                     className="w-8 h-8 self-start"
                   />

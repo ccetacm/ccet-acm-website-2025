@@ -8,11 +8,6 @@ import {
   BookOpen, Star, Laptop
 } from 'lucide-react';
 
-
-import event1 from '../acm-assets-2/event11.jpg';
-import event2 from '../acm-assets-2/event12.jpg';
-import event3 from '../acm-assets-2/event13.jpg';
-
 const InitiativesPage = () => {
   const [scrollY, setScrollY] = useState(0);
 
@@ -28,21 +23,21 @@ const InitiativesPage = () => {
       attendees: 200,
       date: "Dec. 28, 2022",
       description: "CCET- ACM and ACM-W student chapter is organizing an event Talk Regarding Google Summer of Code under AICTE SPICE Scheme.",
-      image: event1
+      image: "./acm-assets-2/event11.jpg"
     },
     {
       title: "Technology Use and Integration",
       attendees: 250,
       date: "Dec. 27, 2022",
       description: "One Day Online Workshop on National Education Policy (NEP-2020) on the Topic - Technology Use and Integration",
-      image: event2
+      image: "./acm-assets-2/event12.jpg"
     },
     {
       title: "Meet the Mentor",
       attendees: 180,
       date: "FEB. 12 , 2022",
       description: "CASC have organized a meeting with mentors with CCET faculty in order to learn more about the curriculum and technology Why connect with a mentor.",
-      image: event3
+      image: "./acm-assets-2/event13.jpg"
     }
   ];
 

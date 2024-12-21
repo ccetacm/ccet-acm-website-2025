@@ -1,6 +1,4 @@
 import { curve, heroBackground } from "../jsm-assets";
-import acmImage from '../acm-assets/acm-png.png';
-import acmWImage from '../acm-assets/acmW-png.png';
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -55,7 +53,7 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={isACM ? acmImage : acmWImage}
+                  src={isACM ? "./acm-assets-2/acm-png.png" : "/acm-assets-2/acmW-png.png"}
                   className="w-full h-full object-cover object-center"
                   alt={isACM ? "ACM" : "ACM-W"}
                 />

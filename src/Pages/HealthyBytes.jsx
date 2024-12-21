@@ -5,9 +5,6 @@ import {
   Activity, Target, ArrowRight
 } from 'lucide-react';
 
-import event1 from '../acm-assets-2/event14.jpg';
-import event2 from '../acm-assets-2/event15.jpg';
-import event3 from '../acm-assets-2/event16.jpg';
 
 
 const HealthyBytesPage = () => {
@@ -25,21 +22,21 @@ const HealthyBytesPage = () => {
       attendees: 150,
       date: "Jan. 05, 2023",
       description: "CCET- ACM and ACM-W student chapter is organizing an event Let us C Programming under AICTE SPICE Scheme.",
-      image: event1,
+      image: "./acm-assets-2/event14.jpg",
     },
     {
       title: "C++ STL",
       attendees: 200,
       date: "Jan. 07, 2023",
       description: "CCET- ACM and ACM-W student chapter is organizing an event C++ STL under AICTE SPICE Scheme",
-      image:event2,
+      image: "./acm-assets-2/event15.jpg",
     },
     {
       title: "Getting Started with Arduino",
       attendees: 175,
       date: "FEB. 13 , 2022",
       description: "The CCET ACM and ACM-W Student Chapter is back with another amazing workshop on  Getting Started with Arduino",
-      image: event3,
+      image: "./acm-assets-2/event16.jpg",
     }
   ];
 

@@ -1,10 +1,3 @@
-import janFebCover from "../acm-assets-2/jan-feb-cover.jpg"
-import marAprCover from "../acm-assets-2/march-april-cover.jpg"
-import mayJunCover from "../acm-assets-2/may-june-cover.jpg"
-import sepOctCover from "../acm-assets-2/sep-oct-cover.jpg"
-import novDecCover from "../acm-assets-2/nov-dec-cover.jpg"
-import julAugCover from "../acm-assets-2/jul-aug-cover.jpg";
-
 export const magazineData = [
   {
     id: 'v5i1',
@@ -12,7 +5,7 @@ export const magazineData = [
     issue: 1,
     title: 'January-February 2024',
     description: '',
-    thumbnail: janFebCover,
+    thumbnail: "./acm-assets-2/jan-feb-cover.jpg",
     pdfLink: "./pdfs/jan-feb-pdf.pdf",
     keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
   },
@@ -22,7 +15,7 @@ export const magazineData = [
     issue: 2,
     title: 'March-April 2024',
     description: '',
-    thumbnail: marAprCover,
+    thumbnail: "./acm-assets-2/march-april-cover.jpg",
     pdfLink: "./pdfs/mar-apr-pdf.pdf",
     keywords: ['ai', 'machine learning', 'data science', 'technology','web3']
   },
@@ -32,7 +25,7 @@ export const magazineData = [
     issue: 3,
     title: 'May-June 2024',
     description: '',
-    thumbnail: mayJunCover,
+    thumbnail: "./acm-assets-2/may-june-cover.jpg",
     pdfLink: "./pdfs/may-jun-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
@@ -42,7 +35,7 @@ export const magazineData = [
     issue: 4,
     title: 'July-August 2024',
     description: '',
-    thumbnail: julAugCover,
+    thumbnail: "./acm-assets-2/jul-aug-cover.jpg",
     pdfLink: "./pdfs/jul-aug-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
@@ -52,7 +45,7 @@ export const magazineData = [
     issue: 5,
     title: 'September-October 2024',
     description: '',
-    thumbnail: sepOctCover,
+    thumbnail: "./acm-assets-2/sep-oct-cover.jpg",
     pdfLink: "./pdfs/sep-oct-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
@@ -62,9 +55,8 @@ export const magazineData = [
     issue: 6,
     title: 'November-December 2024',
     description: '',
-    thumbnail: novDecCover,
+    thumbnail: "./acm-assets-2/nov-dec-cover.jpg",
     pdfLink: "./pdfs/nov-dec-pdf.pdf",
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
-  // ... (previous data with keywords)
 ];

@@ -1,27 +1,21 @@
 import React from "react";
-import img1 from "../acm-assets-2/achieve1.jpeg";
-import img2 from "../acm-assets-2/achieve2.jpg";
-import img3 from "../acm-assets-2/achieve3.jpg";
-import img4 from "../acm-assets-2/achieve4.jpeg";
-import ImageCard from "../components/ImageCard";
-import Button from "../components/Button";
 
 const achievements = [
   {
     id: 1,
-    image: img1,
+    image: "./acm-assets-2/achieve1.jpeg",
     title: "CCET ACM Student Chapter featured on ACM India Website",
     description: "CCET ACM Student Chapter was featured on the official website of ACM India as the Chapter of the Month for reporting the highest amount of activities in the month of December and was highlighted the best among the 195 student chapters all over India...",
   },
   {
     id: 2,
-    image: img2,
+    image: "./acm-assets-2/achieve2.jpg",
     title: "Best paper award at International Conference on Smart Systems and Advanced Computing",
     description: "Sudhakar Kumar, Faculty Sponsor CCET ACM Student Chapter, won the BEST PAPER AWARD for his paper entitled Efficient Speculative Parallelization Architecture for Overcoming Speculation Overheads..."
   },
   {
     id: 3,
-    image: img4,
+    image: "./acm-assets-2/achieve4.jpeg",
     title: "Feature Editor for the ACM XRDS Magazine",
     description: "The CCET ACM Student Chapter is proud to announce that our Chairperson, Ms.Muskaan Chopra has been selected as the Feature Editor for the ACM XRDS magazine. XRDS is the flagship academic magazine for student members ..."
   },

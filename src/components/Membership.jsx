@@ -1,6 +1,5 @@
 import Section from './Section';
 import Button from './Button';
-import acmMembership from '../acm-assets/acm-membership.png'
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
 const Membership = () => {
@@ -21,7 +20,7 @@ const Membership = () => {
         {/* Image Section */}
         <div className="w-full lg:w-[30%] flex justify-center lg:justify-start">
           <img 
-            src={acmMembership} 
+            src={"./acm-assets-2/acm-membership.png"} 
             className="h-[300px] lg:h-[60%] transform transition-transform duration-300 hover:scale-105 rounded-md" 
             alt="ACMW Earth" 
           />

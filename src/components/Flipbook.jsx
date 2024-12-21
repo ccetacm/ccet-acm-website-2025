@@ -1,9 +1,4 @@
 import React, { useState } from "react";
-import bookCover from '../acm-assets-2/book-cover.png';
-import page1 from "../acm-assets-2/book-page1.jpg";
-import page2 from "../acm-assets-2/book-page2.png";
-import page3 from "../acm-assets-2/book-page3.png";
-import page4 from "../acm-assets-2/book-page4.png";
 import Section from "./Section";
 import { BottomLine } from "./design/Hero";
 
@@ -14,11 +9,11 @@ const Flipbook = () => {
   const [isViewerOpen, setViewerOpen] = useState(false);
 
   const pages = [
-    bookCover,
-    page1,
-    page2,
-    page3,
-    page4,
+    "./acm-assets-2/book-cover.png",
+    "./acm-assets-2/book-page1.jpg",
+    "./acm-assets-2/book-page2.png",
+    "./acm-assets-2/book-page3.png",
+    "./acm-assets-2/book-page4.png",
   ];
 
   const openBookViewer = () => {
@@ -57,7 +52,7 @@ const Flipbook = () => {
       >
         <img height={120}
           className="object-cover h-80 rounded-lg"
-          src={bookCover}
+          src={"./acm-assets-2/book-cover.png"}
           alt="Book Cover"
         />
       </div>

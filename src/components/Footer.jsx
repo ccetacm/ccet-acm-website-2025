@@ -1,10 +1,6 @@
 import React from 'react';
 import '../styles/footer.css';
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaEnvelope, FaLinkedinIn } from 'react-icons/fa';
-import { FiMapPin } from 'react-icons/fi';
-import { motion } from 'framer-motion';  // Import Framer Motion
-import acmLogo from '../acm-assets/ccet-logo-white.png';
-import Section from './Section';
 
 
 const Footer = () => {

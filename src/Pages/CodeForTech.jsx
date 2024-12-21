@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Code, Laptop, Briefcase, Award, Terminal, Cloud, Server, Cpu, ChevronRight, Users, Calendar, Clock } from 'lucide-react';
 
-import event1 from "../acm-assets-2/event6.jpg";
-import event2 from "../acm-assets-2/event7.jpg";
-import event3 from "../acm-assets-2/event8.png";
-
-
 
 const CodeForTech = () => {
   const [isVisible, setIsVisible] = useState({});
@@ -47,21 +42,21 @@ const CodeForTech = () => {
       title: "Covid Codathon",
       date: "19 April, 2020",
       attendees: "80",
-      image: event2,
+      image: "./acm-assets-2/event7.jpg",
       description: "ACM Student Chapter CCET alongside the Hackerrank platform, conducted an online codathon 'Covid-Codathon' on 19th April, 2020, to brush the coding skills, algorithmic knowledge, and problem-solving ability."
     },
     {
       title: "International Video Contest",
       date: "10 December, 2021",
       attendees: "50",
-      image: event1,
+      image: "./acm-assets-2/event6.jpg",
       description: "Insights2techinfo is organizing an International Video Contest. If you are a researcher, innovator, or ideator and don't wish to jump into long written articles, using video can enable you to share your ideas, innovation, technology, or any other perspective"
     },
     {
       title: "Code Crusade",
       date: "Nov. 22, 2023",
       attendees: "60",
-      image: event3,
+      image: "./acm-assets-2/event8.png",
       description: "The Code Crusade, a 12-hour hackathon hosted by CCET ACM & ACM-W Student Chapter as part of APRATIM 2023, immersed participants in a realm of coding excellence."
     }
   ];

@@ -1,6 +1,5 @@
 import Section from './Section';
 import Button from './Button';
-import earth from '../acm-assets/acmw-earth.png';
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import  '../styles/acmwstyles.css';
 
@@ -11,7 +10,7 @@ const AcmwDesc = () => {
         {/* Image Section */}
         <div className="w-full lg:w-[50%] mt-[-200px] lg:mt-[150px] flex justify-center lg:justify-start">
           <img 
-            src={earth} 
+            src={"./acm-assets-2/acmw-earth.png"} 
             className="h-[250px] lg:h-[50%] transform transition-transform duration-300 hover:scale-105 rounded-md" 
             alt="ACMW Earth" height="200px"/>
         </div>

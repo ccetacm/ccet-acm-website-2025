@@ -1,12 +1,3 @@
-import res1 from "../acm-assets-2/resource1.jpg"; 
-import res2 from "../acm-assets-2/resource2.png";
-import res3 from "../acm-assets-2/resource3.png";
-import res4 from "../acm-assets-2/resource4.png";
-import res5 from "../acm-assets-2/resource5.png";
-import res6 from "../acm-assets-2/resource6.jpg";
-import res7 from "../acm-assets-2/resource7.png";
-import res8 from "../acm-assets-2/resource8.png";
-
 import React, { useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -30,7 +21,7 @@ const topics = [
 const resources = [
   {
     id: 1,
-    image: res1,
+    image: "./acm-assets-2/resource1.jpg",
     title: "Brain Computer Interaction (BCI): A Way to Interact with Brain Waves",
     description: "Sudhakar Kumar, Sunil K. Singh",
     buttonText: "Read More",
@@ -38,7 +29,7 @@ const resources = [
   },
   {
     id: 2,
-    image: res2,
+    image: "./acm-assets-2/resource2.png",
     title: "Distributed Ledger Technology",
     description: "Manraj Singh, Sudhakar Kumar",
     buttonText: "Read More",
@@ -46,7 +37,7 @@ const resources = [
   },
   {
     id: 3,
-    image: res3,
+    image: "./acm-assets-2/resource3.png",
     title: "Digital Twins",
     description: "Tarun Vats, Sudhakar Kumar",
     buttonText: "Read More",
@@ -54,7 +45,7 @@ const resources = [
   },
   {
     id: 4,
-    image: res4,
+    image: "./acm-assets-2/resource4.png",
     title: "MLOps: A New Era Of DevOps, Powered By Machine Learning",
     description: "Muskaan Chopra, Sunik K Singh",
     buttonText: "Read More",
@@ -62,7 +53,7 @@ const resources = [
   },
   {
     id: 5,
-    image: res5,
+    image: "./acm-assets-2/resource5.png",
     title: "Metaverse Technology And It's Applications",
     description: "Mavneet Kaur, B.Gupta",
     buttonText: "Read More",
@@ -70,7 +61,7 @@ const resources = [
   },
   {
     id: 6,
-    image: res6,
+    image: "./acm-assets-2/resource6.jpg",
     title: "Edge Intelligence: A New Emerging Era",
     description: "A Dahiya, B.Gupta",
     buttonText: "Read More",
@@ -78,7 +69,7 @@ const resources = [
   },
   {
     id: 7,
-    image: res7,
+    image: "./acm-assets-2/resource7.png",
     title: "Blockchain For Data Science",
     description: "Dipesh Singla, Sudhakar Kumar",
     buttonText: "Read More",
