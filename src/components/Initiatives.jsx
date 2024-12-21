@@ -18,6 +18,24 @@ const Initiatives = () => {
           <div class="card-container in-section">
             <h2 class="h2 section-text ml-[-27px] text-white">Our Initiatives</h2>
             <div class="card__container">
+
+                  {/* <!-- Research & Innovation Card --> */}
+                  <article class="card__article card__green">
+                  <div class="card__scale-1"></div>
+                  <div class="card__scale-2"></div>
+      
+                  <div class="card__data">
+                    <img class="main3" src={Card3} alt=""/>
+                     <h2 class="card__title">Research & Sponsored Projects </h2>
+   
+                     <p class="card__description">
+                     International Collaborative and Sponsored Projects
+                     </p>
+   
+                     <Button href="/research" white>Learn More</Button>
+                  </div>
+               </article>
+
               {/* <!-- Code for Cause Card --> */}
                <article class="card__article">
                   <div class="card__scale-1"></div>
@@ -34,7 +52,7 @@ const Initiatives = () => {
                      {/* <a href="#" class="card__button">
                         Learn More 
                      </a> */}
-                     <Button href="#" white>Learn More</Button>
+                     <Button href="/codeforcause" white>Learn More</Button>
                   </div>
                </article>
 
@@ -51,26 +69,11 @@ const Initiatives = () => {
                       Code for Technology empowers coding for leading tech giants.
                      </p>
    
-                     <Button href="#" white>Learn More</Button>
+                     <Button href="/codefortech" white>Learn More</Button>
                   </div>
                </article>
 
-               {/* <!-- Research & Innovation Card --> */}
-               <article class="card__article card__green">
-                  <div class="card__scale-1"></div>
-                  <div class="card__scale-2"></div>
-      
-                  <div class="card__data">
-                    <img class="main3" src={Card3} alt=""/>
-                     <h2 class="card__title">Research on Tech </h2>
-   
-                     <p class="card__description">
-                      Fostering research and innovation to drive technological progress.
-                     </p>
-   
-                     <Button href="#" white>Learn More</Button>
-                  </div>
-               </article>
+         
 
                {/* <!-- Talk with Techies Card --> */}
 
@@ -87,7 +90,7 @@ const Initiatives = () => {
                     Engaging conversations with tech experts to inspire and inform.
                    </p>
  
-                   <Button href="#" white>Learn More</Button>
+                   <Button href="/talkwithtechie" white>Learn More</Button>
                 </div>
              </article>
 
@@ -104,7 +107,7 @@ const Initiatives = () => {
                   Exploring pathways to internships and career opportunities.
                  </p>
 
-                 <Button href="#" white>Learn More</Button>
+                 <Button href="/careerpathway" white>Learn More</Button>
               </div>
            </article>
 
@@ -121,7 +124,7 @@ const Initiatives = () => {
                     Empowering you with essential skills for a healthier tomorrow.
                    </p>
   
-                   <Button href="#" white>Learn More</Button>
+                   <Button href="/healthybytes" white>Learn More</Button>
                 </div>
              </article>
             </div>

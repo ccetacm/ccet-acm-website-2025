@@ -22,7 +22,7 @@ const AcmwDesc = () => {
           <p className="body-1 max-w-3xl mx-auto lg:mx-0 mb-6 text-n-2 lg:mb-8 ">
             ACM-W takes forward the torch of ACM but with a special focus on women and empowers them in a way that they lead the world in the field of technology and provides them a path and platform to showcase their talent and hard work, which also gets recognized at the global level.
           </p>
-          <Button>Learn More</Button>
+          <Button white>Learn More</Button>
         </div>
       </div>
 

@@ -18,6 +18,9 @@ export default {
         stroke: {
           1: "#26242C",
         },
+        animation: {
+          'pulse': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        },
         n: {
           1: "#FFFFFF",
           2: "#CAC6DD",
