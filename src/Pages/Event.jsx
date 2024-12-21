@@ -22,17 +22,12 @@ export default function EventsPage() {
   };
 
   return (
-    <div className="min-h-screen  pb-12"> 
+    <div className="min-h-screen pb-12"> 
       {/* Hero Section */}
-      <div className="relative ">
-        <div className="absolute inset-0">
-          <div className="absolute inset-0"></div>
-          <div className="absolute inset-0 /90"></div>
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
+      <div className="relative">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-36 md:pt-28 lg:pt-24 pb-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-2 text-white">Events</h1>
+            <h1 className="text-4xl sm:text-4xl lg:text-6xl font-bold mb-2 text-white">Events</h1>
           </div>
         </div>
       </div>

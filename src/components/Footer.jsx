@@ -30,37 +30,36 @@ const Footer = () => {
             <div class="footer-col">
               <h4>CCET ACM</h4>
               <ul>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">resources</a></li>
-                <li><a href="#">gallery</a></li>
-                <li><a href="#">events</a></li>
+                <li><a href="/about">about us</a></li>
+                <li><a href="/resoruces">resources</a></li>
+                <li><a href="/gallery">gallery</a></li>
+                <li><a href="/events">events</a></li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>explore</h4>
               <ul>
-                <li><a href="#">about</a></li>
-                <li><a href="#">home</a></li>
-                <li><a href="#">team</a></li>
-                <li><a href="#">achievements</a></li>
-                <li><a href="#">acm-w</a></li>
+                <li><a href="/about">about</a></li>
+                <li><a href="/">home</a></li>
+                <li><a href="/team">team</a></li>
+                <li><a href="/achievments">achievements</a></li>
+                <li><a href="/acmw">acm-w</a></li>
               </ul>
             </div>
             <div id="footer" class="footer-col">
               <h4>contact us</h4>
               <ul>
-                <li><a href="#">webmasters</a></li>
-                <li><a href="#">magazine</a></li>
-                <li><a href="#">get in touch</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="/magazine">magazine</a></li>
+                <li><a href="#contact">get in touch</a></li>
+                <li><a href="#contact">contact</a></li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>follow us</h4>
               <div class="social-links">
-                <a href="#" class="icons"><FaFacebookF/></a>
-                <a href="#" class="icons"><FaInstagram/></a>
-                <a href="#" class="icons"><FaTwitter/></a>
+                <a href="https://www.facebook.com/acmccet" target="_blank" class="icons"><FaFacebookF/></a>
+                <a href="https://www.instagram.com/acmccet/" target="_blank" class="icons"><FaInstagram/></a>
+                <a href="https://x.com/acmccet" target="_blank"class="icons"><FaTwitter/></a>
                 {/* <!-- <a href="#"><i class="icons fab fa-linkedin-in"></i></a> --> */}
               </div>
             </div>

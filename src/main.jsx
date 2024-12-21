@@ -11,6 +11,7 @@ import Team from './Pages/Team.jsx';
 import Gallery from './Pages/Gallery.jsx';
 import Event from './Pages/Event.jsx';
 import About from './Pages/About.jsx';
+import ACMAbout from './Pages/ACMAbout.jsx';
 import './index.css';
 import Research from './Pages/Research.jsx';
 import CodeForCause from './Pages/CodeForCause.jsx';
@@ -30,6 +31,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/team" element={<Team />} />
         <Route path="/about" element={<About /> } />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/acmw" element={<ACMAbout />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/research" element={<Research />} />
