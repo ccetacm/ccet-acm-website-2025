@@ -91,6 +91,9 @@ const Research = () => {
           </button>
         </section>
 
+{/* 
+        World Map Section */}
+
         <div className='bg-[#0E0C15]'>
           <div>
              <h2 className="text-3xl text-[#9B78F7] text-center pb-5">
@@ -101,8 +104,6 @@ const Research = () => {
           <WorldMap/>
           </div>
         </div>
-
-    
 
        {/* Rest of the sections remain the same - Stats, Research Areas, Featured Projects, and CTA */}
         {/* Stats Section */}
