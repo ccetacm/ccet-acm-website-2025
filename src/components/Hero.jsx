@@ -76,7 +76,7 @@ const Hero = () => {
 
           <BackgroundCircles />
           <div className="text-center mt-10">
-            <Button onClick={toggleDepartment}>
+            <Button white onClick={toggleDepartment}>
               {isACM ? "ACM-W" : "ACM"}
             </Button>
           </div>

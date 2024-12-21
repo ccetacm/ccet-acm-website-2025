@@ -12,6 +12,12 @@ import Gallery from './Pages/Gallery.jsx';
 import Event from './Pages/Event.jsx';
 import About from './Pages/About.jsx';
 import './index.css';
+import Research from './Pages/Research.jsx';
+import CodeForCause from './Pages/CodeForCause.jsx';
+import TalkWithTechie from './Pages/TalkWithTechie.jsx';
+import CodeForTech from './Pages/CodeForTech.jsx';
+import HealthyBytes from './Pages/HealthyBytes.jsx';
+import CareerPathway from './Pages/CareerPathway.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -26,6 +32,12 @@ createRoot(document.getElementById('root')).render(
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="/research" element={<Research />} />
+        <Route path="/codeforcause" element={<CodeForCause/>} />
+        <Route path="/talkwithtechie" element={<TalkWithTechie/>} />
+        <Route path="/codefortech" element={<CodeForTech/>} />
+        <Route path="/healthybytes" element={<HealthyBytes/>} />
+        <Route path="/careerpathway" element={<CareerPathway/>} />
       </Routes>
       <Footer/>
     </Router>
