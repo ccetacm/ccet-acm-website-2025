@@ -1,5 +1,5 @@
-import WorldMap from '../components/WorldMap';
-
+import WorldMapDemo from '../components/WorldMap';
+// import WorldMap from '../components/ui/WorldMap';
 
 import React, { useEffect, useState } from 'react';
 import { 
@@ -101,7 +101,7 @@ const Research = () => {
              </h2>
           </div>
           <div className=' w-[80vw] border-2 border-[#1A274A] m-auto rounded-md'>
-          <WorldMap/>
+          <WorldMapDemo/>
           </div>
         </div>
 
