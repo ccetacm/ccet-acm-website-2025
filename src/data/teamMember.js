@@ -5,7 +5,7 @@ export const teamMembers = {
       "name": "Sahil Garg",
       "role": "Chairperson",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Sahil - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Sahil - 1.JPG",
       "github": "https://github.com/Sahil2004",
       "orcid": "https://orcid.org/0009-0009-2970-5550",
       "linkedin": "https://www.linkedin.com/in/sahil2004"
@@ -15,7 +15,7 @@ export const teamMembers = {
       "name": "Saksham Arora",
       "role": "Vice Chairperson",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Saksham - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Saksham - 1.JPG",
       "github": "https://github.com/sakshamaroraccet",
       "orcid": "https://orcid.org/https://orcid-org/0009-0009-2784-7395",
       "linkedin": "https://www.linkedin.com/in/saksham-arora-81b344291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
@@ -25,7 +25,7 @@ export const teamMembers = {
       "name": "Samar Pratap Singh ",
       "role": "Secretary",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Samar - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Samar - 1.JPG",
       "github": "https://github.com/samar-pratap-singh230",
       "orcid": "https://orcid.org/0009-0005-1606-0731",
       "linkedin": "https://www.linkedin.com/in/samar-pratap-singh-9466ba255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -35,7 +35,7 @@ export const teamMembers = {
       "name": "Trannum",
       "role": "Membership Chairperson",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Tranum - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Tranum - 1.JPG",
       "github": "https://github.com/Trannumkhullar",
       "orcid": "https://orcid.org/0009-0005-9569-5056",
       "linkedin": "https://www.linkedin.com/in/trannum-khullar-17b2a7284/"
@@ -45,7 +45,7 @@ export const teamMembers = {
       "name": "Divyansh Manro ",
       "role": "Treasurer",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Divyansh - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Divyansh - 1.JPG",
       "github": "https://github.com/divyansh-manro",
       "orcid": "https://orcid.org/0009-0001-2506-3599",
       "linkedin": "https://www.linkedin.com/in/divyansh-manro"
@@ -55,7 +55,7 @@ export const teamMembers = {
       "name": "Harshit Vashisht",
       "role": "Web Master",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Harshit - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Harshit - 1.JPG",
       "github": "https://github.com/HarshitVashisht11",
       "orcid": "https://orcid.org/0009-0009-9870-9969",
       "linkedin": "https://www.linkedin.com/in/harshit-vashisht-145872257"
@@ -65,7 +65,7 @@ export const teamMembers = {
       "name": "Rajneesh ",
       "role": "Design Head",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Rajneesh - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Rajneesh - 1.JPG",
       "github": "https://github.com/BestCoder13",
       "orcid": "https://orcid.org/0009-0002-1981-2343",
       "linkedin": "https://www.linkedin.com/in/rajneesh-kumar-5202122ab/"
@@ -75,7 +75,7 @@ export const teamMembers = {
       "name": "Yuvraj",
       "role": "Executive Member Head",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Yuvraj - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Yuvraj - 1.JPG",
       "github": "https://github.com/redhuyuvraj",
       "orcid": "https://orcid.org/0009-0003-1825-4973",
       "linkedin": "https://www.linkedin.com/in/yuvraj-redhu-1558a8260/"
@@ -85,7 +85,7 @@ export const teamMembers = {
       "name": "Nipun Singh",
       "role": "Editorial Head",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Nipun - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Nipun - 1.JPG",
       "github": "https://github.com/Nipun-Singh",
       "orcid": "https://orcid.org/0009-0002-7227-1873",
       "linkedin": "linkedin.com/in/nipun-singh-396596246"
@@ -95,7 +95,7 @@ export const teamMembers = {
       "name": "Dikshant Rajput",
       "role": "Social Media Manager",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Dikshant - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Dikshant - 1.JPG",
       "github": "https://github.com/rajputdikshant",
       "orcid": "https://orcid.org/0009-0005-3513-824X",
       "linkedin": "https://www.linkedin.com/in/dikshantrajput/"
@@ -105,7 +105,7 @@ export const teamMembers = {
       "name": "Jaiveer Singh",
       "role": "External PR Head",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Jaiveer - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Jaiveer - 1.JPG",
       "github": "https://github.com/JaiveerSingh7",
       "orcid": "https://orcid.org/0009-0008-3579-5946",
       "linkedin": "https://www.linkedin.com/in/jaiveer-singh-481984272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -115,7 +115,7 @@ export const teamMembers = {
       "name": "Jasjeet Singh",
       "role": "Event Manager",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Jasjeet - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Jasjeet - 1.JPG",
       "github": "https://github.com/Jasjeet-Singh-S",
       "orcid": "https://orcid.org/0009-0005-1052-3125",
       "linkedin": "https://www.linkedin.com/in/jasjeet-singh-8832ba27b"
@@ -125,7 +125,7 @@ export const teamMembers = {
       "name": "Ayushi",
       "role": "Chairperson",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Ayushi - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Ayushi - 1.JPG",
       "github": "https://github.com/ayushim1200",
       "orcid": "https://orcid.org/0009-0001-7143-2578",
       "linkedin": "https://www.linkedin.com/in/ayushi-04050526b/"
@@ -135,7 +135,7 @@ export const teamMembers = {
       "name": "Simran Jaggi",
       "role": "Vice Chairperson",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Simran - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Simran - 1.JPG",
       "github": "https://github.com/sjaggi1",
       "orcid": "https://orcid.org/0009-0001-7143-2578",
       "linkedin": "https://www.linkedin.com/in/simran-jaggi-a62086291/"
@@ -145,7 +145,7 @@ export const teamMembers = {
       "name": "Vanshika Chilkoti",
       "role": "Secretary",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Vanshika - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Vanshika - 1.JPG",
       "github": "https://github.com/vanshikachilkoti",
       "orcid": "https://orcid.org/0009-0006-7594-8527",
       "linkedin": "https://www.linkedin.com/in/vanshika-chilkoti-57044226b/"
@@ -155,7 +155,7 @@ export const teamMembers = {
       "name": "Vanshika Singla",
       "role": "Membership Chairperson",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Vanshika Singla - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Vanshika Singla - 1.JPG",
       "github": "https://github.com/VanshikaSingla826",
       "orcid": "https://orcid.org/0009-0001-0722-1290",
       "linkedin": "https://www.linkedin.com/in/vanshika-singla-27452a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -165,7 +165,7 @@ export const teamMembers = {
       "name": "Janvi Sharma",
       "role": "Treasurer",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Janvi - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Janvi - 1.JPG",
       "github": "https://github.com/HAYAT1686",
       "orcid": "https://orcid.org/0009-0008-4010-6682",
       "linkedin": "https://www.linkedin.com/in/j-j-33bb19325"
@@ -175,7 +175,7 @@ export const teamMembers = {
       "name": "Japjot Singh Nanda ",
       "role": "Web Master",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Japjot - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Japjot - 1.JPG",
       "github": "https://github.com/CoderJap",
       "orcid": "https://orcid.org/0009-0000-7356-0509",
       "linkedin": "www.linkedin.com/in/japjot-singh-nanda-374a3a288"
@@ -185,7 +185,7 @@ export const teamMembers = {
       "name": "Rima Kumari",
       "role": "Design Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Rima - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Rima - 1.JPG",
       "github": "https://github.com/Rima-2004",
       "orcid": "https://orcid.org/0009-0008-8028-0511",
       "linkedin": "https://www.linkedin.com/in/rima-kumari-739391287/"
@@ -195,7 +195,7 @@ export const teamMembers = {
       "name": "Raj Kanwar Singh",
       "role": "Executive Member Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Raj - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Raj - 1.JPG",
       "github": "https://github.com/Kanwar5714",
       "orcid": "https://orcid.org/0009-0008-6313-7844",
       "linkedin": "https://www.linkedin.com/in/raj-kanwar/"
@@ -205,7 +205,7 @@ export const teamMembers = {
       "name": "Deepika Goyal",
       "role": "External Member Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Deepika - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Deepika - 1.JPG",
       "github": "https://github.com/dee-goyal",
       "orcid": "https://orcid.org/0009-0008-9615-6654",
       "linkedin": "https://www.linkedin.com/in/dee-goyal/"
@@ -215,7 +215,7 @@ export const teamMembers = {
       "name": "Anoop Pant",
       "role": "Social Media Manager",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Anoop - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Anoop - 1.JPG",
       "github": "https://github.com/pantanoop",
       "orcid": "https://orcid.org/0009-0008-3769-0777",
       "linkedin": "https://www.linkedin.com/in/anoop-pant-b3ab2a281/"
@@ -225,7 +225,7 @@ export const teamMembers = {
       "name": "Ravina Mittal ",
       "role": "External PR Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Ravina - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Ravina - 1.JPG",
       "github": "https://github.com/RAVINAMITTAL",
       "orcid": "https://orcid.org/0009-0009-6946-8836",
       "linkedin": "https://www.linkedin.com/in/ravina-mittal-399979319/"
@@ -235,7 +235,7 @@ export const teamMembers = {
       "name": "Deependra Singh",
       "role": "Event Manager",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2024-25/Deependra - 1.jpg",
+      "image": "./images/team-pics/CASC 2024-25/Deependra - 1.JPG",
       "github": "https://github.com/deependrasaharan",
       "orcid": "https://orcid.org/0009-0008-4667-3418",
       "linkedin": "https://www.linkedin.com/in/deependra-singh-721252296"
@@ -307,7 +307,7 @@ export const teamMembers = {
       "name": "Manya",
       "role": "Editorial Head",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2023-24/Manya.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Manya.JPG",
       "github": "https://github.com/ManyaGirdhar",
       "orcid": "https://orcid.org/0009-0006-2692-8634",
       "linkedin": "https://www.linkedin.com/in/manya-78a686245"
@@ -367,7 +367,7 @@ export const teamMembers = {
       "name": "Aishita",
       "role": "Chairperson",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Aishita-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Aishita-1.JPG",
       "github": "https://github.com/aishita2022",
       "orcid": "https://orcid.org/0000-0002-8649-3437",
       "linkedin": "https://www.linkedin.com/in/aishita-sharma-30b277232"
@@ -377,7 +377,7 @@ export const teamMembers = {
       "name": "Mehak Preet",
       "role": "Vice Chairperson",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Mehak-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Mehak-1.JPG",
       "github": "https://github.com/Mehak-Preet18",
       "orcid": "https://orcid.org/0000-0001-8166-8210/",
       "linkedin": "https://www.linkedin.com/in/mehak18p"
@@ -387,7 +387,7 @@ export const teamMembers = {
       "name": "Vanshika Bhardwaj",
       "role": "Secretary",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Vanshika B-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Vanshika B-1.JPG",
       "github": "https://github.com/vanshikabhardwaj7",
       "orcid": "https://orcid.org/0000-0002-8015-2244",
       "linkedin": "https://www.linkedin.com/in/vanshika-bhardwaj-0b2b83229/"
@@ -407,7 +407,7 @@ export const teamMembers = {
       "name": "Harkiran Kaur",
       "role": "Treasurer",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Harkiran-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Harkiran-1.JPG",
       "github": "https://github.com/HarkiranKaur20",
       "orcid": "https://orcid.org/0009-0001-6988-046X",
       "linkedin": "www.linkedin.com/in/harkiran-kaur-002b80261"
@@ -427,7 +427,7 @@ export const teamMembers = {
       "name": "Ayushi",
       "role": "Editorial Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Ayushi-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Ayushi-1.JPG",
       "github": "https://github.com/ayushim1200",
       "orcid": "https://orcid.org/0009-0002-4725-6698/",
       "linkedin": "https://www.linkedin.com/in/ayushi-04050526b/"
@@ -447,7 +447,7 @@ export const teamMembers = {
       "name": "Ritika Gupta",
       "role": "External PR Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Ritika-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Ritika-1.JPG",
       "github": "https://github.com/RCO21350",
       "orcid": "https://orcid.org/0009-0004-4043-9576",
       "linkedin": "https://www.linkedin.com/in/ritika-gupta-28b31b280"
@@ -457,7 +457,7 @@ export const teamMembers = {
       "name": "Avneet Kaur",
       "role": "Social Media Manager",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Avneet-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Avneet-1.JPG",
       "github": "https://github.com/avneetkaur0101",
       "orcid": "https://orcid.org/0000-0001-7597-9207",
       "linkedin": "https://www.linkedin.com/in/avneet-kaur-52213a261/"
@@ -467,7 +467,7 @@ export const teamMembers = {
       "name": "Simran Jaggi",
       "role": "Event Manager",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2023-24/Simran-1.jpg",
+      "image": "./images/team-pics/CASC 2023-24/Simran-1.JPG",
       "github": "https://github.com/sjaggi1",
       "orcid": "https://orcid.org/0009-0001-7143-2578",
       "linkedin": "www.linkedin.com/in/simran-jaggi-a62086291"
@@ -499,7 +499,7 @@ export const teamMembers = {
       "name": "Uday Madan",
       "role": "Secretary",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2022-23/uday_1.jpg",
+      "image": "./images/team-pics/CASC 2022-23/uday_1.JPG",
       "github": "https://github.com/UMwarrior",
       "orcid": "https://orcid.org/0000-0003-4354-166X",
       "linkedin": "https://www.linkedin.com/in/uday-madan-14753820b/"
@@ -861,7 +861,7 @@ export const teamMembers = {
       "name": "Kriti Aggarwal",
       "role": "Chairperson",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/kriti.jpg",
+      "image": "./images/team-pics/CASC 2021-22/kriti.JPG",
       "github": "https://github.com/kri14/",
       "orcid": "https://orcid.org/0000-0002-7415-0103",
       "linkedin": "https://www.linkedin.com/in/kriti-aggarwal-b372721a2/"
@@ -871,7 +871,7 @@ export const teamMembers = {
       "name": "Manisha Kumari",
       "role": "Vice Chairperson",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/manisha.jpg",
+      "image": "./images/team-pics/CASC 2021-22/manisha.JPG",
       "github": "https://github.com/manisha02feb",
       "orcid": "https://orcid.org/0000-0002-3185-0732",
       "linkedin": "https://www.linkedin.com/in/manisha-kumari-221837221/"
@@ -881,7 +881,7 @@ export const teamMembers = {
       "name": "Rishika Gaur",
       "role": "Secretary",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/RISHIKA.jpg",
+      "image": "./images/team-pics/CASC 2021-22/RISHIKA.JPG",
       "github": "https://github.com/Rishika-Gaur",
       "orcid": "https://orcid.org/0000-0002-2909-2119"
     },
@@ -890,7 +890,7 @@ export const teamMembers = {
       "name": "Shreya Pandey",
       "role": "Treasurer",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/shreya.jpg",
+      "image": "./images/team-pics/CASC 2021-22/shreya.JPG",
       "github": "https://github.com/shreya20011002",
       "orcid": "https://orcid.org/0000-0002-5990-4392",
       "linkedin": "https://www.linkedin.com/in/shreya-pandey-a8875320a/"
@@ -900,7 +900,7 @@ export const teamMembers = {
       "name": "Ishita Chamola",
       "role": "Membership Chair",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/ishita.jpg",
+      "image": "./images/team-pics/CASC 2021-22/ishita.JPG",
       "github": "https://github.com/ishitachamola",
       "orcid": "https://orcid.org/0000-0002-9552-6552",
       "linkedin": "https://www.linkedin.com/in/ishita-chamola-89a60520a/"
@@ -920,7 +920,7 @@ export const teamMembers = {
       "name": "Gopal Mengi",
       "role": "Editorial Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/Gopal.jpg",
+      "image": "./images/team-pics/CASC 2021-22/Gopal.JPG",
       "github": "https://github.com/GopalMengi",
       "orcid": "https://orcid.org/0000-0001-8702-642X",
       "linkedin": "https://www.linkedin.com/in/gopal-mengi-273476137/"
@@ -930,7 +930,7 @@ export const teamMembers = {
       "name": "Ishleen Kaur",
       "role": "Design Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/ishleen.jpg",
+      "image": "./images/team-pics/CASC 2021-22/ishleen.JPG",
       "github": "https://github.com/ishleenk25",
       "orcid": "https://orcid.org/0000-0002-2324-3908",
       "linkedin": "https://www.linkedin.com/in/ishleen-kaur-4b4a43129/"
@@ -940,7 +940,7 @@ export const teamMembers = {
       "name": "Anamika Sharma",
       "role": "Executive Member Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/anamika.jpg",
+      "image": "./images/team-pics/CASC 2021-22/anamika.JPG",
       "github": "https://github.com/anamika-sharma1",
       "orcid": "https://orcid.org/0000-0002-3989-2224",
       "linkedin": "https://www.linkedin.com/in/anamika-sharma-65576a21b/"
@@ -950,7 +950,7 @@ export const teamMembers = {
       "name": "Dhriti Bhasin",
       "role": "External PR Head",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/dhriti.jpg",
+      "image": "./images/team-pics/CASC 2021-22/dhriti.JPG",
       "github": "https://github.com/Dhriti11",
       "orcid": "https://orcid.org/0000-0001-9451-3023",
       "linkedin": "https://www.linkedin.com/in/dhriti-bhasin-099128173/"
@@ -960,7 +960,7 @@ export const teamMembers = {
       "name": "Uday Madan",
       "role": "Social Media Manager",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/UDAYold.jpg",
+      "image": "./images/team-pics/CASC 2021-22/UDAYold.JPG",
       "github": "https://github.com/UMwarrior",
       "orcid": "https://orcid.org/0000-0003-4354-166X",
       "linkedin": "https://www.linkedin.com/in/uday-madan-14753820b/"
@@ -970,7 +970,7 @@ export const teamMembers = {
       "name": "Deepak Mahto",
       "role": "Event Manager",
       "category": "ACM W",
-      "image": "./images/team-pics/CASC 2021-22/deepak.jpg",
+      "image": "./images/team-pics/CASC 2021-22/deepak.JPG",
       "github": "https://github.com/deepakm12",
       "orcid": "https://orcid.org/0000-0003-2826-9055",
       "linkedin": "https://www.linkedin.com/in/deepak-mahto-196694200/"

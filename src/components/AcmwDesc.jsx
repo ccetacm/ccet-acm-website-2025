@@ -6,7 +6,7 @@ import  '../styles/acmwstyles.css';
 const AcmwDesc = () => {
   return (
     <Section>
-      <div id="acmw" className="container acmw-section  lg:mt-[200px] mx-auto flex flex-col lg:flex-row items-center lg:space-x-10 mt-[80px]">
+      <div id="acmw" className="container acmw-section  mt-[200px] mx-auto flex flex-col lg:flex-row items-center lg:space-x-10 ">
         {/* Image Section */}
         <div className="w-full lg:w-[50%] mt-[-200px] lg:mt-[150px] flex justify-center lg:justify-start">
           <img 
