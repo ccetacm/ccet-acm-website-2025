@@ -58,7 +58,7 @@ const InitiativesPage = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-6">
+      <section className="relative min-h-screen  flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-radial from-[#994c9c]/10 via-transparent to-transparent"></div>
         <div className="mx-auto max-w-6xl relative z-10">
           <div className="flex flex-col items-center text-center">

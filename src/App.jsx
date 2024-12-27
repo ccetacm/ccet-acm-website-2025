@@ -7,7 +7,7 @@ import Mentors from "./components/Mentors";
 import Team from "./components/Team";
 import Flipbook from "./components/Flipbook";
 import Membership from "./components/Membership";
-import Testimonials from "./components/Testimonials";
+import Testimonials from "./components/testimonials";
 
 const App = () => {
   return (

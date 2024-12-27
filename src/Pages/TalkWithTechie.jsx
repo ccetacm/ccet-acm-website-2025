@@ -68,7 +68,7 @@ const TalkWithTechie = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0A0A1F]">
+    <div className="min-h-screen mt-[120px] lg:mt-0 bg-[#0A0A1F]">
       {/* Hero Section */}
       <section id="hero" className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
         <div className="absolute inset-0">

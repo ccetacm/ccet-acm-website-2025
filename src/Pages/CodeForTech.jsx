@@ -62,7 +62,7 @@ const CodeForTech = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0E0C15] text-white">
+    <div className="min-h-screen mt-[120px] lg:mt-0 bg-[#0E0C15] text-white">
       {/* Hero Section */}
       <section id="hero" className="relative min-h-screen flex items-center justify-center px-4">
         <div className="absolute inset-0">

@@ -1,149 +1,47 @@
-/* Container styles */
-.container {
-  max-width: 124rem;
-  padding: 2rem 1rem; /* Reduced padding */
-  margin: 0 auto;
-}
-
-.heading {
-  padding: 1rem 0;
-  font-size: 3.5rem;
-  text-align: center;
-}
-
-/* Swiper container adjustments */
-.swiper_container {
-  height: 35rem; /* Reduced from 45rem */
-  padding: 1rem 0; /* Reduced padding */
-  position: relative;
-}
-
-/* Swiper slide adjustments */
-.swiper-slide {
-  width: 25rem; /* Reduced from 30rem */
-  height: 30rem; /* Reduced from 38rem */
-  position: relative;
-}
-
-/* Responsive for smaller screens */
-@media (max-width: 500px) {
-  .swiper_container {
-    height: 32rem; /* Reduced from 40rem */
-  }
-  .swiper-slide {
-    width: 20rem !important; /* Reduced from 25rem */
-    height: 25rem !important; /* Reduced from 30rem */
-  }
-  .swiper-slide img {
-    width: 20rem !important;
-    height: 25rem !important;
-  }
-}
-
-/* Slide images with reduced dimensions */
-.swiper-slide img {
-  width: 25rem; /* Match slide width */
-  height: 30rem; /* Match slide height */
-  border-radius: 2rem;
-  object-fit: cover;
-}
-
-/* Hide shadows for 3D effect */
-.swiper-slide-shadow-left,
-.swiper-slide-shadow-right {
+/* Hide default navigation arrows */
+.swiper-button-next::after,
+.swiper-button-prev::after {
   display: none;
 }
 
-/* Slider controller styles */
-.slider-controler {
-  position: relative;
-  bottom: 0.5rem; /* Reduced from 1rem */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Slide Styles */
+.swiper-slide {
+  transition: transform 0.3s ease;
+  filter: brightness(0.7);
 }
 
-/* Adjust navigation button position and colors */
-.slider-controler .swiper-button-next,
-.slider-controler .swiper-button-prev {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.9
-  ); /* Make buttons visible with white background */
-  color: #222224; /* Dark text for better contrast */
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
-  gap: 30px;
-}
-.slider-controler .swiper-button-prev {
-  margin-left: -36px;
+.swiper-slide-active {
+  filter: brightness(1);
 }
 
-.swiper-button-next {
-  margin-left: 43px;
-}
-
-.slider-controler .swiper-button-next {
-  left: 38% !important;
-  transform: translateX(-45%) !important;
-}
-
-.slider-controler .swiper-button-prev {
-  left: 62% !important;
-  transform: translateX(-55%) !important;
-}
-
-@media (max-width: 990px) {
-  .slider-controler .swiper-button-next {
-    left: 60% !important;
-    transform: translateX(-60%) !important;
-  }
-  .slider-controler .swiper-button-prev {
-    left: 40% !important;
-    transform: translateX(-40%) !important;
-  }
-}
-
-/* For very small screens */
-@media (max-width: 450px) {
-  .slider-controler .swiper-button-next {
-    left: 70% !important;
-    transform: translateX(-70%) !important;
-  }
-  .slider-controler .swiper-button-prev {
-    left: 30% !important;
-    transform: translateX(-30%) !important;
-  }
-}
-
-/* Pagination styling for visibility on dark theme */
-.swiper-pagination {
-  position: relative;
-  width: 15rem !important;
-  bottom: 1rem;
-  margin-top: 12px;
-}
-
-/* Pagination bullet color change */
-.swiper-pagination .swiper-pagination-bullet {
-  background-color: white; /* White color for dark theme */
-  opacity: 0.7; /* Slight transparency */
-  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
-}
-
-.swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff6600; /* Active bullet color */
+/* Pagination Bullets */
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.5);
   opacity: 1;
 }
 
-.slider-controler .swiper-button-next::after,
-.slider-controler .swiper-button-prev::after {
-  content: none !important; /* Remove the unwanted symbols */
+.swiper-pagination-bullet-active {
+  background: white;
+  transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .swiper-slide {
+    width: 280px !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .swiper-slide {
+    width: 320px !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  .swiper-slide {
+    width: 380px !important;
+  }
 }
