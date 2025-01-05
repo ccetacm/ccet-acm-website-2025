@@ -6,47 +6,174 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const Testimonials = () => {
   const testimonials_data = [
     {
-      img: "./acm-assets-2/profile-1.jpg",
+      img: "./images/team-pics/CASC 2024-25/Sahil - 1.JPG",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
-      testimonial_name: "Akash Sharma",
+      testimonial_name: "Sahil Garg",
       text_block: "Chairperson",
     },
     {
-      img: "./acm-assets-2/profile-2.jpeg",
+      img: "./images/team-pics/CASC 2024-25/Ayushi - 1.JPG",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
-      testimonial_name: "Tarun",
+      testimonial_name: "Ayushi",
+      text_block: "Chairperson",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Saksham - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Saksham Arora",
       text_block: "Vice Chaiperson",
     },
     {
-      img: "./acm-assets-2/profile3.jpg",
+      img: "./images/team-pics/CASC 2024-25/Simran - 1.JPG",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
-      testimonial_name: "Uday Madan",
+      testimonial_name: "Simran Jaggi",
+      text_block: "Vice Chaiperson",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Samar - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Samar Pratap Singh",
       text_block: "Secretary",
     },
     {
-      img: "./acm-assets-2/profile-4.jpeg",
+      img: "./images/team-pics/CASC 2024-25/Vanshika - 1.JPG",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
-      testimonial_name: "Mehak Preet",
-      text_block: "Membership chair",
+      testimonial_name: "Vanshika Chilkoti",
+      text_block: "Secretary",
     },
     {
-      img: "./acm-assets-2/profile-5.jpg",
+      img: "./images/team-pics/CASC 2024-25/Divyansh - 1.JPG",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
-      testimonial_name: "Aishita",
+      testimonial_name: "Divyansh",
       text_block: "Treasurer",
     },
     {
-      img: "./acm-assets-2/profile-6.jpg",
+      img: "./images/team-pics/CASC 2024-25/Janvi - 1.JPG",
       content_text:
         "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
-      testimonial_name: "Devashish Gupta",
-      text_block: "Webmaster",
+      testimonial_name: "Janvi Sharma",
+      text_block: "Treasurer",
     },
+    {
+      img: "./images/team-pics/CASC 2024-25/Harshit - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Harshit Vashisht",
+      text_block: "Web Master",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Japjot - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Japjot",
+      text_block: "Web Master",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Rajneesh - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Rajneesh",
+      text_block: "Design Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Rima - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Rima",
+      text_block: "Design Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Yuvraj - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Yuvraj",
+      text_block: "Executive Member Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Raj - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Raj Kanwar",
+      text_block: "Executive Member Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Nipun - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Nipun",
+      text_block: "Editorial Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Deepika - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Deepika",
+      text_block: "Editorial Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Dikshant - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Dikshant Rajput",
+      text_block: "Social Media Manager",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Anoop - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Anoop",
+      text_block: "Social Media Manager",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Jaiveer - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Jaiveer",
+      text_block: "External PR Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Ravina - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Ravina Mittal",
+      text_block: "External PR Head",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Tranum - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Trannum",
+      text_block: "Membership chair",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Vanshika Singla - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Vanshika Singla",
+      text_block: "Membership chair",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Jasjeet - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Jasjeet",
+      text_block: "Event Manager",
+    },
+    {
+      img: "./images/team-pics/CASC 2024-25/Deependra - 1.JPG",
+      content_text:
+        "CCET ACM Student chapter is a group of people with similar interests and goals in computer science. Together, this platform focuses on growth and development at not only personal but professional level also it has a unique learning environment. It provides everyone an opportunity to learn something new.",
+      testimonial_name: "Deependra",
+      text_block: "Event Manager",
+    },
+    
   ];
 
 
