@@ -7,6 +7,8 @@ import Section from './Section';
 import Button from './Button';
 import "../styles/acmwstyles.css";
 
+
+
 const Team = () => {
   const currentTeam = teamMembers['2024-25'];
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -41,7 +41,7 @@ const HealthyBytesPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0E0C15] text-white overflow-hidden">
+    <div className="min-h-screen mt-[120px] lg:mt-0 bg-[#0E0C15] text-white overflow-hidden">
       {/* Interactive Background Effect */}
       <div className="fixed inset-0 z-0">
         <div className="absolute w-full h-full">
