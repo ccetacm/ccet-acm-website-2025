@@ -45,6 +45,7 @@ const Footer = () => {
             <div id="footer" class="footer-col">
               <h4>contact us</h4>
               <ul>
+                <li><a href="/webmasters">webmasters</a></li>
                 <li><a href="/magazine">magazine</a></li>
                 <li><a href="#contact">get in touch</a></li>
                 <li><a href="#contact">contact</a></li>
