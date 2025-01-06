@@ -13,8 +13,8 @@ export default function WorldMapDemo() {
               label: "India",
             },
             end: {
-              lat: 23.6978,
-              lng: 120.9605,
+              lat: 23.6978+1.0,
+              lng: 120.9605+1.0,
               label: "Taiwan",
             },
           },
@@ -64,6 +64,18 @@ export default function WorldMapDemo() {
               lat: 23.8859,
               lng: 45.0792,
               label: "Saudi Arabia",
+            },
+          },
+          {
+            start: {
+              lat: 20.5937,
+              lng: 78.9629,
+              label: "India",
+            },
+            end: {
+              lat: 22.396427-2.0,
+              lng: 114.109497-1.0,
+              label: "Hong Kong",
             },
           },
         ]}
