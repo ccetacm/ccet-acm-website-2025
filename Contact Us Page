@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CCET</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    body {
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0c15e6;
+}
+
+header {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    max-width: 200px;
+    margin: 0 auto;
+    float: left;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #0e0c15e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ae6cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    color: #ae6cff;                   /* Change color on hover */
+    background-color: #ae6cff98;
+}
+
+.map-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.map-controller iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+/* General Footer Styling */
+.footer {
+    background-color: #24262b;       
+    padding: 70px 0;
+    width: 100%;
+}
+
+.f-container {
+    max-width: 1200px; 
+    padding: 0 20px; 
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*Footer Column*/
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease; /* Added transition for hover effect */
+}
+
+.footer-col h4:hover {
+    color: #ad6cff;                   /* Change color on hover */
+}
+
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ad6cff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px; /* Added padding on hover for effect*/
+}
+
+/* Social Links Styling */
+.footer-col .social-links a {
+    font-size: 20px;                     
+}
+
+.footer-col .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 53px; /* Increased height */
+    width: 54px; /* Increased width */
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 25px; /* Increased icon size */
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .footer-col {
+        width: 33.33%;                   /* Adjustment for larger tablets */
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+</style>
+
+<body>
+    
+    <header>
+        <div class="logo-container">
+            <img src="ccet-acm-logo-website.png" alt="Logo" class="logo">
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="Contact-info">
+            <p>Email: <a href="mailto:acm@ccet.ac.in">acm@ccet.ac.in</a></p>
+            <p>Address: Chandigarh College of Engineering and Technology (Degree Wing), Sector 26, Chandigarh</p>
+        </div>
+
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="map-container">
+            <h2>Our Location</h2>
+            <iframe
+                src="https://maps.app.goo.gl/3iVx84S9z6ohZEZJ7"
+                width="600"
+                height="450"
+                style="border: 0;""
+                loading="lazy">
+            </iframe>             
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="f-container">
+            <div class="row">
+                
+            <div class="footer-col">
+                <h4>CCET ACM</h4>
+                <ul>
+                    <li><a href="https://ccet.acm.org/aboutus">About Us</a></li>
+                    <li><a href="https://ccet.acm.org/resources">Resources</a></li>
+                    <li><a href="https://ccet.acm.org/gallery">Gallery</a></li>
+                    <li><a href="https://ccet.acm.org/events">Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="https://ccet.acm.org/about">About</a></li>
+                    <li><a href="https://ccet.acm.org/home">Home</a></li>
+                    <li><a href="https://ccet.acm.org/team">Team</a></li>
+                    <li><a href="https://ccet.acm.org/achievements">Achievements</a></li>
+                    <li><a href="https://ccet.acm.org/acmw">Acm-W</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="https://ccet.acm.org/magazine">Magazine</a></li>
+                    <li><a href="https://ccet.acm.org/getintouch">Get In Touch</a></li>
+                    <li><a href="https://ccet.acm.org/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/@acmccet/?hr=1"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/acmccet/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/acmccet?mx=2"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
