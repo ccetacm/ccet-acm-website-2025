@@ -127,7 +127,7 @@ export const teamMembers = {
       "category": "ACM W",
       "image": "./images/team-pics/CASC 2024-25/Ayushi - 1.JPG",
       "github": "https://github.com/ayushim1200",
-      "orcid": "https://orcid.org/0009-0001-7143-2578",
+      "orcid": "https://orcid.org/0009-0002-4725-6698",
       "linkedin": "https://www.linkedin.com/in/ayushi-04050526b/"
     },
     {
@@ -203,7 +203,7 @@ export const teamMembers = {
     {
       "id": 21,
       "name": "Deepika Goyal",
-      "role": "External Member Head",
+      "role": "Editorial Head",
       "category": "ACM W",
       "image": "./images/team-pics/CASC 2024-25/Deepika - 1.JPG",
       "github": "https://github.com/dee-goyal",
