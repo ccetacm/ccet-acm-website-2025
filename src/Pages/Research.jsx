@@ -112,7 +112,7 @@ const Research = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 { number: "100+", label: "Active Projects", icon: Target },
-                { number: "50+", label: "Partner Countries", icon: Globe2 },
+                { number: "10+", label: "Partner Countries", icon: Globe2 },
                 { number: "$25M+", label: "Research Funding", icon: Award }
               ].map((stat, index) => (
                 <div key={index} className="relative group">
