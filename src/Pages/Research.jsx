@@ -1,4 +1,5 @@
 import WorldMapDemo from '../components/WorldMap';
+import Timeline from '../components/Timeline';
 // import WorldMap from '../components/ui/WorldMap';
 
 import React, { useEffect, useState } from 'react';
@@ -67,7 +68,7 @@ const Research = () => {
                 <Globe2 className="w-5 h-5 mr-2 text-blue-400" />
                 <span className="text-blue-300">Global Research Initiative</span>
               </div>
-              <h1 className="text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-400 bg-clip-text text-transparent">
+              <h1 className="lg:text-7xl text-4xl  font-bold mb-6 bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-400 bg-clip-text text-transparent">
                 International Research & Sponsored Projects
               </h1>
               <p className="text-2xl text-gray-300 mb-12 max-w-3xl">
@@ -104,6 +105,8 @@ const Research = () => {
           <WorldMapDemo/>
           </div>
         </div>
+
+        <Timeline/>
 
        {/* Rest of the sections remain the same - Stats, Research Areas, Featured Projects, and CTA */}
         {/* Stats Section */}

@@ -16,9 +16,9 @@ const Initiatives = () => {
             <div className="card__scale-2"></div>
             <div className="card__data">
               <img className="main3" src="./acm-assets-2/main3.png" alt=""/>
-              <h2 className="card__title">Research & Sponsored Projects </h2>
+              <h2 className="card__title">International Research & Sponsored Projects </h2>
               <p className="card__description">
-                International Collaborative and Sponsored Projects
+              Cross-border collaboration and funding in fostering innovation and Research.
               </p>
               <Button href="/research" white>Learn More</Button>
             </div>

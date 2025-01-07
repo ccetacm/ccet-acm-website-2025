@@ -203,7 +203,7 @@ export const teamMembers = {
     {
       "id": 21,
       "name": "Deepika Goyal",
-      "role": "External Member Head",
+      "role": "Editorial Head",
       "category": "ACM W",
       "image": "./images/team-pics/CASC 2024-25/Deepika - 1.JPG",
       "github": "https://github.com/dee-goyal",
