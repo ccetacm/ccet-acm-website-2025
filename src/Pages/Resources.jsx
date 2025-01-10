@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { RiFileWarningLine } from "react-icons/ri";
@@ -85,64 +85,65 @@ const Resources = () => {
   const [filteredResources, setFilteredResources] = useState(resources);
   const [noResults, setNoResults] = useState(false);
 
-  // Handle search input change
-  const handleSearchChange = (e) => {
-    const query = e.target.value.toLowerCase();
-    setSearchQuery(query);
-    
-    if (query.trim() === "") {
-      setFilteredTopics(topics);
-      setFilteredResources(resources);
-      setNoResults(false);
-      return;
-    }
-
-    // Filter topics
-    const matchedTopics = topics.filter(topic => 
-      topic.toLowerCase().includes(query)
+  const filterContent = (query = searchQuery, topic = selectedTopic) => {
+    // Filter topics based on search query
+    const matchedTopics = topics.filter(t => 
+      t.toLowerCase().includes(query.toLowerCase())
     );
     setFilteredTopics(matchedTopics);
 
-    // Filter resources based on title, description, and topics
-    const matchedResources = resources.filter(resource => 
-      resource.title.toLowerCase().includes(query) ||
-      resource.description.toLowerCase().includes(query) ||
-      resource.topics.some(topic => topic.toLowerCase().includes(query))
-    );
+    // Filter resources based on both search query and selected topic
+    let matchedResources = resources;
+
+    // Apply search query filter if exists
+    if (query) {
+      matchedResources = matchedResources.filter(resource => 
+        resource.title.toLowerCase().includes(query.toLowerCase()) ||
+        resource.description.toLowerCase().includes(query.toLowerCase()) ||
+        resource.topics.some(t => t.toLowerCase().includes(query.toLowerCase()))
+      );
+    }
+
+    // Apply topic filter if selected
+    if (topic) {
+      matchedResources = matchedResources.filter(resource =>
+        resource.topics.includes(topic)
+      );
+    }
 
     setFilteredResources(matchedResources);
-    setNoResults(matchedTopics.length === 0 && matchedResources.length === 0);
+    setNoResults(matchedResources.length === 0);
+  };
+
+  // Handle search input change
+  const handleSearchChange = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+    filterContent(query, selectedTopic);
+  };
+
+  // Handle topic selection
+  const handleTopicClick = (topic) => {
+    const newTopic = selectedTopic === topic ? null : topic;
+    setSelectedTopic(newTopic);
+    filterContent(searchQuery, newTopic);
+    setSidebarOpen(false); // Close sidebar on mobile after selection
   };
 
   // Handle search on enter key
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
-      handleSearch();
+      filterContent();
     }
   };
 
-  // Handle search button click
-  const handleSearch = () => {
-    if (searchQuery.trim() === "") {
-      setFilteredTopics(topics);
-      setFilteredResources(resources);
-      setNoResults(false);
-      return;
-    }
-
-    const query = searchQuery.toLowerCase();
-    const matchedTopics = topics.filter(topic => 
-      topic.toLowerCase().includes(query)
-    );
-    const matchedResources = resources.filter(resource => 
-      resource.title.toLowerCase().includes(query) ||
-      resource.description.toLowerCase().includes(query) ||
-      resource.topics.some(topic => topic.toLowerCase().includes(query))
-    );
-
-    setFilteredTopics(matchedTopics);
-    setFilteredResources(matchedResources);
-    setNoResults(matchedTopics.length === 0 && matchedResources.length === 0);
+  // Clear all filters
+  const clearFilters = () => {
+    setSearchQuery("");
+    setSelectedTopic(null);
+    setFilteredTopics(topics);
+    setFilteredResources(resources);
+    setNoResults(false);
   };
 
   return (
@@ -152,7 +153,9 @@ const Resources = () => {
         className="md:hidden w-full bg-[#1C1A26] p-4 rounded-lg mb-4 flex items-center justify-between"
         onClick={() => setSidebarOpen(!isSidebarOpen)}
       >
-        <span className="text-white font-semibold">Select Topic</span>
+        <span className="text-white font-semibold">
+          {selectedTopic || "Select Topic"}
+        </span>
         <MdKeyboardArrowDown 
           className={`text-2xl transform transition-transform duration-300 ${isSidebarOpen ? 'rotate-180' : ''}`} 
         />
@@ -162,9 +165,19 @@ const Resources = () => {
         {/* Sidebar */}
         <div className={`md:w-1/4 ${isSidebarOpen ? 'block' : 'hidden'} md:block`}>
           <div className="bg-[#1C1A26] p-6 rounded-xl sticky top-24">
-            <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-              Topics
-            </h2>
+            <div className="flex justify-between items-center mb-6">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
+                Topics
+              </h2>
+              {(selectedTopic || searchQuery) && (
+                <button
+                  onClick={clearFilters}
+                  className="text-sm text-purple-400 hover:text-purple-300 transition-colors"
+                >
+                  Clear Filters
+                </button>
+              )}
+            </div>
             
             {/* Search Bar */}
             <div className="relative mb-6">
@@ -177,8 +190,8 @@ const Resources = () => {
                 className="w-full bg-[#2A2833] text-white px-4 py-2 rounded-lg pl-10 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300"
               />
               <IoSearchOutline 
-                className="absolute left-3 top-2.5 text-gray-400 w-5 h-5 cursor-pointer" 
-                onClick={handleSearch}
+                className="absolute left-3 top-2.5 text-gray-400 w-5 h-5 cursor-pointer"
+                onClick={() => filterContent()}
               />
             </div>
 
@@ -192,7 +205,7 @@ const Resources = () => {
                 {filteredTopics.map((topic, index) => (
                   <li
                     key={index}
-                    onClick={() => setSelectedTopic(topic)}
+                    onClick={() => handleTopicClick(topic)}
                     className={`px-4 py-2 rounded-lg cursor-pointer transition-all duration-300 
                       ${selectedTopic === topic 
                         ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white' 
@@ -209,10 +222,17 @@ const Resources = () => {
         {/* Main Content */}
         <div className="md:w-3/4">
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl font-bold text-white">
-              Resources
-              <div className="h-1 w-24 bg-gradient-to-r from-purple-600 to-pink-600 mt-2 rounded-full"></div>
-            </h1>
+            <div>
+              <h1 className="text-4xl font-bold text-white">
+                Resources
+                {selectedTopic && (
+                  <span className="text-2xl text-purple-400 ml-2">
+                    : {selectedTopic}
+                  </span>
+                )}
+                <div className="h-1 w-24 bg-gradient-to-r from-purple-600 to-pink-600 mt-2 rounded-full"></div>
+              </h1>
+            </div>
           </div>
 
           {noResults ? (
@@ -220,7 +240,7 @@ const Resources = () => {
               <RiFileWarningLine className="text-6xl text-gray-400 mb-4" />
               <h3 className="text-xl font-semibold text-white mb-2">No Results Found</h3>
               <p className="text-gray-400 text-center">
-                We couldn't find any resources matching your search. Try different keywords or browse all topics.
+                We couldn't find any resources matching your criteria. Try different keywords or clear the filters.
               </p>
             </div>
           ) : (
@@ -250,7 +270,8 @@ const Resources = () => {
                       {resource.topics.map((topic, index) => (
                         <span
                           key={index}
-                          className="text-xs px-2 py-1 rounded-full bg-purple-500 bg-opacity-20 text-purple-300"
+                          onClick={() => handleTopicClick(topic)}
+                          className="text-xs px-2 py-1 rounded-full bg-purple-500 bg-opacity-20 text-purple-300 cursor-pointer hover:bg-opacity-30 transition-colors"
                         >
                           {topic}
                         </span>
