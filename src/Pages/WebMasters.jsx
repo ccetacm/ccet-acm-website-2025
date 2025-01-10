@@ -1,76 +1,111 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Twitter, Instagram , Code2} from 'lucide-react';
-import { 
-  SiReact, SiNodedotjs, SiTypescript, SiPython,
-  SiVuedotjs,  SiMongodb, SiGraphql,
-  SiTailwindcss, SiJavascript, SiGit, SiDocker,SiKnexdotjs
-} from 'react-icons/si';
+import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 import harshitImg from "../acm-assets-2/Harshit.png";
 import japjotImg from "../acm-assets-2/Japjot.png";
+import sahilImg from "../acm-assets-2/Sahil - 1.png"
+import jasjeetImg from "../acm-assets-2/Jasjeet - 1.png";
+import sakshamImg from "../acm-assets-2/Saksham - 1.png";
+import deependraImg from "../acm-assets-2/Deependra - 1.png";
+import divyanshImg from "../acm-assets-2/Divyansh - 1.png";
 
-const skillIcons = {
-  "React": SiReact,
-  "Node.js": SiNodedotjs,
-  "TypeScript": SiTypescript,
-  "Python": SiPython,
-  "Vue.js": SiVuedotjs,
-  "MongoDB": SiMongodb,
-  "GraphQL": SiGraphql,
-  "Tailwind": SiTailwindcss,
-  "JavaScript": SiJavascript,
-  "Git": SiGit,
-  "Docker": SiDocker,
-  "Next.js":SiKnexdotjs
-};
 
-const Webmasters = () => {
-  const webmasters = [
+
+const Webmasters= () => {
+  const members = [
+    {
+      img: harshitImg,
+      name: "Harshit Vashisht",
+      position: "Webmaster at ACM",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/harshit-vashisht-145872257",
+        github: "https://github.com/HarshitVashisht11",
+        instagram:"https://www.instagram.com/harshittvashisht/",
+      }
+    },
     {
       img: japjotImg,
       name: "Japjot Singh Nanda",
-      role: "Webmaster at ACM-W",
-      skills: ["React", "Node.js", "JavaScript", "Python", "Git", "Tailwind"],
+      position: "Webmaster at ACM-W",
       socials: {
         linkedin: "www.linkedin.com/in/japjot-singh-nanda-374a3a288",
         github: "https://github.com/CoderJap",
         twitter: "https://x.com/CoderJap",
-        instagram: ""
       }
     },
     {
-      img: harshitImg,
-      name: "Harshit Vashisht",
-      role: "Webmaster at ACM",
-      skills: ["Next.js",  "MongoDB", "TypeScript", "GraphQL", "Docker"],
+      img: sahilImg,
+      name: "Sahil Garg",
+      position: "ACM Chairperson",
       socials: {
-        linkedin: "https://www.linkedin.com/in/harshit-vashisht-145872257",
-        github: "https://github.com/HarshitVashisht11",
-        twitter: "",
-        instagram: ""
+        linkedin: "https://www.linkedin.com/in/sahil2004",
+        github: "https://github.com/Sahil2004",
+        instagram: "https://www.instagram.com/__sahil.garg_/"
       }
-    }
+    },
+    {
+      img: sakshamImg,
+      name: "Saksham Arora",
+      position: "Vice Chairperson at ACM",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/saksham-arora-81b344291/",
+        github: "https://github.com/sakshamaroraccet",
+        instagram:"https://www.instagram.com/sakshamarora18/"
+      }
+    },
+    {
+      img: divyanshImg,
+      name: "Divyansh Manro",
+      position: "treasurer at ACM",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/divyansh-manro",
+        github: "https://github.com/divyansh-manro",
+        instagram:"https://www.instagram.com/divyanshmanro/",
+      }
+    },
+    {
+      img: deependraImg,
+      name: "Deependra Singh",
+      position: "Event Manager at ACM-W",
+      socials: {
+        github: "https://github.com/deependrasaharan",
+        linkedin: "https://www.linkedin.com/in/deependra-singh-721252296",
+        instagram:"#",
+      }
+    },
+    {
+      img: jasjeetImg,
+      name: "Jasjeet Singh",
+      position: "Event Manager at ACM",
+      socials: {
+        linkedin: "https://www.linkedin.com/in/jasjeet-singh-8832ba27b",
+        github: "https://github.com/Jasjeet-Singh-S",
+        instagram:"https://www.instagram.com/jasjeet_s_s/",
+      }
+    },
   ];
 
+  const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 }
+  };
+
   return (
-    <div className="mt-[100px] relative min-h-screen bg-[#0E0D15] text-white py-16 px-4 overflow-hidden">
-      {/* Animated background gradient */}
-      <div className="absolute inset-0 bg-transparent from-blue-500/10 via-purple-500/10 to-pink-500/10 animate-gradient-xy" />
-      
-      {/* Floating particles effect */}
-      <div className="absolute inset-0">
+    <div className="min-h-screen bg-transparent from-gray-900 to-black py-16 px-4">
+      {/* Animated background */}
+      <div className="fixed inset-0 z-0">
         {[...Array(20)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-2 h-2 bg-white/10 rounded-full"
+            className="absolute w-1 h-1 bg-blue-500/20 rounded-full"
             animate={{
-              x: [0, Math.random() * 100 - 50],
-              y: [0, Math.random() * 100 - 50],
-              scale: [1, Math.random() + 0.5],
-              opacity: [0.1, 0.5]
+              x: [0, Math.random() * 400 - 200],
+              y: [0, Math.random() * 400 - 200],
+              scale: [1, Math.random() * 3],
+              opacity: [0.3, 0.6]
             }}
             transition={{
-              duration: Math.random() * 3 + 2,
+              duration: Math.random() * 5 + 3,
               repeat: Infinity,
               repeatType: "reverse"
             }}
@@ -82,117 +117,75 @@ const Webmasters = () => {
         ))}
       </div>
 
-      <div className="max-w-6xl mx-auto relative">
+      <div className="max-w-7xl mt-[100px] mx-auto relative z-10">
         <motion.h1
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-5xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400"
+          className="text-6xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400"
         >
-          Meet Our Webmasters
+          Our Team
         </motion.h1>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {webmasters.map((webmaster, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          {members.map((member, index) => (
             <motion.div
-              key={webmaster.name}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: index * 0.2 }}
+              key={member.name}
+              variants={cardVariants}
+              initial="hidden"
+              animate="visible"
+              transition={{ delay: index * 0.1 }}
+              whileHover={{ y: -10 }}
               className="relative group"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-300" />
-              <div className="relative bg-white/10 backdrop-blur-lg rounded-xl p-8 hover:bg-white/[0.15] transition-all duration-300">
-                <div className="flex flex-col items-center">
-                  <motion.div 
-                    className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 p-1"
-                    whileHover={{ scale: 1.05 }}
-                  >
-                    <img
-                      src={webmaster.img}
-                      alt={webmaster.name}
-                      className="w-full h-full rounded-full object-cover"
-                    />
-                  </motion.div>
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 to-purple-500/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              
+              <div className="relative bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10 hover:border-blue-500/50 transition-all duration-300">
+                <motion.div 
+                  className="relative w-full pt-[100%] mb-6 rounded-xl overflow-hidden"
+                  whileHover={{ scale: 1.02 }}
+                >
+                  <img
+                    src={member.img}
+                    alt={member.name}
+                    className="absolute inset-0 w-full h-full object-cover rounded-xl"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </motion.div>
 
-                  <h2 className="text-2xl font-bold mt-4 mb-2">{webmaster.name}</h2>
-                  <p className="text-gray-400 mb-6">{webmaster.role}</p>
+                <h3 className="text-xl font-bold text-white mb-2 text-center group-hover:text-blue-400 transition-colors">
+                  {member.name}
+                </h3>
+                
+                <p className="text-gray-400 text-sm text-center mb-4">
+                  {member.position}
+                </p>
 
-                  <div className="flex gap-6 mb-8">
-                    {Object.entries(webmaster.socials).map(([platform, url]) => {
-                      if (!url) return null;
-                      const Icon = {
-                        github: Github,
-                        linkedin: Linkedin,
-                        twitter: Twitter,
-                        instagram: Instagram
-                      }[platform];
-                      return (
-                        <motion.a
-                          key={platform}
-                          href={url}
-                          whileHover={{ scale: 1.2, y: -2 }}
-                          className="hover:text-blue-400 transition-colors"
-                        >
-                          <Icon size={24} />
-                        </motion.a>
-                      );
-                    })}
-                  </div>
-
-                  <div className="flex flex-wrap gap-3 justify-center">
-                    {webmaster.skills.map((skill) => {
-                      const Icon = skillIcons[skill];
-                      return (
-                        <motion.div
-                          key={skill}
-                          whileHover={{ scale: 1.1, y: -2 }}
-                          className="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full text-sm hover:bg-blue-500/20 transition-all duration-300"
-                        >
-                          {Icon && <Icon className="w-4 h-4" />}
-                          <span>{skill}</span>
-                        </motion.div>
-                      );
-                    })}
-                  </div>
+                <div className="flex justify-center gap-4">
+                  {Object.entries(member.socials).map(([platform, url]) => {
+                    const Icon = {
+                      github: Github,
+                      linkedin: Linkedin,
+                      twitter: Twitter,
+                      instagram: Instagram
+                    }[platform];
+                    return (
+                      <motion.a
+                        key={platform}
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.2, y: -2 }}
+                        className="text-gray-400 hover:text-blue-400 transition-colors"
+                      >
+                        <Icon size={20} />
+                      </motion.a>
+                    );
+                  })}
                 </div>
               </div>
             </motion.div>
           ))}
-
         </div>
-         {/* Credits Section */}
-         <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="mt-20 text-center"
-        >
-          <div className="relative bg-white/5 backdrop-blur-lg rounded-xl p-8">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl blur-xl" />
-            
-            <motion.div 
-              className="relative"
-              initial={{ scale: 0.9 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.2 }}
-            >
-              <Code2 className="w-16 h-16 mx-auto mb-6 text-blue-400" />
-              
-              <h2 className="text-3xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
-                Website Crafted By
-              </h2>
-              
-              <p className="text-xl text-gray-300 leading-relaxed">
-                This website was designed and developed with ❤️ by our talented webmasters
-                <motion.span
-                  className="block mt-4 font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400"
-                  whileHover={{ scale: 1.05 }}
-                >
-                  Harshit Vashisht & Japjot Singh Nanda
-                </motion.span>
-              </p>
-            </motion.div>
-          </div>
-        </motion.div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { teamMembers } from '../data/teamMember';
 import { Users, Github, Linkedin, BookMarked } from 'lucide-react';
+import Table from '../components/Table';
 
 
 const categories = ["ACM", "ACM W"];
@@ -134,7 +135,10 @@ export default function TeamPage() {
               </div>
             ))}
         </div>
+        <Table/>
       </div>
+
+
     </div>
   );
 }

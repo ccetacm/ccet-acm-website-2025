@@ -75,12 +75,12 @@ const Research = () => {
                 Fostering Global Innovation and Collaboration through groundbreaking research initiatives
               </p>
               <div className="flex gap-6">
-                <button href="#events" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center">
+                <a href="/events" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center">
                   See Our Past Events <ArrowRight className="ml-2 w-5 h-5" />
-                </button>
-                <button className="px-8 py-4 bg-blue-500/10 rounded-lg font-semibold text-lg border border-blue-500/20 hover:bg-blue-500/20 transition-all duration-300">
+                </a>
+                <a href="/contact" className="px-8 py-4 bg-blue-500/10 rounded-lg font-semibold text-lg border border-blue-500/20 hover:bg-blue-500/20 transition-all duration-300">
                   Join Us
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -108,6 +108,8 @@ const Research = () => {
 
         <Timeline/>
 
+        <h2 className='bg-transparent text-center text-1xl text-white'>"This section is currently under maintenance"</h2>
+
        {/* Rest of the sections remain the same - Stats, Research Areas, Featured Projects, and CTA */}
         {/* Stats Section */}
         <section className="relative py-16 bg-[#0E0C15]">
@@ -115,7 +117,7 @@ const Research = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 { number: "100+", label: "Active Projects", icon: Target },
-                { number: "50+", label: "Partner Countries", icon: Globe2 },
+                { number: "10+", label: "Partner Countries", icon: Globe2 },
                 { number: "$25M+", label: "Research Funding", icon: Award }
               ].map((stat, index) => (
                 <div key={index} className="relative group">
@@ -255,9 +257,9 @@ const Research = () => {
                 <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
                   Connect with researchers worldwide and contribute to groundbreaking innovations.
                 </p>
-                <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center mx-auto">
+                <a href="/contact"><button className="px-8  py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center mx-auto">
                   Join US <ArrowRight className="ml-2 w-5 h-5" />
-                </button>
+                </button></a>
               </div>
             </div>
           </div>
