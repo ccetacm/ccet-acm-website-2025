@@ -8,6 +8,7 @@ import Team from "./components/Team";
 import Flipbook from "./components/Flipbook";
 import Membership from "./components/Membership";
 import Testimonials from "./components/testimonials";
+import VisionMission from "./components/VisionMission";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Mentors />
       <Team />
       <Flipbook />
+      <VisionMission/>
       <Membership />
       <Testimonials />
       </>

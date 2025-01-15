@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { events } from '../data/events';
+import { events } from '../data/eventSlider.js';
 import Section from './Section';
 import "../styles/CompSlider.css"
 

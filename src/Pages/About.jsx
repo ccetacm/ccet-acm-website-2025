@@ -1,5 +1,6 @@
 import React from "react";
 import { Users, Globe2, Target, Lightbulb, Compass, Instagram, Twitter, Linkedin } from "lucide-react";
+import Dept from "../components/Dept";
 
 export default function AboutHero() {
   const teams = [
@@ -141,6 +142,9 @@ export default function AboutHero() {
           </div>
         </div>
       </div>
+
+      {/* About CSE Department Section with vision , mission and PO's */}
+      <Dept/>
 
       {/* Teams Section */}
       <div className=" py-20 px-4 md:px-8">

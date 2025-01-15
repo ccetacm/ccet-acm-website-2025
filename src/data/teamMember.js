@@ -1,3 +1,6 @@
+import manyaImg from "../acm-assets-2/Manya.jpg";
+import shauryaImg from "../images/team-pics/CASC 2024-25/shaurya-Img.png";
+
 export const teamMembers = {
   "2024-25": [
     {
@@ -32,13 +35,13 @@ export const teamMembers = {
     },
     {
       "id": 4,
-      "name": "Trannum",
+      "name": "Shaurya Katna",
       "role": "Membership Chairperson",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2024-25/Tranum - 1.JPG",
-      "github": "https://github.com/Trannumkhullar",
-      "orcid": "https://orcid.org/0009-0005-9569-5056",
-      "linkedin": "https://www.linkedin.com/in/trannum-khullar-17b2a7284/"
+      "image": shauryaImg,
+      "github": "#",
+      "orcid": "#",
+      "linkedin": "https://www.linkedin.com/in/shaurya-katna-7a1aa1253/"
     },
     {
       "id": 5,
@@ -127,7 +130,7 @@ export const teamMembers = {
       "category": "ACM W",
       "image": "./images/team-pics/CASC 2024-25/Ayushi - 1.JPG",
       "github": "https://github.com/ayushim1200",
-      "orcid": "https://orcid.org/0009-0001-7143-2578",
+      "orcid": "https://orcid.org/0009-0002-4725-6698",
       "linkedin": "https://www.linkedin.com/in/ayushi-04050526b/"
     },
     {
@@ -203,7 +206,7 @@ export const teamMembers = {
     {
       "id": 21,
       "name": "Deepika Goyal",
-      "role": "External Member Head",
+      "role": "Editorial Head",
       "category": "ACM W",
       "image": "./images/team-pics/CASC 2024-25/Deepika - 1.JPG",
       "github": "https://github.com/dee-goyal",
@@ -307,7 +310,7 @@ export const teamMembers = {
       "name": "Manya",
       "role": "Editorial Head",
       "category": "ACM",
-      "image": "./images/team-pics/CASC 2023-24/Manya.JPG",
+      "image": manyaImg,
       "github": "https://github.com/ManyaGirdhar",
       "orcid": "https://orcid.org/0009-0006-2692-8634",
       "linkedin": "https://www.linkedin.com/in/manya-78a686245"

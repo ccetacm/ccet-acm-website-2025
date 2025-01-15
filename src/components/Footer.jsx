@@ -27,7 +27,7 @@ const Footer = () => {
               <h4>CCET ACM</h4>
               <ul>
                 <li><a href="/about">about us</a></li>
-                <li><a href="/resoruces">resources</a></li>
+                <li><a href="/resources">resources</a></li>
                 <li><a href="/gallery">gallery</a></li>
                 <li><a href="/events">events</a></li>
               </ul>
@@ -38,7 +38,7 @@ const Footer = () => {
                 <li><a href="/about">about</a></li>
                 <li><a href="/">home</a></li>
                 <li><a href="/team">team</a></li>
-                <li><a href="/achievments">achievements</a></li>
+                <li><a href="/achievements">achievements</a></li>
                 <li><a href="/acmw">acm-w</a></li>
               </ul>
             </div>
@@ -47,8 +47,8 @@ const Footer = () => {
               <ul>
                 <li><a href="/webmasters">webmasters</a></li>
                 <li><a href="/magazine">magazine</a></li>
-                <li><a href="#contact">get in touch</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="/contact">get in touch</a></li>
+                <li><a href="/contact">contact</a></li>
               </ul>
             </div>
             <div class="footer-col">

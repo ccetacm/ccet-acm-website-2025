@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { events, competitions } from '../data/events';
+import { events, competitions } from '../data/newEvents';
 import { Calendar, Sparkles } from 'lucide-react';
 
 export default function EventsPage() {

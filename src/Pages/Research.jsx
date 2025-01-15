@@ -1,4 +1,6 @@
 import WorldMapDemo from '../components/WorldMap';
+import Timeline from '../components/Timeline';
+import ResearchPublications from '../components/ResearchPublications';
 // import WorldMap from '../components/ui/WorldMap';
 
 import React, { useEffect, useState } from 'react';
@@ -15,6 +17,8 @@ import {
   Target,
   Award
 } from 'lucide-react';
+
+import FacultySection from '../components/FacultySection';
 
 const Research = () => {
   // Smooth scroll function
@@ -67,19 +71,19 @@ const Research = () => {
                 <Globe2 className="w-5 h-5 mr-2 text-blue-400" />
                 <span className="text-blue-300">Global Research Initiative</span>
               </div>
-              <h1 className="text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-400 bg-clip-text text-transparent">
+              <h1 className="lg:text-7xl text-4xl  font-bold mb-6 bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-400 bg-clip-text text-transparent">
                 International Research & Sponsored Projects
               </h1>
               <p className="text-2xl text-gray-300 mb-12 max-w-3xl">
                 Fostering Global Innovation and Collaboration through groundbreaking research initiatives
               </p>
               <div className="flex gap-6">
-                <button href="#events" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center">
+                <a href="/events" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center">
                   See Our Past Events <ArrowRight className="ml-2 w-5 h-5" />
-                </button>
-                <button className="px-8 py-4 bg-blue-500/10 rounded-lg font-semibold text-lg border border-blue-500/20 hover:bg-blue-500/20 transition-all duration-300">
+                </a>
+                <a href="/contact" className="px-8 py-4 bg-blue-500/10 rounded-lg font-semibold text-lg border border-blue-500/20 hover:bg-blue-500/20 transition-all duration-300">
                   Join Us
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -90,6 +94,82 @@ const Research = () => {
             <ChevronDown className="w-full h-full" />
           </button>
         </section>
+
+        {/* Research Group Component */}
+    <section className="relative py-24 bg-[#0E0C15] overflow-hidden">
+      <div className="mx-auto max-w-6xl px-6">
+        {/* Animated background gradients */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600/20 rounded-full blur-[100px] animate-pulse"></div>
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-indigo-600/20 rounded-full blur-[100px] animate-pulse delay-1000"></div>
+        </div>
+
+        <div className="relative">
+          {/* Initiative Title with floating animation */}
+          <div className="text-center mb-16 relative">
+            <div className="inline-block">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 blur-xl animate-pulse"></div>
+                <span className="relative inline-block px-6 py-3 bg-blue-500/10 backdrop-blur-sm rounded-xl text-blue-400 text-lg font-medium border border-blue-500/20">
+                  A CCET INITIATIVE
+                </span>
+              </div>
+            </div>
+            <h2 className="text-4xl font-bold mt-8 bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-400 bg-clip-text text-transparent">
+              Intelligent Computing and Research Group
+            </h2>
+            <span className="text-2xl font-semibold text-gray-400">(ICRG)</span>
+          </div>
+
+          {/* Main content with glass morphism effect */}
+          <div className="relative backdrop-blur-lg rounded-2xl p-8 border border-blue-500/20 bg-gradient-to-b from-blue-600/5 to-indigo-600/5">
+            {/* CCET ACM Description */}
+            <div className="mb-16">
+              <h3 className="text-2xl font-semibold text-center bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent mb-8">
+                CCET ACM Student
+              </h3>
+              <p className="text-gray-300 leading-relaxed text-lg text-center max-w-4xl mx-auto">
+                There is a wide range of topics we investigate, including data mining, neural networks, fuzzy systems, 
+                evolutionary optimization, machine learning, pattern recognition, user-adaptive systems, computer graphics, 
+                computer vision, and bioinformatics, all under the common denominator of intelligent, nature-inspired methods 
+                and approaches to studying, modeling, and simulating complex systems that improve learnability, adaptability, 
+                and efficiency, these develop capabilities to study, model, and simulate complex systems that enhance their 
+                efficiency, adaptability, and learnability.
+              </p>
+            </div>
+
+            {/* Research Objectives with modern card design */}
+            <div className="relative">
+              <h3 className="text-2xl font-bold text-center mb-12 bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
+                Objectives of Research
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {[
+                  "Conducting research of global acclaim and world-class quality in the analysis, design, and application of CI techniques.",
+                  "To provide excellent instruction in CI disciplines.",
+                  "Bringing our knowledge and experience to the industry, and raising funds through research initiatives"
+                ].map((objective, index) => (
+                  <div key={index} className="group relative">
+                    <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-indigo-600/10 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                    <div className="relative h-full bg-[#161425]/80 backdrop-blur-sm p-6 rounded-xl border border-blue-500/20 hover:border-blue-500/40 transition-all duration-500 hover:transform hover:-translate-y-2">
+                      <div className="flex items-center mb-4">
+                        <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-blue-500 to-indigo-500 flex items-center justify-center text-white font-bold">
+                          {index + 1}
+                        </div>
+                      </div>
+                      <p className="text-gray-300 leading-relaxed">
+                        {objective}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
 {/* 
         World Map Section */}
@@ -104,6 +184,12 @@ const Research = () => {
           <WorldMapDemo/>
           </div>
         </div>
+
+        <FacultySection/>
+
+        <Timeline/>
+
+        <h2 className='bg-transparent text-center text-1xl text-white'>"This section is currently under maintenance"</h2>
 
        {/* Rest of the sections remain the same - Stats, Research Areas, Featured Projects, and CTA */}
         {/* Stats Section */}
@@ -127,6 +213,9 @@ const Research = () => {
             </div>
           </div>
         </section>
+
+        
+
 
         {/* Research Areas */}
         <section className="relative py-16 bg-[#0E0C15]">
@@ -190,52 +279,42 @@ const Research = () => {
           </div>
         </section>
 
+        <ResearchPublications/>
+
         {/* Featured Projects */}
-        <section id="events" className="relative py-16 bg-[#0E0C15]">
-          <div className="mx-auto max-w-6xl px-6">
-            <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
-            Events Organized By The Team
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {projects.map((project, index) => (
-                <div 
-                  key={index}
-                  className="group relative"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-indigo-600/10 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
-                  <div className="relative bg-[#161425] rounded-xl overflow-hidden border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300">
-                    <div className="relative h-48">
-                      <img
-                        src={project.image}
-                        alt={project.title}
-                        className="w-full h-full object-cover"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#161425] to-transparent"></div>
-                      <div className="absolute bottom-4 left-4 flex items-center space-x-2">
-                        <Globe2 className="w-4 h-4 text-blue-400" />
-                        {/* <span className="text-sm text-gray-300">{project.duration}</span> */}
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <h3 className="text-xl font-semibold mb-2 bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
-                        {project.title}
-                      </h3>
-                      <p className="text-gray-400 mb-4">{project.description}</p>
-                      {/* <div className="grid grid-cols-3 gap-4 pt-4 border-t border-blue-500/20">
-                        {Object.entries(project.stats).map(([key, value], i) => (
-                          <div key={i} className="text-center">
-                            <div className="text-lg font-semibold text-blue-400">{value}</div>
-                            <div className="text-xs text-gray-400">{key}</div>
-                          </div>
-                        ))}
-                      </div> */}
-                    </div>
+        <section className="relative py-16 bg-[#0E0C15]">
+      <div className="mx-auto max-w-6xl px-6">
+        <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
+          Events Organized By The Team
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projects.map((project, index) => (
+            <div key={index} className="group relative h-full">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-indigo-600/10 rounded-xl blur-lg opacity-0 group-hover:opacity-100 transition-all duration-300" />
+              <div className="relative bg-[#161425] rounded-xl overflow-hidden border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300 h-full flex flex-col">
+                <div className="relative h-48 flex-shrink-0">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#161425] to-transparent" />
+                  <div className="absolute bottom-4 left-4 flex items-center space-x-2">
+                    <Globe2 className="w-4 h-4 text-blue-400" />
                   </div>
                 </div>
-              ))}
+                <div className="p-6 flex-grow flex flex-col">
+                  <h3 className="text-xl font-semibold mb-2 bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-400 line-clamp-4">{project.description}</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </section>
+          ))}
+        </div>
+      </div>
+    </section>
 
         {/* CTA Section */}
         <section className="relative py-16 bg-[#0E0C15]">
@@ -252,9 +331,9 @@ const Research = () => {
                 <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
                   Connect with researchers worldwide and contribute to groundbreaking innovations.
                 </p>
-                <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center mx-auto">
+                <a href="/contact"><button className="px-8  py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center mx-auto">
                   Join US <ArrowRight className="ml-2 w-5 h-5" />
-                </button>
+                </button></a>
               </div>
             </div>
           </div>

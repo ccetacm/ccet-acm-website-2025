@@ -20,6 +20,7 @@ import CodeForTech from './Pages/CodeForTech.jsx';
 import HealthyBytes from './Pages/HealthyBytes.jsx';
 import CareerPathway from './Pages/CareerPathway.jsx';
 import Webmasters from './Pages/WebMasters.jsx';
+import Contact from './Pages/Contact.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -42,6 +43,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/healthybytes" element={<HealthyBytes/>} />
         <Route path="/careerpathway" element={<CareerPathway/>} />
         <Route path="/webmasters" element={<Webmasters/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
     </Router>

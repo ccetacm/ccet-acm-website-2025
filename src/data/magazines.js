@@ -40,46 +40,35 @@ import novDec2021Pdf from "../pdfs/Nov-Dec-2021.pdf";
 import sepOct2021Cover from "../acm-assets-2/sep-oct-2021-cover.jpeg";
 import sepOct2021Pdf from "../pdfs/Sep-Oct-2021.pdf";
 
+import novDec2023Cover from "../acm-assets-2/3IV4-cover.jpeg";
+import novDec2023Pdf from "../pdfs/3IV4.pdf";
+
+import sepOct2023Cover from "../acm-assets-2/2IV4-cover.jpg";
+import sepOct2023Pdf from "../pdfs/2IV4.pdf";
+
+import julAug2023Cover from "../acm-assets-2/1IV4-cover.jpg";
+import julAug2023Pdf from "../pdfs/1IV4.pdf";
+
+import mayJune2023Cover from "../acm-assets-2/4IV3-cover.jpeg";
+import mayJune2023Pdf from "../pdfs/4IV3.pdf";
+
+import marApr2023Cover from "../acm-assets-2/3IV3-cover.jpg";
+import marApr2023Pdf from "../pdfs/3IV3.pdf";
+
+import janFeb2023Cover from "../acm-assets-2/2IV3-compressed-cover.jpg";
+import janFeb2023Pdf from "../pdfs/2IV3-compressed.pdf";
+
 
 export const magazineData = [
+
   {
-    id: 'v5i1',
+    id: 'v5i6',
     volume: 5,
-    issue: 1,
-    title: 'January-February 2024',
+    issue: 6,
+    title: 'November-December 2024',
     description: '',
-    thumbnail: janFeb2024Cover,
-    pdfLink: janFeb2024Pdf,
-    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
-  },
-  {
-    id: 'v5i2',
-    volume: 5,
-    issue: 2,
-    title: 'March-April 2024',
-    description: '',
-    thumbnail: marApr2024Cover,
-    pdfLink: marApr2024Pdf,
-    keywords: ['ai', 'machine learning', 'data science', 'technology','web3']
-  },
-  {
-    id: 'v5i3',
-    volume: 5,
-    issue: 3,
-    title: 'May-June 2024',
-    description: '',
-    thumbnail: mayJun2024Cover,
-    pdfLink: mayJun2024Pdf,
-    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
-  },
-  {
-    id: 'v5i4',
-    volume: 5,
-    issue: 4,
-    title: 'July-August 2024',
-    description: '',
-    thumbnail: julAug2024Cover,
-    pdfLink: julAug2024Pdf,
+    thumbnail: novDec2024Cover,
+    pdfLink: novDec2024Pdf,
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   {
@@ -93,24 +82,104 @@ export const magazineData = [
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   {
-    id: 'v5i6',
+    id: 'v5i4',
     volume: 5,
-    issue: 6,
-    title: 'November-December 2024',
+    issue: 4,
+    title: 'July-August 2024',
     description: '',
-    thumbnail: novDec2024Cover,
-    pdfLink: novDec2024Pdf,
+    thumbnail: julAug2024Cover,
+    pdfLink: julAug2024Pdf,
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   {
-    id: 'v2i4',
-    volume: 2,
-    issue: 4,
-    title: 'April-May 2022',
+    id: 'v5i3',
+    volume: 5,
+    issue: 3,
+    title: 'May-June 2024',
     description: '',
-    thumbnail: aprMay2022Cover,
-    pdfLink: aprMar2022Pdf,
+    thumbnail: mayJun2024Cover,
+    pdfLink: mayJun2024Pdf,
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
+  },
+  {
+    id: 'v5i2',
+    volume: 5,
+    issue: 2,
+    title: 'March-April 2024',
+    description: '',
+    thumbnail: marApr2024Cover,
+    pdfLink: marApr2024Pdf,
+    keywords: ['ai', 'machine learning', 'data science', 'technology','web3']
+  },
+  {
+    id: 'v5i1',
+    volume: 5,
+    issue: 1,
+    title: 'January-February 2024',
+    description: '',
+    thumbnail: janFeb2024Cover,
+    pdfLink: janFeb2024Pdf,
+    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
+  },
+  {
+    id: 'v4i3',
+    volume: 4,
+    issue: 3,
+    title: 'November-December 2023',
+    description: '',
+    thumbnail: novDec2023Cover,
+    pdfLink: novDec2023Pdf,
+    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
+  },
+  {
+    id: 'v4i2',
+    volume: 4,
+    issue: 2,
+    title: 'September-October 2023',
+    description: '',
+    thumbnail: sepOct2023Cover,
+    pdfLink: sepOct2023Pdf,
+    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
+  },
+  {
+    id: 'v4i1',
+    volume: 4,
+    issue: 1,
+    title: 'July-August 2023',
+    description: '',
+    thumbnail: julAug2023Cover,
+    pdfLink: julAug2023Pdf,
+    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
+  },
+  {
+    id: 'v4i1',
+    volume: 3,
+    issue: 4,
+    title: '  May-June 2023',
+    description: '',
+    thumbnail: mayJune2023Cover,
+    pdfLink: mayJune2023Pdf,
+    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
+  },
+  {
+    id: 'v3i3',
+    volume: 3,
+    issue: 3,
+    title: '  March-April 2023',
+    description: '',
+    thumbnail: marApr2023Cover,
+    pdfLink: marApr2023Pdf,
+    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
+  },
+  {
+    id: 'v3i2',
+    volume: 3,
+    issue: 2,
+    title: '  January-February 2023',
+    description: '',
+    thumbnail: janFeb2023Cover,
+    pdfLink: janFeb2023Pdf,
+    keywords: ['blockchain', 'ai', 'technology', 'innovation','machine learning','web3']
   },
   {
     id: 'v3i1',
@@ -122,44 +191,26 @@ export const magazineData = [
     pdfLink: augSep2022Pdf,
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
+
   {
-    id: 'v3i2',
-    volume: 3,
-    issue: 2,
+    id: 'v2i4',
+    volume: 2,
+    issue: 4,
+    title: 'April-May 2022',
+    description: '',
+    thumbnail: aprMay2022Cover,
+    pdfLink: aprMar2022Pdf,
+    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
+  },
+
+  {
+    id: 'v2i3',
+    volume: 2,
+    issue: 3,
     title: 'January-February 2022',
     description: '',
     thumbnail: janFeb2022Cover,
     pdfLink: janFeb2022Pdf,
-    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
-  },
-  {
-    id: 'v1i3',
-    volume: 1,
-    issue: 3,
-    title: 'July-August 2021',
-    description: '',
-    thumbnail: julAug2021Cover,
-    pdfLink: julAug2021Pdf,
-    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
-  },
-  {
-    id: 'v1i1',
-    volume: 1,
-    issue: 1,
-    title: 'March-April 2021',
-    description: '',
-    thumbnail: marApr2021Cover,
-    pdfLink: marApr2021Pdf,
-    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
-  },
-  {
-    id: 'v1i2',
-    volume: 1,
-    issue: 2,
-    title: 'May-June 2021',
-    description: '',
-    thumbnail: mayJun2021Cover,
-    pdfLink: mayJun2021Pdf,
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
   {
@@ -180,6 +231,36 @@ export const magazineData = [
     description: '',
     thumbnail: sepOct2021Cover,
     pdfLink: sepOct2021Pdf,
+    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
+  },
+  {
+    id: 'v1i3',
+    volume: 1,
+    issue: 3,
+    title: 'July-August 2021',
+    description: '',
+    thumbnail: julAug2021Cover,
+    pdfLink: julAug2021Pdf,
+    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
+  },
+  {
+    id: 'v1i2',
+    volume: 1,
+    issue: 2,
+    title: 'May-June 2021',
+    description: '',
+    thumbnail: mayJun2021Cover,
+    pdfLink: mayJun2021Pdf,
+    keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
+  },
+  {
+    id: 'v1i1',
+    volume: 1,
+    issue: 1,
+    title: 'March-April 2021',
+    description: '',
+    thumbnail: marApr2021Cover,
+    pdfLink: marApr2021Pdf,
     keywords: ['blockchain', 'crypto', 'decentralization', 'web3']
   },
 ];
