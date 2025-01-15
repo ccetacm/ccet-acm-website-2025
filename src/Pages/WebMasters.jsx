@@ -60,7 +60,7 @@ const Webmasters= () => {
       socials: {
         linkedin: "https://www.linkedin.com/in/divyansh-manro",
         github: "https://github.com/divyansh-manro",
-        instagram:"https://www.instagram.com/divyanshmanro/",
+        instagram: "https://www.instagram.com/divyanshmanro/",
       }
     },
     {

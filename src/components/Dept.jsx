@@ -123,7 +123,6 @@ const Dept = () => {
   };
 
   const visibleOutcomes = showAllOutcomes ? programOutcomes : programOutcomes.slice(0, 4);
-
   const departmentDescription = `The Computer Science and Engineering Department at Chandigarh College of Engineering and Technology (CCET) is committed to delivering world-class education, fostering innovation, and nurturing skilled professionals in the field of computing and technology. With a strong emphasis on academic excellence and practical learning, the department offers a robust curriculum, state-of-the-art facilities, and opportunities for research and development. Our goal is to equip students with the knowledge and skills needed to thrive in the dynamic tech industry and contribute meaningfully to society.`;
 
   return (
