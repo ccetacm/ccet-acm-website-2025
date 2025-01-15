@@ -284,7 +284,7 @@ const Flipbook = () => {
   };
 
   return (
-    <Section>
+    <div>
       <section className="md:mt-[200px] py-8">
         <div className="container mx-auto px-4">
           <h2 className="h2 text-center mb-12">Digital Outlet</h2>
@@ -406,7 +406,7 @@ const Flipbook = () => {
           animation: slideIn 0.5s ease-out;
         }
       `}</style>
-    </Section>
+    </div>
   );
 };
 

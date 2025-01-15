@@ -14,6 +14,10 @@ body {
   box-sizing: border-box;
 }
 
+.nav-link {
+  padding-left: 0.5rem;
+}
+
 :root {
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
