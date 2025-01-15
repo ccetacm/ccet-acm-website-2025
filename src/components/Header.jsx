@@ -32,7 +32,7 @@ const Header = () => {
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
-      <div className="relative flex items-center px-4 lg:px-6 xl:px-8 max-lg:py-4">
+      <div className="relative flex items-center px-3 lg:px-6 xl:px-8 max-lg:py-4">
         <a className="block w-[10rem] xl:mr-4" href="/">
           <img 
             src={"./acm-assets-2/ccet-logo-white.png"} 
@@ -46,9 +46,9 @@ const Header = () => {
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed inset-0 top-[5rem] bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed inset-0 top-[5rem] bg-n-8 lg:static  lg:flex lg:mx-auto lg:bg-transparent`}
         >
-          <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+          <div className="relative  z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
               <a
                 key={item.id}
@@ -72,10 +72,10 @@ const Header = () => {
 
         <div className="flex items-center ml-auto">
           <a
-            href="/contact"
+            href="/research"
             className="button hidden mr-6 text-n-1/50 transition-colors hover:text-n-1 lg:block"
           >
-            Contact
+            ICRG
           </a>
           <Button className="hidden lg:flex" href="/acmw">
             ACM-W

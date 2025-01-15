@@ -79,8 +79,8 @@ export const navigation = [
   },
   {
     id: "8",
-    title: "Contact",
-    url: "/contact",
+    title: "ICRG",
+    url: "/research",
     onlyMobile: true,
   },
   {

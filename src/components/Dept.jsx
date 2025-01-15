@@ -123,8 +123,7 @@ const Dept = () => {
   };
 
   const visibleOutcomes = showAllOutcomes ? programOutcomes : programOutcomes.slice(0, 4);
-
-  const departmentDescription = `The Department of Computer Science & Engineering at CCET was established in 1989 with the objective to impart quality education in the field of Computer Science & Engineering. The department offers B.E. (Computer Science & Engineering) program with an annual intake of 60 students. The department has state-of-the-art infrastructure and computing facilities to support teaching and research activities. The department has well-qualified and experienced faculty members who are actively involved in research and development activities.`;
+  const departmentDescription = `The Computer Science and Engineering Department at Chandigarh College of Engineering and Technology (CCET) is committed to delivering world-class education, fostering innovation, and nurturing skilled professionals in the field of computing and technology. With a strong emphasis on academic excellence and practical learning, the department offers a robust curriculum, state-of-the-art facilities, and opportunities for research and development. Our goal is to equip students with the knowledge and skills needed to thrive in the dynamic tech industry and contribute meaningfully to society.`;
 
   return (
     <div className="relative min-h-screen bg-[#0F0C15] text-gray-100 py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
