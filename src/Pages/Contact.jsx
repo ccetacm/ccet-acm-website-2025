@@ -215,6 +215,8 @@ const Contact = () => {
              </div>
             </div>
            </div>
+          </div>
+        </div>
 <div className="flex flex-col items-center justify-center min-h-screen bg-[#0E0C15] text-white">
   <div className="w-full max-w-5xl bg-[#1A1A2E] rounded-lg shadow-lg overflow-hidden">
     <div
@@ -231,6 +233,7 @@ const Contact = () => {
       ></iframe>
     </div>
   </div>
+</div>
 </div>
 
   );
