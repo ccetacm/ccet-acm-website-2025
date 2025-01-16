@@ -56,11 +56,11 @@ const Webmasters= () => {
     {
       img: divyanshImg,
       name: "Divyansh Manro",
-      position: "treasurer at ACM",
+      position: "Treasurer at ACM",
       socials: {
         linkedin: "https://www.linkedin.com/in/divyansh-manro",
         github: "https://github.com/divyansh-manro",
-        instagram:"https://www.instagram.com/divyanshmanro/",
+        instagram: "https://www.instagram.com/divyanshmanro/",
       }
     },
     {

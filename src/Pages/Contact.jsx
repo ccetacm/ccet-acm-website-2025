@@ -211,13 +211,28 @@ const Contact = () => {
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                     </button>
                   </form>
-                </div>
               </div>
+             </div>
             </div>
-          </div>
-        </div>
-      </div>
+           </div>
+<div className="flex flex-col items-center justify-center min-h-screen bg-[#0E0C15] text-white">
+  <div className="w-full max-w-5xl bg-[#1A1A2E] rounded-lg shadow-lg overflow-hidden">
+    <div
+      className="relative w-full h-[500px] overflow-hidden rounded-b-lg transform transition duration-500 hover:scale-105"
+      style={{ boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)" }}
+    >
+      <iframe
+        title="CCET Location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.928543325747!2d76.80556327482368!3d30.750484978504084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed4235555555%3A0x68b06f6b19958d6c!2sChandigarh%20College%20Of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1695737847854!5m2!1sen!2sin"
+        className="w-full h-full border-0"
+        allowFullScreen={true}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
+  </div>
+</div>
+
   );
 };
 
