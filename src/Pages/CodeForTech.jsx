@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Code, Laptop, Briefcase, Award, Terminal, Cloud, Server, Cpu, ChevronRight, Users, Calendar, Clock } from 'lucide-react';
-
+import OpenSource from '../components/OpenSource';
 
 const CodeForTech = () => {
   const [isVisible, setIsVisible] = useState({});
@@ -142,6 +142,10 @@ const CodeForTech = () => {
           </div>
         </div>
       </section>
+
+      {/*Open Source Section */}
+      <OpenSource/>
+
 
       {/* Programs Section */}
       <section id="programs" className="py-24 px-4">
