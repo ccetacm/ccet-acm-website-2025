@@ -30,4 +30,3 @@ jobs:
           **/.git*
           **/.git*/**
           **/.htaccess*
-        dry-run: true
