@@ -1,62 +1,62 @@
 import janFeb2024Cover from "../acm-assets-2/jan-feb-2024-cover.jpg"
-import janFeb2024Pdf from "../pdfs/jan-feb-2024.pdf"
+import janFeb2024Pdf from "../pdfs/digital outlets/2024 JAN FEB.pdf"
 
 import marApr2024Cover from "../acm-assets-2/march-april-2024-cover.jpg"
-import marApr2024Pdf from "../pdfs/march-april-2024.pdf"
+import marApr2024Pdf from "../pdfs/digital outlets/2024 MARCH APRIL.pdf"
 
 import mayJun2024Cover from "../acm-assets-2/may-june-2024-cover.jpg";
-import mayJun2024Pdf from "../pdfs/may-jun-2024.pdf";
+import mayJun2024Pdf from "../pdfs/digital outlets/2024 MAY JUNE.pdf";
 
 import julAug2024Cover from "../acm-assets-2/jul-aug-2024-cover.jpg";
-import julAug2024Pdf from "../pdfs/jul-aug-2024.pdf";
+import julAug2024Pdf from "../pdfs/digital outlets/2024 JULY AUGUST.pdf";
 
 import sepOct2024Cover from "../acm-assets-2/sep-oct-2024-cover.jpg";
-import sepOct2024Pdf from "../pdfs/sep-oct-2024.pdf";
+import sepOct2024Pdf from "../pdfs/digital outlets/2024 SEPT OCT.pdf";
 
 import novDec2024Cover from "../acm-assets-2/nov-dec-2024-cover.jpg"
-import novDec2024Pdf from "../pdfs/nov-dec-2024.pdf"
+import novDec2024Pdf from "../pdfs/digital outlets/2024 NOV DEC.pdf"
 
 import aprMay2022Cover from "../acm-assets-2/April-May-2022-cover.jpg"
-import aprMar2022Pdf from "../pdfs/April-May-2022.pdf";
+import aprMar2022Pdf from "../pdfs/digital outlets/2022 APRIL MAY.pdf";
 
 import augSep2022Cover from "../acm-assets-2/August-Sep-2022-cover.jpg"
-import augSep2022Pdf from "../pdfs/August-Sep-2022.pdf";
+import augSep2022Pdf from "../pdfs/digital outlets/2022 AUGUST SEPT.pdf";
 
 import janFeb2022Cover from "../acm-assets-2/jan-feb-2022-cover.jpeg"
-import janFeb2022Pdf from "../pdfs/Jan-Feb-2022.pdf"
+import janFeb2022Pdf from "../pdfs/digital outlets/2022 JAN FEB.pdf"
 
 import julAug2021Cover from "../acm-assets-2/July-August-2021-cover.jpg"
-import julAug2021Pdf from "../pdfs/July-August-2021.pdf"
+import julAug2021Pdf from "../pdfs/digital outlets/2021 JULY AUGUST.pdf"
 
 import marApr2021Cover from "../acm-assets-2/March-April-2021-cover.jpg"
-import marApr2021Pdf from "../pdfs/March-April-2021.pdf"
+import marApr2021Pdf from "../pdfs/digital outlets/2021 MARCH APRIL.pdf"
 
 import mayJun2021Cover from "../acm-assets-2/May-June-2021-cover.jpg"
-import mayJun2021Pdf from "../pdfs/May-June-2021.pdf";
+import mayJun2021Pdf from "../pdfs/digital outlets/2021 MAY JUNE.pdf";
 
 import novDec2021Cover from "../acm-assets-2/nov-dec-2021-cover.jpeg"
-import novDec2021Pdf from "../pdfs/Nov-Dec-2021.pdf";
+import novDec2021Pdf from "../pdfs/digital outlets/2021 NOV DEC.pdf";
 
 import sepOct2021Cover from "../acm-assets-2/sep-oct-2021-cover.jpeg";
-import sepOct2021Pdf from "../pdfs/Sep-Oct-2021.pdf";
+import sepOct2021Pdf from "../pdfs/digital outlets/2021 SEPT OCT.pdf";
 
 import novDec2023Cover from "../acm-assets-2/3IV4-cover.jpeg";
-import novDec2023Pdf from "../pdfs/3IV4.pdf";
+import novDec2023Pdf from "../pdfs/digital outlets/2023 NOV DEC.pdf";
 
 import sepOct2023Cover from "../acm-assets-2/2IV4-cover.jpg";
-import sepOct2023Pdf from "../pdfs/2IV4.pdf";
+import sepOct2023Pdf from "../pdfs/digital outlets/2023 SEPT OCT.pdf";
 
 import julAug2023Cover from "../acm-assets-2/1IV4-cover.jpg";
-import julAug2023Pdf from "../pdfs/1IV4.pdf";
+import julAug2023Pdf from "../pdfs/digital outlets/2023 JULY AUGUST.pdf";
 
 import mayJune2023Cover from "../acm-assets-2/4IV3-cover.jpeg";
-import mayJune2023Pdf from "../pdfs/4IV3.pdf";
+import mayJune2023Pdf from "../pdfs/digital outlets/2023 MAY JUNE.pdf";
 
 import marApr2023Cover from "../acm-assets-2/3IV3-cover.jpg";
-import marApr2023Pdf from "../pdfs/3IV3.pdf";
+import marApr2023Pdf from "../pdfs/digital outlets/2023 MARCH APRIL.pdf";
 
 import janFeb2023Cover from "../acm-assets-2/2IV3-compressed-cover.jpg";
-import janFeb2023Pdf from "../pdfs/2IV3-compressed.pdf";
+import janFeb2023Pdf from "../pdfs/digital outlets/2023 JAN FEB.pdf";
 
 
 export const magazineData = [
