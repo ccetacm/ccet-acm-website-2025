@@ -5,114 +5,118 @@ import { BottomLine } from "./design/Hero";
 
 
 // images imports
-import janFebCover from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-0.jpg";
-import janFebPage1 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-1.jpg";
-import janFebPage2 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-2.jpg";
-import janFebPage3 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-3.jpg";
-import janFebPage4 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-4.jpg";
-import janFebPage5 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-5.jpg";
-import janFebPage6 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-6.jpg";
-import janFebPage7 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-7.jpg";
-import janFebPage8 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-8.jpg";
-import janFebPage9 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-9.jpg";
-import janFebPage10 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-10.jpg";
-import janFebPage11 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/jan-feb-latest-images-11.jpg";
+import janFebCover from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-0.jpg";
+import janFebPage1 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-1.jpg";
+import janFebPage2 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-2.jpg";
+import janFebPage3 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-3.jpg";
+import janFebPage4 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-4.jpg";
+import janFebPage5 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-5.jpg";
+import janFebPage6 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-6.jpg";
+import janFebPage7 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-7.jpg";
+import janFebPage8 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-8.jpg";
+import janFebPage9 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-9.jpg";
+import janFebPage10 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-10.jpg";
+import janFebPage11 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-11.jpg";
+import janFebPage12 from "../acm-assets-2/magazine-latest-img/jan-feb-latest-img/2024 JAN FEB-images-12.jpg";
 
 
-import marAprCover from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-0.jpg";
-import marAprPage1 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-1.jpg";
-import marAprPage2 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-2.jpg";
-import marAprPage3 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-3.jpg";
-import marAprPage4 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-4.jpg";
-import marAprPage5 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-5.jpg";
-import marAprPage6 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-6.jpg";
-import marAprPage7 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-7.jpg";
-import marAprPage8 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-8.jpg";
-import marAprPage9 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-9.jpg";
-import marAprPage10 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-10.jpg";
-import marAprPage11 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-11.jpg";
-import marAprPage12 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-12.jpg";
-import marAprPage13 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-13.jpg";
-import marAprPage14 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/mar-apr-latest-images-14.jpg";
+import marAprCover from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-0.jpg";
+import marAprPage1 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-1.jpg";
+import marAprPage2 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-2.jpg";
+import marAprPage3 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-3.jpg";
+import marAprPage4 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-4.jpg";
+import marAprPage5 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-5.jpg";
+import marAprPage6 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-6.jpg";
+import marAprPage7 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-7.jpg";
+import marAprPage8 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-8.jpg";
+import marAprPage9 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-9.jpg";
+import marAprPage10 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-10.jpg";
+import marAprPage11 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-11.jpg";
+import marAprPage12 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-12.jpg";
+import marAprPage13 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-13.jpg";
+import marAprPage14 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-14.jpg";
+import marAprPage15 from "../acm-assets-2/magazine-latest-img/mar-apr-latest-img/2024 MARCH APRIL-images-15.jpg";
 
 
-import mayJunCover from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-0.jpg"
-import mayJunPage1 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-1.jpg"
-import mayJunPage2 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-2.jpg"
-import mayJunPage3 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-3.jpg"
-import mayJunPage4 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-4.jpg"
-import mayJunPage5 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-5.jpg"
-import mayJunPage6 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-6.jpg"
-import mayJunPage7 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-7.jpg"
-import mayJunPage8 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-8.jpg"
-import mayJunPage9 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-9.jpg"
-import mayJunPage10 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-10.jpg"
-import mayJunPage11 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-11.jpg"
-import mayJunPage12 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-12.jpg"
-import mayJunPage13 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-13.jpg"
-import mayJunPage14 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-14.jpg"
-import mayJunPage15 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/may-june-latest-images-15.jpg"
+import mayJunCover from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0001.jpg"
+import mayJunPage1 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0002.jpg"
+import mayJunPage2 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0003.jpg"
+import mayJunPage3 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0004.jpg"
+import mayJunPage4 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0005.jpg"
+import mayJunPage5 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0006.jpg"
+import mayJunPage6 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0007.jpg"
+import mayJunPage7 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0008.jpg"
+import mayJunPage8 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0009.jpg"
+import mayJunPage9 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0010.jpg"
+import mayJunPage10 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0011.jpg"
+import mayJunPage11 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0012.jpg"
+import mayJunPage12 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0013.jpg"
+import mayJunPage13 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0014.jpg"
+import mayJunPage14 from "../acm-assets-2/magazine-latest-img/may-jun-latest-img/2024 MAY JUNE-1_page-0015.jpg"
 
 
-import julAugCover from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-0.jpg";
-import julAugPage1 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-1.jpg";
-import julAugPage2 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-2.jpg";
-import julAugPage3 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-3.jpg";
-import julAugPage4 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-4.jpg";
-import julAugPage5 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-5.jpg";
-import julAugPage6 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-6.jpg";
-import julAugPage7 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-7.jpg";
-import julAugPage8 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-8.jpg";
-import julAugPage9 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-9.jpg";
-import julAugPage10 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-10.jpg";
-import julAugPage11 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-11.jpg";
-import julAugPage12 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-12.jpg";
-import julAugPage13 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-13.jpg";
-import julAugPage14 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-14.jpg";
-import julAugPage15 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-15.jpg";
+import julAugCover from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-01.jpg";
+import julAugPage1 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-02.jpg";
+import julAugPage2 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-03.jpg";
+import julAugPage3 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-04.jpg";
+import julAugPage4 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-05.jpg";
+import julAugPage5 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-06.jpg";
+import julAugPage6 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-07.jpg";
+import julAugPage7 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-08.jpg";
+import julAugPage8 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-09.jpg";
+import julAugPage9 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-10.jpg";
+import julAugPage10 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-11.jpg";
+import julAugPage11 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-12.jpg";
+import julAugPage12 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-13.jpg";
+import julAugPage13 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-14.jpg";
+import julAugPage14 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-15.jpg";
+import julAugPage15 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-16.jpg";
+import julAugPage16 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-2024-17.jpg";
 
 
-import sepOctCover from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-0.jpg";
-import sepOctPage1 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-1.jpg";
-import sepOctPage2 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-2.jpg";
-import sepOctPage3 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-3.jpg";
-import sepOctPage4 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-4.jpg";
-import sepOctPage5 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-5.jpg";
-import sepOctPage6 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-6.jpg";
-import sepOctPage7 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-7.jpg";
-import sepOctPage8 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-8.jpg";
-import sepOctPage9 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-9.jpg";
-import sepOctPage10 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-10.jpg";
-import sepOctPage11 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-11.jpg";
-import sepOctPage12 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-12.jpg";
-import sepOctPage13 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-13.jpg";
-import sepOctPage14 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-14.jpg";
-import sepOctPage15 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-15.jpg";
-import sepOctPage16 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-16.jpg";
-import sepOctPage17 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-17.jpg";
-import sepOctPage18 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-18.jpg";
-import sepOctPage19 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-19.jpg";
-import sepOctPage20 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-20.jpg";
+import sepOctCover from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0001.jpg";
+import sepOctPage1 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0002.jpg";
+import sepOctPage2 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0003.jpg";
+import sepOctPage3 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0004.jpg";
+import sepOctPage4 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0005.jpg";
+import sepOctPage5 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0006.jpg";
+import sepOctPage6 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0007.jpg";
+import sepOctPage7 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0008.jpg";
+import sepOctPage8 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0009.jpg";
+import sepOctPage9 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0010.jpg";
+import sepOctPage10 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0011.jpg";
+import sepOctPage11 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0012.jpg";
+import sepOctPage12 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0013.jpg";
+import sepOctPage13 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0014.jpg";
+import sepOctPage14 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0015.jpg";
+import sepOctPage15 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0016.jpg";
+import sepOctPage16 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0017.jpg";
+import sepOctPage17 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0018.jpg";
+import sepOctPage18 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0019.jpg";
+import sepOctPage19 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0020.jpg";
+import sepOctPage20 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0021.jpg";
+import sepOctPage21 from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/2024 SEPT OCT_page-0022.jpg";
 
-import novDecCover from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-01.jpg";
-import novDecPage1 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-02.jpg";
-import novDecPage2 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-03.jpg";
-import novDecPage3 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-04.jpg";
-import novDecPage4 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-05.jpg";
-import novDecPage5 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-06.jpg";
-import novDecPage6 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-07.jpg";
-import novDecPage7 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-08.jpg";
-import novDecPage8 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-09.jpg";
-import novDecPage9 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-10.jpg";
-import novDecPage10 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-11.jpg";
-import novDecPage11 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-12.jpg";
-import novDecPage12 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-13.jpg";
-import novDecPage13 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-14.jpg";
-import novDecPage14 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-15.jpg";
-import novDecPage15 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-16.jpg";
-import novDecPage16 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-17.jpg";
-import novDecPage17 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-18.jpg";
-import novDecPage18 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/nov-dec-latest-19.jpg";
+import novDecCover from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0001.jpg";
+import novDecPage1 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0002.jpg";
+import novDecPage2 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0003.jpg";
+import novDecPage3 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0004.jpg";
+import novDecPage4 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0005.jpg";
+import novDecPage5 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0006.jpg";
+import novDecPage6 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0007.jpg";
+import novDecPage7 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0008.jpg";
+import novDecPage8 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0009.jpg";
+import novDecPage9 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0010.jpg";
+import novDecPage10 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0011.jpg";
+import novDecPage11 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0012.jpg";
+import novDecPage12 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0013.jpg";
+import novDecPage13 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0014.jpg";
+import novDecPage14 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0015.jpg";
+import novDecPage15 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0016.jpg";
+import novDecPage16 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0017.jpg";
+import novDecPage17 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0018.jpg";
+import novDecPage18 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0019.jpg";
+import novDecPage19 from "../acm-assets-2/magazine-latest-img/nov-dec-latest-img/2024 NOV DEC_page-0020.jpg";
 
 const Flipbook = () => {
   const [currentBook, setCurrentBook] = useState(null);
@@ -135,6 +139,7 @@ const Flipbook = () => {
         janFebPage9,
         janFebPage10,
         janFebPage11,
+        janFebPage12
       ],
       title: "Jan-Feb"
     },
@@ -156,6 +161,7 @@ const Flipbook = () => {
        marAprPage12,
        marAprPage13,
        marAprPage14,
+       marAprPage15,
       ],
       title: "March-April"
     },
@@ -177,8 +183,6 @@ const Flipbook = () => {
         mayJunPage12,
         mayJunPage13,
         mayJunPage14,
-        mayJunPage15,
-
       ],
       title: "May-June"
     },
@@ -201,6 +205,7 @@ const Flipbook = () => {
         julAugPage13,
         julAugPage14,
         julAugPage15,
+        julAugPage16,
       ],
       title: "July-August"
     },
@@ -228,7 +233,7 @@ const Flipbook = () => {
         sepOctPage18,
         sepOctPage19,
         sepOctPage20,
-
+        sepOctPage21,
       ],
       title: "Sep-Oct"
     },
@@ -254,6 +259,7 @@ const Flipbook = () => {
         novDecPage16,
         novDecPage17,
         novDecPage18,
+        novDecPage19,
       ],
       title: "Nov-Dec"
     }
