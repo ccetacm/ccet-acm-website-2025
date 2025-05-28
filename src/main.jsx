@@ -21,6 +21,7 @@ import HealthyBytes from './Pages/HealthyBytes.jsx';
 import CareerPathway from './Pages/CareerPathway.jsx';
 import Webmasters from './Pages/WebMasters.jsx';
 import Contact from './Pages/Contact.jsx';
+import SudhakarKumar from './Pages/SudhakarKumar.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -37,6 +38,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/research" element={<Research />} />
+        <Route path="/sudhakar-kumar" element={<SudhakarKumar/>} />
         <Route path="/codeforcause" element={<CodeForCause/>} />
         <Route path="/talkwithtechie" element={<TalkWithTechie/>} />
         <Route path="/codefortech" element={<CodeForTech/>} />

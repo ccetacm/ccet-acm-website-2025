@@ -29,7 +29,7 @@ const FacultySection = () => {
       institution: "CCET, Chandigarh",
       orcid: "0000-0001-7928-4234",
       image: sudhakarImg,  // Update with actual image path
-      route: "/faculty/sudhakar-kumar",
+      route: "/sudhakar-kumar",
       LinkedinLink:"https://www.linkedin.com/in/drsks/",
     }
   ];
