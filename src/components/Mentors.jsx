@@ -21,7 +21,7 @@ const mentors = [
     name: 'Dr. Sudhakar Kumar',
     designation: 'Assistant Professor, CSE Faculty',
     description: 'ACM CCET provides every person with an opportunity to learn, heighten and explore the field of computer science.',
-    route:"/sudhakar-kumar",
+    route:"/sudhakar",
     imageUrl: "./acm-assets-2/mentor3.png",
   },
 ];

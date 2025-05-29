@@ -38,7 +38,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/research" element={<Research />} />
-        <Route path="/sudhakar-kumar" element={<SudhakarKumar/>}></Route>
+        <Route path="/sudhakar" element={<SudhakarKumar/>}></Route>
         <Route path="/codeforcause" element={<CodeForCause/>} />
         <Route path="/talkwithtechie" element={<TalkWithTechie/>} />
         <Route path="/codefortech" element={<CodeForTech/>} />
