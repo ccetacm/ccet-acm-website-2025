@@ -65,6 +65,16 @@ export const teamMembers = {
     },
     {
       "id": 7,
+      "name": "Ujjwal Thakur",
+      "role": "Technical Head",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2024-25/Ujjwalthakur-1.jpeg",
+      "github": "https://github.com/UJJWALTHAKUR28",
+      "orcid": "#",
+      "linkedin": "https://www.linkedin.com/in/ujwal-thakur-97b5a7349"
+    },
+    {
+      "id": 8,
       "name": "Rajneesh ",
       "role": "Design Head",
       "category": "ACM",
@@ -74,7 +84,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/rajneesh-kumar-5202122ab/"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Yuvraj",
       "role": "Executive Member Head",
       "category": "ACM",
@@ -84,7 +94,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/yuvraj-redhu-1558a8260/"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Nipun Singh",
       "role": "Editorial Head",
       "category": "ACM",
@@ -94,7 +104,7 @@ export const teamMembers = {
       "linkedin": "linkedin.com/in/nipun-singh-396596246"
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Dikshant Rajput",
       "role": "Social Media Manager",
       "category": "ACM",
@@ -104,7 +114,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/dikshantrajput/"
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Jaiveer Singh",
       "role": "External PR Head",
       "category": "ACM",
@@ -114,7 +124,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/jaiveer-singh-481984272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "Jasjeet Singh",
       "role": "Event Manager",
       "category": "ACM",
@@ -124,7 +134,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/jasjeet-singh-8832ba27b"
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "Ayushi",
       "role": "Chairperson",
       "category": "ACM W",
@@ -134,7 +144,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ayushi-04050526b/"
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "Simran Jaggi",
       "role": "Vice Chairperson",
       "category": "ACM W",
@@ -144,7 +154,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/simran-jaggi-a62086291/"
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "Vanshika Chilkoti",
       "role": "Secretary",
       "category": "ACM W",
@@ -154,7 +164,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/vanshika-chilkoti-57044226b/"
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Vanshika Singla",
       "role": "Membership Chairperson",
       "category": "ACM W",
@@ -164,7 +174,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/vanshika-singla-27452a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Janvi Sharma",
       "role": "Treasurer",
       "category": "ACM W",
@@ -174,7 +184,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/j-j-33bb19325"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Japjot Singh Nanda ",
       "role": "Web Master",
       "category": "ACM W",
@@ -184,7 +194,7 @@ export const teamMembers = {
       "linkedin": "www.linkedin.com/in/japjot-singh-nanda-374a3a288"
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "Rima Kumari",
       "role": "Design Head",
       "category": "ACM W",
@@ -194,7 +204,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/rima-kumari-739391287/"
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "Raj Kanwar Singh",
       "role": "Executive Member Head",
       "category": "ACM W",
@@ -204,7 +214,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/raj-kanwar/"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "Deepika Goyal",
       "role": "Editorial Head",
       "category": "ACM W",
@@ -214,7 +224,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/dee-goyal/"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "Anoop Pant",
       "role": "Social Media Manager",
       "category": "ACM W",
@@ -224,7 +234,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/anoop-pant-b3ab2a281/"
     },
     {
-      "id": 23,
+      "id": 24,
       "name": "Ravina Mittal ",
       "role": "External PR Head",
       "category": "ACM W",
@@ -234,7 +244,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ravina-mittal-399979319/"
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "Deependra Singh",
       "role": "Event Manager",
       "category": "ACM W",
@@ -246,7 +256,7 @@ export const teamMembers = {
   ],
   "2023 - 2024": [
     {
-      "id": 25,
+      "id": 26,
       "name": "Saket Sarin",
       "role": "Chairperson",
       "category": "ACM",
@@ -256,7 +266,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/saketsarin"
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "Kanishk Nagpal",
       "role": "Vice Chairperson",
       "category": "ACM",
@@ -266,7 +276,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/kanishk-nagpal-531153228/"
     },
     {
-      "id": 27,
+      "id": 28,
       "name": "Shivam Goyal",
       "role": "Secretary",
       "category": "ACM",
@@ -276,7 +286,7 @@ export const teamMembers = {
       "linkedin": "https://linkedin.com/in/shivam-goyal-6816b824b"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "Saksham Arora",
       "role": "Membership Chairperson",
       "category": "ACM",
@@ -286,7 +296,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/saksham-arora-81b344291/"
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "Kartik",
       "role": "Treasurer",
       "category": "ACM",
@@ -296,7 +306,7 @@ export const teamMembers = {
       "linkedin": "https://linkedin.com/in/kartik-dalal-445ba1204"
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "Tushar Singh",
       "role": "Web Master",
       "category": "ACM",
@@ -306,7 +316,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/tushar-singh-b0b964238/"
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "Manya",
       "role": "Editorial Head",
       "category": "ACM",
@@ -316,7 +326,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/manya-78a686245"
     },
     {
-      "id": 32,
+      "id": 33,
       "name": "Japan Ajit Singh Gandhi",
       "role": "Design Head",
       "category": "ACM",
@@ -326,7 +336,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/japan-ajit-singh-gandhi-baa2bb261/"
     },
     {
-      "id": 33,
+      "id": 34,
       "name": "Utkarsh Chauhan",
       "role": "Executive Member Head",
       "category": "ACM",
@@ -336,7 +346,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/utkarsh-chauhan-710644249"
     },
     {
-      "id": 34,
+      "id": 35,
       "name": "Palvasha Bansal",
       "role": "External PR Head",
       "category": "ACM",
@@ -346,7 +356,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/palvasha-bansal-0b2aa125b/"
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "Briti Singla",
       "role": "Social Media Manager",
       "category": "ACM",
@@ -356,7 +366,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/briti-s-b69a01233"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Vanshika Chilkoti",
       "role": "Event Manager",
       "category": "ACM",
@@ -366,7 +376,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/vanshika-chilkoti-57044226b/"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "Aishita",
       "role": "Chairperson",
       "category": "ACM W",
@@ -376,7 +386,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/aishita-sharma-30b277232"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "Mehak Preet",
       "role": "Vice Chairperson",
       "category": "ACM W",
@@ -386,7 +396,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/mehak18p"
     },
     {
-      "id": 39,
+      "id": 40,
       "name": "Vanshika Bhardwaj",
       "role": "Secretary",
       "category": "ACM W",
@@ -396,7 +406,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/vanshika-bhardwaj-0b2b83229/"
     },
     {
-      "id": 40,
+      "id": 41,
       "name": "Sahil Garg",
       "role": "Membership Chair",
       "category": "ACM W",
@@ -406,7 +416,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/sahil2004"
     },
     {
-      "id": 41,
+      "id": 42,
       "name": "Harkiran Kaur",
       "role": "Treasurer",
       "category": "ACM W",
@@ -416,7 +426,7 @@ export const teamMembers = {
       "linkedin": "www.linkedin.com/in/harkiran-kaur-002b80261"
     },
     {
-      "id": 42,
+      "id": 43,
       "name": "Ruchika Thakur",
       "role": "Web Master",
       "category": "ACM W",
@@ -426,7 +436,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ruchika-thakur-416191194"
     },
     {
-      "id": 43,
+      "id": 44,
       "name": "Ayushi",
       "role": "Editorial Head",
       "category": "ACM W",
@@ -436,7 +446,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ayushi-04050526b/"
     },
     {
-      "id": 44,
+      "id": 45,
       "name": "Priyanshu",
       "role": "Design Head",
       "category": "ACM W",
@@ -446,7 +456,7 @@ export const teamMembers = {
       "linkedin": "www.linkedin.com/in/priyanshu-k-4a9514214"
     },
     {
-      "id": 45,
+      "id": 46,
       "name": "Ritika Gupta",
       "role": "External PR Head",
       "category": "ACM W",
@@ -456,7 +466,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ritika-gupta-28b31b280"
     },
     {
-      "id": 46,
+      "id": 47,
       "name": "Avneet Kaur",
       "role": "Social Media Manager",
       "category": "ACM W",
@@ -466,7 +476,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/avneet-kaur-52213a261/"
     },
     {
-      "id": 47,
+      "id": 48,
       "name": "Simran Jaggi",
       "role": "Event Manager",
       "category": "ACM W",
@@ -478,7 +488,7 @@ export const teamMembers = {
   ],
   "2022 - 2023": [
     {
-      "id": 48,
+      "id": 49,
       "name": "Akash Sharma",
       "role": "Chairperson",
       "category": "ACM",
@@ -488,7 +498,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/akash-sharma-0619461b8"
     },
     {
-      "id": 49,
+      "id": 50,
       "name": "Tarun",
       "role": "Vice Chairperson",
       "category": "ACM",
@@ -498,7 +508,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/tarun-36ba11214"
     },
     {
-      "id": 50,
+      "id": 51,
       "name": "Uday Madan",
       "role": "Secretary",
       "category": "ACM",
@@ -508,7 +518,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/uday-madan-14753820b/"
     },
     {
-      "id": 51,
+      "id": 52,
       "name": "Mehak Preet",
       "role": "Membership Chairperson",
       "category": "ACM",
@@ -518,7 +528,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/mehak18p"
     },
     {
-      "id": 52,
+      "id": 53,
       "name": "Aishita Sharma",
       "role": "Treasurer",
       "category": "ACM",
@@ -528,7 +538,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/aishita-sharma-30b277232"
     },
     {
-      "id": 53,
+      "id": 54,
       "name": "Devashish Gupta",
       "role": "Webmaster",
       "category": "ACM",
@@ -538,7 +548,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/devashish-gupta-066a16200/"
     },
     {
-      "id": 54,
+      "id": 55,
       "name": "Harshit Dubey",
       "role": "Editorial Head",
       "category": "ACM",
@@ -548,7 +558,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/harshit-dubey-bb07311b9/"
     },
     {
-      "id": 55,
+      "id": 56,
       "name": "Nirbhik Kakkar",
       "role": "Design Head",
       "category": "ACM",
@@ -558,7 +568,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/nirbhik-kakkar-526059234"
     },
     {
-      "id": 56,
+      "id": 57,
       "name": "Manraj Singh",
       "role": "Executive Member Head",
       "category": "ACM",
@@ -568,7 +578,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/manraj-singh-5a4418209"
     },
     {
-      "id": 57,
+      "id": 58,
       "name": "Sidharth Sharma",
       "role": "External PR Head",
       "category": "ACM",
@@ -577,7 +587,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/sidharth-sharma-90670820a/"
     },
     {
-      "id": 58,
+      "id": 59,
       "name": "Arjun Gupta",
       "role": "Social Media Manager",
       "category": "ACM",
@@ -585,7 +595,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/arjungupta165/"
     },
     {
-      "id": 59,
+      "id": 60,
       "name": "Shivam Kumar",
       "role": "Event Manager",
       "category": "ACM",
@@ -594,7 +604,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/shivam-kumar2003/"
     },
     {
-      "id": 60,
+      "id": 61,
       "name": "Pushkar Kaushik",
       "role": "Creative Head",
       "category": "ACM",
@@ -604,7 +614,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/pushkar-kaushik-63b330210"
     },
     {
-      "id": 61,
+      "id": 62,
       "name": "Anureet Chhabra",
       "role": "Chairperson",
       "category": "ACM W",
@@ -614,7 +624,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/anureet-chhabra-bb86271bb/"
     },
     {
-      "id": 62,
+      "id": 63,
       "name": "Soumya Sharma",
       "role": "Vice Chairperson",
       "category": "ACM W",
@@ -624,7 +634,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/soumya-sharma-94b3901b4/"
     },
     {
-      "id": 63,
+      "id": 64,
       "name": "Yadvi Nanda",
       "role": "Secretary",
       "category": "ACM W",
@@ -634,7 +644,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/yadvi-nanda-b59318202/"
     },
     {
-      "id": 64,
+      "id": 65,
       "name": "Smriti Kumari",
       "role": "Treasurer",
       "category": "ACM W",
@@ -644,7 +654,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/smritikumari20/"
     },
     {
-      "id": 65,
+      "id": 66,
       "name": "Rinka",
       "role": "Membership Chair",
       "category": "ACM W",
@@ -654,7 +664,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/rinka-yadav-98a99421b/"
     },
     {
-      "id": 66,
+      "id": 67,
       "name": "Siddharth Khati",
       "role": "Web Master",
       "category": "ACM W",
@@ -664,14 +674,14 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/siddharth-singh-khati-631a17226/"
     },
     {
-      "id": 67,
+      "id": 68,
       "name": "Krish Kathuria",
       "role": "Editorial Head",
       "category": "ACM W",
       "image": "./images/team-pics/CASC 2022-23/Krish-1.svg"
     },
     {
-      "id": 68,
+      "id": 69,
       "name": "Kanishk Nagpal",
       "role": "Design Head",
       "category": "ACM W",
@@ -681,7 +691,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/kanishk-nagpal-531153228/"
     },
     {
-      "id": 69,
+      "id": 70,
       "name": "Deepak Mahto",
       "role": "Executive Member Head",
       "category": "ACM W",
@@ -691,7 +701,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/deepak-mahto-196694200/"
     },
     {
-      "id": 70,
+      "id": 71,
       "name": "Aishita",
       "role": "External PR Head",
       "category": "ACM W",
@@ -701,7 +711,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/aishita-sharma-30b277232/"
     },
     {
-      "id": 71,
+      "id": 72,
       "name": "Vanshika Bhardwaj",
       "role": "Social Media Manager",
       "category": "ACM W",
@@ -711,7 +721,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/vanshika-bhardwaj-0b2b83229/"
     },
     {
-      "id": 72,
+      "id": 73,
       "name": "Vyoam Yadav",
       "role": "Event Manager",
       "category": "ACM W",
@@ -721,7 +731,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/vyoam-yadav-061921223/"
     },
     {
-      "id": 73,
+      "id": 74,
       "name": "Samarth Sharma",
       "role": "Creative Head",
       "category": "ACM W",
@@ -730,7 +740,7 @@ export const teamMembers = {
   ],
   "2021 - 2022": [
     {
-      "id": 74,
+      "id": 75,
       "name": "Muskaan Chopra",
       "role": "Chairperson",
       "category": "ACM",
@@ -740,7 +750,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/muskaanchopra712/"
     },
     {
-      "id": 75,
+      "id": 76,
       "name": "Kriti Aggarwal",
       "role": "Vice Chairperson",
       "category": "ACM",
@@ -750,7 +760,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/kriti-aggarwal-b372721a2/"
     },
     {
-      "id": 76,
+      "id": 77,
       "name": "Anureet Chhabra",
       "role": "Secretary",
       "category": "ACM",
@@ -760,7 +770,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/anureet-chhabra-bb86271bb/"
     },
     {
-      "id": 77,
+      "id": 78,
       "name": "Tarun",
       "role": "Membership Chairperson",
       "category": "ACM",
@@ -770,7 +780,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/tarun-36ba11214"
     },
     {
-      "id": 78,
+      "id": 79,
       "name": "Navjot Jangra",
       "role": "Treasurer",
       "category": "ACM",
@@ -780,7 +790,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/njangra"
     },
     {
-      "id": 79,
+      "id": 80,
       "name": "Parnit Kaur",
       "role": "Webmaster",
       "category": "ACM",
@@ -790,7 +800,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/parnit-kaur-3972811aa/"
     },
     {
-      "id": 80,
+      "id": 81,
       "name": "Dipesh Singla",
       "role": "Editorial Head",
       "category": "ACM",
@@ -800,7 +810,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/dipesh-singla-5b92601a9"
     },
     {
-      "id": 81,
+      "id": 82,
       "name": "Ashutosh Thakur",
       "role": "Design Head",
       "category": "ACM",
@@ -810,7 +820,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ashuthetosh"
     },
     {
-      "id": 82,
+      "id": 83,
       "name": "Akash Sharma",
       "role": "App Master",
       "category": "ACM",
@@ -820,7 +830,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/akash-sharma-0619461b8"
     },
     {
-      "id": 83,
+      "id": 84,
       "name": "Taruna Saini",
       "role": "Executive Member Head",
       "category": "ACM",
@@ -830,7 +840,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/taruna-saini-3a6497202/"
     },
     {
-      "id": 84,
+      "id": 85,
       "name": "Devashish Gupta",
       "role": "External PR Head",
       "category": "ACM",
@@ -840,7 +850,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/devashish-gupta-066a16200/"
     },
     {
-      "id": 85,
+      "id": 86,
       "name": "Karan Singh",
       "role": "Social Media Manager",
       "category": "ACM",
@@ -850,7 +860,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/karan-singh-b7466317a/"
     },
     {
-      "id": 86,
+      "id": 87,
       "name": "Manraj Singh",
       "role": "Event Manager",
       "category": "ACM",
@@ -860,7 +870,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/manraj-singh-5a4418209"
     },
     {
-      "id": 87,
+      "id": 88,
       "name": "Kriti Aggarwal",
       "role": "Chairperson",
       "category": "ACM W",
@@ -870,7 +880,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/kriti-aggarwal-b372721a2/"
     },
     {
-      "id": 88,
+      "id": 89,
       "name": "Manisha Kumari",
       "role": "Vice Chairperson",
       "category": "ACM W",
@@ -880,7 +890,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/manisha-kumari-221837221/"
     },
     {
-      "id": 89,
+      "id": 90,
       "name": "Rishika Gaur",
       "role": "Secretary",
       "category": "ACM W",
@@ -889,7 +899,7 @@ export const teamMembers = {
       "orcid": "https://orcid.org/0000-0002-2909-2119"
     },
     {
-      "id": 90,
+      "id": 91,
       "name": "Shreya Pandey",
       "role": "Treasurer",
       "category": "ACM W",
@@ -899,7 +909,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/shreya-pandey-a8875320a/"
     },
     {
-      "id": 91,
+      "id": 92,
       "name": "Ishita Chamola",
       "role": "Membership Chair",
       "category": "ACM W",
@@ -909,7 +919,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ishita-chamola-89a60520a/"
     },
     {
-      "id": 92,
+      "id": 93,
       "name": "Devashish Gupta",
       "role": "Web Master",
       "category": "ACM W",
@@ -919,7 +929,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/devashish-gupta-066a16200/"
     },
     {
-      "id": 93,
+      "id": 94,
       "name": "Gopal Mengi",
       "role": "Editorial Head",
       "category": "ACM W",
@@ -929,7 +939,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/gopal-mengi-273476137/"
     },
     {
-      "id": 94,
+      "id": 95,
       "name": "Ishleen Kaur",
       "role": "Design Head",
       "category": "ACM W",
@@ -939,7 +949,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ishleen-kaur-4b4a43129/"
     },
     {
-      "id": 95,
+      "id": 96,
       "name": "Anamika Sharma",
       "role": "Executive Member Head",
       "category": "ACM W",
@@ -949,7 +959,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/anamika-sharma-65576a21b/"
     },
     {
-      "id": 96,
+      "id": 97,
       "name": "Dhriti Bhasin",
       "role": "External PR Head",
       "category": "ACM W",
@@ -959,7 +969,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/dhriti-bhasin-099128173/"
     },
     {
-      "id": 97,
+      "id": 98,
       "name": "Uday Madan",
       "role": "Social Media Manager",
       "category": "ACM W",
@@ -969,7 +979,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/uday-madan-14753820b/"
     },
     {
-      "id": 98,
+      "id": 99,
       "name": "Deepak Mahto",
       "role": "Event Manager",
       "category": "ACM W",
@@ -981,7 +991,7 @@ export const teamMembers = {
   ],
   "2020 - 2021": [
     {
-      "id": 99,
+      "id": 100,
       "name": "Anshul Gupta",
       "role": "Chairperson",
       "category": "ACM",
@@ -990,7 +1000,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/anshulg954/"
     },
     {
-      "id": 100,
+      "id": 101,
       "name": "Inderpreet Singh",
       "role": "Vice Chairperson",
       "category": "ACM",
@@ -999,7 +1009,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/inderpreet-singh-a32816169/"
     },
     {
-      "id": 101,
+      "id": 102,
       "name": "Uday Kumar",
       "role": "Secretary",
       "category": "ACM",
@@ -1008,7 +1018,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/udaykumarjangra/"
     },
     {
-      "id": 102,
+      "id": 103,
       "name": "Muskaan Chopra",
       "role": "Membership Chairperson",
       "category": "ACM",
@@ -1017,7 +1027,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/muskaanchopra712"
     },
     {
-      "id": 103,
+      "id": 104,
       "name": "Kriti Aggarwal",
       "role": "Treasurer",
       "category": "ACM",
@@ -1026,7 +1036,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/kriti-aggarwal-b372721a2/"
     },
     {
-      "id": 104,
+      "id": 105,
       "name": "Aayushi Bansal",
       "role": "Webmaster",
       "category": "ACM",
@@ -1035,7 +1045,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/aayushi14/"
     },
     {
-      "id": 105,
+      "id": 106,
       "name": "Maninder Singh",
       "role": "Design Head",
       "category": "ACM",
@@ -1044,7 +1054,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/maninder-singh-8a62a21b6/"
     },
     {
-      "id": 106,
+      "id": 107,
       "name": "Mukesh Sahani",
       "role": "Executive Member Head",
       "category": "ACM",
@@ -1053,7 +1063,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/mukesh-sahani-27297318b"
     },
     {
-      "id": 107,
+      "id": 108,
       "name": "Tanveer Singh",
       "role": "External Public Relationship Manager",
       "category": "ACM",
@@ -1062,7 +1072,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/tanveer-singh-kochhar-81393518b/"
     },
     {
-      "id": 108,
+      "id": 109,
       "name": "Shriya Verma",
       "role": "Editorial Head",
       "category": "ACM",
@@ -1071,7 +1081,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/shriya-verma/"
     },
     {
-      "id": 109,
+      "id": 110,
       "name": "Sonam Garg",
       "role": "Event Manager",
       "category": "ACM",
@@ -1082,7 +1092,7 @@ export const teamMembers = {
   ],
   "2019 - 2020": [
     {
-      "id": 110,
+      "id": 111,
       "name": "Ritika Dhiman",
       "role": "Chairperson",
       "category": "ACM",
@@ -1091,7 +1101,7 @@ export const teamMembers = {
       "linkedin": "http://linkedin.com/in/ritika-dhiman-3a6405160"
     },
     {
-      "id": 111,
+      "id": 112,
       "name": "Paritosh Singh",
       "role": "Vice Chairperson",
       "category": "ACM",
@@ -1100,7 +1110,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/paritoshsinghrahar/"
     },
     {
-      "id": 112,
+      "id": 113,
       "name": "Ayush Basral",
       "role": "Secretary",
       "category": "ACM",
@@ -1109,7 +1119,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/ayush-basral-6a1b15147"
     },
     {
-      "id": 113,
+      "id": 114,
       "name": "Tushar",
       "role": "Membership Chairperson",
       "category": "ACM",
@@ -1118,7 +1128,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/tushar-ab7a341b4/"
     },
     {
-      "id": 114,
+      "id": 115,
       "name": "Nandini Sidana",
       "role": "Treasurer",
       "category": "ACM",
@@ -1127,7 +1137,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/nandini-sidana-76b769185/"
     },
     {
-      "id": 115,
+      "id": 116,
       "name": "Tanishq Chamola",
       "role": "Webmaster",
       "category": "ACM",
@@ -1136,7 +1146,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/tanishq-chamola-503702165/"
     },
     {
-      "id": 116,
+      "id": 117,
       "name": "Neha",
       "role": "External Public Relation Manager",
       "category": "ACM",
@@ -1145,7 +1155,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/neha-garg-0901"
     },
     {
-      "id": 117,
+      "id": 118,
       "name": "Keshav Tangri",
       "role": "Design Head",
       "category": "ACM",
@@ -1154,7 +1164,7 @@ export const teamMembers = {
       "linkedin": "https://www.linkedin.com/in/keshav-t-7ab782104/"
     },
     {
-      "id": 118,
+      "id": 119,
       "name": "Aarushi Sood",
       "role": "Executive Head",
       "category": "ACM",
