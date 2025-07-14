@@ -121,7 +121,8 @@ const MembersTable = () => {
     { memberNumber: "3582326", firstName: "Ashutosh", lastName: "Thakur", email: "co19209@ccet.ac.in" },
     { memberNumber: "2251526", firstName: "Ruchika", lastName: "Thakur", email: "truchika2022@gmail.com" },
     { memberNumber: "7298131", firstName: "Harshit", lastName: "Vashisht", email: "harshitvashisht07@gmail.com" },
-    { memberNumber: "3412101", firstName: "Rinka", lastName: "Yadav", email: "rinkayadav66@gmail.com" }
+    { memberNumber: "3412101", firstName: "Rinka", lastName: "Yadav", email: "rinkayadav66@gmail.com" },
+    { memberNumber: "1962025", firstName: "Ujjwal", lastName: "Thakur", email: "ujjwalthakur.008reena@gmail.com" }
   ]
 
 
