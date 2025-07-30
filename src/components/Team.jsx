@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import {teamMembers} from '../data/teamMember';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import React, { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { teamMembers } from "../data/teamMember";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import Section from './Section';
-import Button from './Button';
+import Section from "./Section";
+import Button from "./Button";
 import "../styles/acmwstyles.css";
 
-
-
 const Team = () => {
-  const currentTeam = teamMembers['2024-25'];
+  const currentTeam = teamMembers["2025-26"];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
@@ -47,21 +45,24 @@ const Team = () => {
           <div className="text-left">
             <h2 className="h2 mt-5">Our Team</h2>
             <p className="body-1 max-w-3xl mx-auto lg:mx-0 mb-6 text-n-2 lg:mb-8 mt-5">
-              Meet the amazing team behind the success of our club. Each member brings unique skills and dedication
-              to ensure that we grow and make an impact.
+              Meet the amazing team behind the success of our club. Each member
+              brings unique skills and dedication to ensure that we grow and
+              make an impact.
             </p>
-           <Button white href="/team">More About Us</Button>
+            <Button white href="/team">
+              More About Us
+            </Button>
           </div>
 
           <div className="relative w-full  flex items-center justify-center">
-            <AnimatePresence mode='wait'>
+            <AnimatePresence mode="wait">
               <motion.div
                 key={currentTeam[currentIndex].id}
                 className="flex flex-col items-center space-y-4 bg-transparent p-6 rounded-lg"
                 initial={{ opacity: 0, x: 100 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -100 }}
-                transition={{ duration: 0.5, ease: 'easeInOut' }}
+                transition={{ duration: 0.5, ease: "easeInOut" }}
               >
                 <motion.div
                   className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-accent-1"
@@ -80,8 +81,12 @@ const Team = () => {
                   <h3 className="text-3xl font-bold text-white mb-2">
                     {currentTeam[currentIndex].name}
                   </h3>
-                  <p className="text-xl text-gray-400 mb-1">{currentTeam[currentIndex].role}</p>
-                  <p className="text-lg text-accent-1">{currentTeam[currentIndex].category}</p>
+                  <p className="text-xl text-gray-400 mb-1">
+                    {currentTeam[currentIndex].role}
+                  </p>
+                  <p className="text-lg text-accent-1">
+                    {currentTeam[currentIndex].category}
+                  </p>
                 </div>
               </motion.div>
             </AnimatePresence>

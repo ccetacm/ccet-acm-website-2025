@@ -13,16 +13,12 @@ const Hero = () => {
   };
 
   return (
-    <Section
-      className="pt-[12rem] -mt-[5.25rem]"
-      customPaddings
-      id="hero"
-    >
+    <Section className="pt-[12rem] -mt-[5.25rem]" customPaddings id="hero">
       <div className="container relative px-4 mx-auto" ref={parallaxRef}>
         {/* Hero Header Section */}
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-12 md:mb-16 lg:mb-20">
           <h1 className="h1 mb-6">
-            {isACM ? "CCET ACM STUDENT CHAPTER" : ""} 
+            {isACM ? "CCET ACM STUDENT CHAPTER" : ""}
             <span className="inline-block relative">
               {isACM ? "" : "ACM-W"}
               <img
@@ -53,7 +49,11 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={isACM ? "./acm-assets-2/acm-png.png" : "/acm-assets-2/acmW-png.png"}
+                  src={
+                    isACM
+                      ? "./acm-assets-2/ACM-IMG.jpg"
+                      : "/acm-assets-2/ACM-W-IMG.jpg"
+                  }
                   className="w-full h-full object-cover object-center"
                   alt={isACM ? "ACM" : "ACM-W"}
                 />

@@ -2,6 +2,348 @@ import manyaImg from "../acm-assets-2/Manya.jpg";
 import shauryaImg from "../images/team-pics/CASC 2024-25/shaurya-Img.png";
 
 export const teamMembers = {
+  "2025-26": [
+    {
+      "id": 1,
+      "name": "Jaiveer Singh",
+      "role": "Chairperson",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/jaiveer.jpg",
+      "github": "https://github.com/JaiveerSingh7",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/jaiveer-singh-481984272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": 2,
+      "name": "Satvik Pathak",
+      "role": "Vice-Chairperson",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/satvik.jpg",
+      "github": "https://github.com/satvikpathak",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/satvik-pathak-601833331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    },
+    {
+      "id": 3,
+      "name": "Sanatan",
+      "role": "Secretary",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/sanatan.jpg",
+      "github": "https://github.com/sanatan-dive",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/sanatan-sharma-637605266/"
+    },
+    {
+      "id": 4,
+      "name": "Shivam Vats",
+      "role": "Membership Chair",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/shivam.jpg",
+      "github": "https://github.com/ShivamVats1",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/shivam-vats-18b708332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": 5,
+      "name": "Dhruv Bali",
+      "role": "Treasurer",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/dhruv.jpg",
+      "github": "https://github.com/dhruvbali14",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/dhruv-bali-52717b21b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": 6,
+      "name": "Rohan",
+      "role": "Webmaster",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/rohan.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 7,
+      "name": "Saksham",
+      "role": "Design Head",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/saksham.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 8,
+      "name": "Kritin",
+      "role": "Executive Member head",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/kritin.jpg",
+      "github": "https://github.com/Kritan05",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/kritin-koundal-4aa2791b7/"
+    },
+    {
+      "id": 9,
+      "name": "Vanshika Singla",
+      "role": "Editorial Head",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/vanshika.jpg",
+      "github": "https://github.com/VanshikaSingla826",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/vanshika-singla-27452a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": 10,
+      "name": "Sahil kumar",
+      "role": "Social Media Manager",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/sahil.jpg",
+      "github": "https://github.com/SahilKumar-064738",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/sahil-kumar-0b7aa3330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": 11,
+      "name": "Maanit",
+      "role": "PR head",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/maanit.jpg",
+      "github": "https://github.com/Maanitk22",
+      "orcid": "",
+      "linkedin": "http://www.linkedin.com/in/maanit-khatkar"
+    },
+    {
+      "id": 12,
+      "name": "Aditya",
+      "role": "Event Manager",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/aditya.jpg",
+      "github": "https://github.com/adityaKrishan651",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/aditya-krishan-980093212?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": 13,
+      "name": "Japjot",
+      "role": "Domain Director (Web & DevOps)",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/japjot.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 14,
+      "name": "Hitesh",
+      "role": "Domain Director (Competitive Programming)",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/hitesh.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 15,
+      "name": "Anshul",
+      "role": "Domain Director (Android)",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/anshul.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 16,
+      "name": "Jasvir",
+      "role": "Marketing Head",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/jasvir.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 17,
+      "name": "Jasjeet",
+      "role": "Domain Director (AI & ML)",
+      "category": "ACM",
+      "image": "./images/team-pics/CASC 2025-26/jasjeet.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 18,
+      "name": "Ritika Kalia",
+      "role": "Chairperson",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/ritika.jpg",
+      "github": "https://github.com/Ritikakalia1",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/ritika-kalia-809984330/"
+    },
+    {
+      "id": 19,
+      "name": "Samriti Sharma",
+      "role": "Vice chairperson",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/samriti.jpg",
+      "github": "https://github.com/SamritiSharma123",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/samriti-sharma-b3a976294"
+    },
+    {
+      "id": 20,
+      "name": "Simar Atwal",
+      "role": "Secretary",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/simar.jpg",
+      "github": "https://github.com/simaratwal05",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/simaratwal"
+    },
+    {
+      "id": 21,
+      "name": "Mehak Negi",
+      "role": "Membership Chair",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/mehak.jpg",
+      "github": "https://github.com/mehaknegi",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/mehak-negi-051535304/"
+    },
+    {
+      "id": 22,
+      "name": "Khushi",
+      "role": "Treasurer",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/khushi.jpg",
+      "github": "https://github.com/khushi519g5",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/khushi-mittal-136785358"
+    },
+    {
+      "id": 23,
+      "name": "Bhavya",
+      "role": "Webmaster",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/bhavya.jpg",
+      "github": "https://github.com/bhavyadmn05",
+      "orcid": "",
+      "linkedin": "http://linkedin.com/in/bhavya-6a9429331"
+    },
+    {
+      "id": 24,
+      "name": "Eshmeet Singh Bhachu",
+      "role": "Design Head",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/eshmeet.jpg",
+      "github": "https://github.com/eshmeetbhachu",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/eshmeet-singh-bhachu-88785b377/"
+    },
+    {
+      "id": 25,
+      "name": "Ravina Mittal",
+      "role": "Executive member head",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/ravina.jpg",
+      "github": "https://github.com/RAVINAMITTAL",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/ravina-mittal-399979319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "id": 26,
+      "name": "Aanshi Bansal",
+      "role": "Editorial Head",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/aanshi.jpg",
+      "github": "https://github.com/aanshib",
+      "orcid": "",
+      "linkedin": "http://linkedin.com/in/aanshi-bansal-982a57336"
+    },
+    {
+      "id": 27,
+      "name": "Bhumika Bijlwan",
+      "role": "Social Media Manager",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/bhumika.jpg",
+      "github": "https://github.com/bhumikabijlwan",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/bhumika-bijlwan-086a87264/"
+    },
+    {
+      "id": 28,
+      "name": "Harshita",
+      "role": "PR head",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/harshita.jpg",
+      "github": "https://github.com/HarshiitaSharma",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/harshita-sharma-b159a5282/"
+    },
+    {
+      "id": 29,
+      "name": "Sargun",
+      "role": "Event Manager",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/sargun.jpg",
+      "github": "https://github.com/sargun12",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/sargun-157950357/"
+    },
+    {
+      "id": 30,
+      "name": "Shreya",
+      "role": "Domain Director (Web & DevOps)",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/shreya.jpg",
+      "github": "https://github.com/Shreyaverma0407",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/shreya-verma-918148360/"
+    },
+    {
+      "id": 31,
+      "name": "Hitesh",
+      "role": "Domain Director (Competitive Programming)",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/hitesh.jpg",
+      "github": "https://github.com/HiteshSaini05",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/hitesh-saini-3592a62b4/"
+    },
+    {
+      "id": 32,
+      "name": "Anshul",
+      "role": "Domain Director (Android)",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/anshul.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    },
+    {
+      "id": 33,
+      "name": "Anshika goyal",
+      "role": "Marketing Head",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/anshika.jpg",
+      "github": "https://github.com/Anshika2006-7",
+      "orcid": "",
+      "linkedin": "https://www.linkedin.com/in/anshika-goyal-21a267331"
+    },
+    {
+      "id": 34,
+      "name": "Jasjeet",
+      "role": "Domain Director (AI & ML)",
+      "category": "ACM W",
+      "image": "./images/team-pics/CASC 2025-26/jasjeet.jpg",
+      "github": "",
+      "orcid": "",
+      "linkedin": ""
+    }
+  ],
   "2024-25": [
     {
       "id": 1,
