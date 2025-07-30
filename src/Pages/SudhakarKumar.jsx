@@ -32,7 +32,7 @@ const SudhakarKumar = () => {
   const profileData = {
     name: "Dr. Sudhakar Kumar",
     orcid: "0000-0001-7928-4234",
-    affiliation: "Assistant Professor in CCET",
+    affiliation: "Assistant Professor",
     department: "Department of Computer Science Engineering",
     university: "CCET, Sector 26 Chandigarh",
     email: "sudhakar@ccet.ac.in",
@@ -47,7 +47,7 @@ const SudhakarKumar = () => {
       department: "Computer Science & Engineering",
       startDate: "March 2016",
       endDate: "Present",
-      description: "Leading the department with focus on AI research, supervising 20+ PhD students, and establishing industry collaborations worth ₹50+ crores."
+      description: "Leading the department with focus on AI research, supervising 2 Ph.D. Scholars, and establishing industry collaborations."
     },
     {
       position: "Assistant Professor",
@@ -55,7 +55,7 @@ const SudhakarKumar = () => {
       department: "Computer Science",
       startDate: "July 2015",
       endDate: "Dec 2016",
-      description: "Conducted groundbreaking research in machine learning, published 40+ peer-reviewed papers, and secured multiple research grants."
+      description: "Conducted groundbreaking research in machine learning, published 100+ peer-reviewed papers, and secured multiple research grants."
     },
   ];
 
@@ -64,7 +64,7 @@ const SudhakarKumar = () => {
       degree: "Ph.D. in Computer Science",
       institution: "Panjab University, Chandigarh",
       year: "February 2024",
-      description: "Dissertation: Advanced Machine Learning Algorithms for Big Data Analytics in Indian Context",
+      description: "Dissertation: Design of an Algorithm to Minimize Speculative Parallelism Overhead in Simultaneous Multithreading on Multicore Chip Architecture.",
       honors: ""
     },
     {
