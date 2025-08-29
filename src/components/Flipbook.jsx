@@ -467,7 +467,7 @@ const Flipbook = () => {
                   onClick={() => openBookViewer(book)}
                 >
                   <img
-                    className="object-cover w-full h-64 rounded-lg shadow-lg"
+                    className="object-contain w-full max-h-[400px] sm:max-h-[500px] md:max-h-[600px] lg:max-h-[700px] mx-auto rounded-lg shadow-lg"
                     src={book.cover}
                     alt={`${book.title} Cover`}
                   />
