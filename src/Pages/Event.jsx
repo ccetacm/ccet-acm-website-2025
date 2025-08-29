@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { events, competitions } from '../data/newEvents';
 import { Calendar, Sparkles } from 'lucide-react';
+import '../styles/Event.css';
+
+
 
 export default function EventsPage() {
   const [activeTab, setActiveTab] = useState('events');
@@ -63,7 +66,8 @@ export default function EventsPage() {
       {/* Event Cards */}
       <div className="mx-auto px-4 py-8">
         <div className="flex flex-wrap justify-center gap-6">
-          {getActiveData().map(item => {
+          {[...getActiveData()].slice().reverse().map(item => {
+
             const { id, image, title, category, date, description, speaker } = item;
             return (
               <div 
