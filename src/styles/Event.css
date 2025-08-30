@@ -1,0 +1,17 @@
+/* Container div for image */
+.relative > div.aspect-\[4\/3\] {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image inside the container */
+.relative > div.aspect-\[4\/3\] > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+  display: block;
+}
