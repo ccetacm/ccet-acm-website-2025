@@ -136,22 +136,37 @@ import mayJunePage43 from "../acm-assets-2/magazine-2025/may-jun-2025/Volume 6-I
 import mayJunePage44 from "../acm-assets-2/magazine-2025/may-jun-2025/Volume 6-Issue_3_may-jun_pdf_page-0044.jpg";
 
 
-import julAugCover from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-0.jpg";
-import julAugPage1 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-1.jpg";
-import julAugPage2 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-2.jpg";
-import julAugPage3 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-3.jpg";
-import julAugPage4 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-4.jpg";
-import julAugPage5 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-5.jpg";
-import julAugPage6 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-6.jpg";
-import julAugPage7 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-7.jpg";
-import julAugPage8 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-8.jpg";
-import julAugPage9 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-9.jpg";
-import julAugPage10 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-10.jpg";
-import julAugPage11 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-11.jpg";
-import julAugPage12 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-12.jpg";
-import julAugPage13 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-13.jpg";
-import julAugPage14 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-14.jpg";
-import julAugPage15 from "../acm-assets-2/magazine-latest-img/jul-aug-latest-img/jul-aug-latest-images-15.jpg";
+import julAugCover from "../acm-assets-2/magazine-2025/jul-aug-2025/Volume 6-Issue_4_jul-aug(cover).jpg";
+import julyAugPage1 from "../acm-assets-2/magazine-2025/jul-aug-2025/1.jpg";
+import julyAugPage2 from "../acm-assets-2/magazine-2025/jul-aug-2025/2.jpg";
+import julyAugPage3 from "../acm-assets-2/magazine-2025/jul-aug-2025/3.jpg";
+import julyAugPage4 from "../acm-assets-2/magazine-2025/jul-aug-2025/4.jpg";
+import julyAugPage5 from "../acm-assets-2/magazine-2025/jul-aug-2025/5.jpg";
+import julyAugPage6 from "../acm-assets-2/magazine-2025/jul-aug-2025/6.jpg";
+import julyAugPage7 from "../acm-assets-2/magazine-2025/jul-aug-2025/7.jpg";
+import julyAugPage8 from "../acm-assets-2/magazine-2025/jul-aug-2025/8.jpg";
+import julyAugPage9 from "../acm-assets-2/magazine-2025/jul-aug-2025/9.jpg";
+import julyAugPage10 from "../acm-assets-2/magazine-2025/jul-aug-2025/10.jpg";
+import julyAugPage11 from "../acm-assets-2/magazine-2025/jul-aug-2025/11.jpg";
+import julyAugPage12 from "../acm-assets-2/magazine-2025/jul-aug-2025/12.jpg";
+import julyAugPage13 from "../acm-assets-2/magazine-2025/jul-aug-2025/13.jpg";
+import julyAugPage14 from "../acm-assets-2/magazine-2025/jul-aug-2025/14.jpg";
+import julyAugPage15 from "../acm-assets-2/magazine-2025/jul-aug-2025/15.jpg";
+import julyAugPage16 from "../acm-assets-2/magazine-2025/jul-aug-2025/16.jpg";
+import julyAugPage17 from "../acm-assets-2/magazine-2025/jul-aug-2025/17.jpg";
+import julyAugPage18 from "../acm-assets-2/magazine-2025/jul-aug-2025/18.jpg";
+import julyAugPage19 from "../acm-assets-2/magazine-2025/jul-aug-2025/19.jpg";
+import julyAugPage20 from "../acm-assets-2/magazine-2025/jul-aug-2025/20.jpg";
+import julyAugPage21 from "../acm-assets-2/magazine-2025/jul-aug-2025/21.jpg";
+import julyAugPage22 from "../acm-assets-2/magazine-2025/jul-aug-2025/22.jpg";
+import julyAugPage23 from "../acm-assets-2/magazine-2025/jul-aug-2025/23.jpg";
+import julyAugPage24 from "../acm-assets-2/magazine-2025/jul-aug-2025/24.jpg";
+import julyAugPage25 from "../acm-assets-2/magazine-2025/jul-aug-2025/25.jpg";
+import julyAugPage26 from "../acm-assets-2/magazine-2025/jul-aug-2025/26.jpg";
+import julyAugPage27 from "../acm-assets-2/magazine-2025/jul-aug-2025/27.jpg";
+import julyAugPage28 from "../acm-assets-2/magazine-2025/jul-aug-2025/28.jpg";
+import julyAugPage29 from "../acm-assets-2/magazine-2025/jul-aug-2025/29.jpg";
+
 
 
 import sepOctCover from "../acm-assets-2/magazine-latest-img/sep-oct-latest-img/sep-oct-latest-images-0.jpg";
@@ -353,21 +368,35 @@ const Flipbook = () => {
       id: 4,
       cover: julAugCover,
       pages: [
-        julAugPage1,
-        julAugPage2,
-        julAugPage3,
-        julAugPage4,
-        julAugPage5,
-        julAugPage6,
-        julAugPage7,
-        julAugPage8,
-        julAugPage9,
-        julAugPage10,
-        julAugPage11,
-        julAugPage12,
-        julAugPage13,
-        julAugPage14,
-        julAugPage15,
+        julyAugPage1,
+        julyAugPage2,
+        julyAugPage3,
+        julyAugPage4,
+        julyAugPage5,
+        julyAugPage6,
+        julyAugPage7,
+        julyAugPage8,
+        julyAugPage9,
+        julyAugPage10,
+        julyAugPage11,
+        julyAugPage12,
+        julyAugPage13,
+        julyAugPage14,
+        julyAugPage15,
+        julyAugPage16,
+        julyAugPage17,
+        julyAugPage18,
+        julyAugPage19,
+        julyAugPage20,
+        julyAugPage21,
+        julyAugPage22,
+        julyAugPage23,
+        julyAugPage24,
+        julyAugPage25,
+        julyAugPage26,
+        julyAugPage27,
+        julyAugPage28,
+        julyAugPage29,
       ],
       title: "July-August"
     },
