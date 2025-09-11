@@ -78,7 +78,7 @@ const Research = () => {
                 Fostering Global Innovation and Collaboration through groundbreaking research initiatives
               </p>
               <div className="flex gap-6">
-                <a href="/ccet-acm-website-2025/src/components/Events" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center">
+                <a href="/events" className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center">
                   See Our Past Events <ArrowRight className="ml-2 w-5 h-5" />
                 </a>
                 <a href="/contact" className="px-8 py-4 bg-blue-500/10 rounded-lg font-semibold text-lg border border-blue-500/20 hover:bg-blue-500/20 transition-all duration-300">
