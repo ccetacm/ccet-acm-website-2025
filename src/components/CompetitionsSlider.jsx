@@ -18,7 +18,7 @@ const CompetitionsSlider = () => {
 
   return (
     <Section>
-      <div className="relative px-4 md:px-8 lg:px-12 py-8 md:py-12">
+      <div className="relative px-4 md:px-8 lg:px-12 py-8 md:py-0">
         <h2 className="h2 text-center mb-8 md:mb-12">Our Latest Events</h2>
         
         <div className="relative w-full max-w-6xl mx-auto">
